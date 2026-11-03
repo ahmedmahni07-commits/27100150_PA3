@@ -2,27 +2,26 @@
 seed: 6304
 data_root: data/ATML-PA3-Data          # download the course Google-Drive folder here (git-ignored)
 models:
-  math:      {folder: Qwen2.5-3B-Instruct,    dataset: MATH,      type: llm}
-  mathvista: {folder: Qwen2.5-VL-3B-Instruct, dataset: MathVista, type: vlm}
+  math:      {folder: qwen25-math,        dataset: MATH,      type: llm}
+  mathvista: {folder: qwen25vl-mathvista, dataset: MathVista, type: vlm}
 mathvista_metadata: data/mathvista_testmini.json   # https://github.com/lupantech/MathVista/blob/main/data/testmini.json
 
-# Column names in the supplied parquet files. Run `python -m task3_ttc.data inspect` once and fix these
-# to match README.MD of ATML-PA3-Data. Each entry lists accepted aliases (first match wins).
+# Column names in the supplied parquet files (from ATML-PA3-Data/README.MD).
 columns:
   dataset: [dataset]
   question_id: [sample_id, question_id]
   rollout_id: [rollout_id]
-  text: [response, generation, text, output]
-  token_ids: [token_ids, output_token_ids, generated_token_ids]
-  n_tokens: [num_tokens, n_tokens, output_len, length, num_output_tokens]
-  extracted: [extracted_answer, pred_answer, answer_extracted, extracted]
-  gold: [gold_answer, answer, gold]
-  problem: [problem, question, prompt_text, query]
-  logp: [logp, token_logp, logprobs]
-  kl: [kl_u_p, kl]
-  attn_image: [attn_image, image_attention, attention_image]
-  attn_prompt: [attn_prompt, prompt_attention, attention_prompt, attn_prompt_text]
-  attn_generated: [attn_generated, generated_attention, attention_generated, attn_generated_text]
+  text: [generated_text]
+  token_ids: [generated_token_ids]
+  n_tokens: [n_generated_text_tokens]      # scalar in generations.parquet (the attention file's list is suffixed _att)
+  extracted: [extracted_answer]
+  gold: [gold_answer]
+  problem: [question_text]
+  logp: [logp]
+  kl: [kl_u_p]
+  attn_image: [img_attn_total]
+  attn_prompt: [prompt_text_attn_total]
+  attn_generated: [generated_text_attn_total]
 
 splits:
   n_dev: 200
@@ -40,7 +39,7 @@ adaptive:
 
 live:
   model: Qwen/Qwen2.5-3B-Instruct
-  revision: null                       # set to the revision hash listed in README.MD
+  revision: aa8e72537993ba99e69dfaafa59ed015b17504d1   # pinned in ATML-PA3-Data/README.MD
   dtype: float16
   temperature: 0.7
   top_p: 0.8

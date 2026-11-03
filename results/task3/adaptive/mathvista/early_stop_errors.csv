@@ -1,0 +1,4 @@
+policy,early_stop_rate,incorrect_early_stops,recoverable_by_fixed32,mean_pool_correct_frac_of_incorrect_early
+fixed32,0.0,0,0,
+agreement,0.808875,1733,309,0.22096797461050202
+quality,0.778625,1545,251,0.2143608414239482

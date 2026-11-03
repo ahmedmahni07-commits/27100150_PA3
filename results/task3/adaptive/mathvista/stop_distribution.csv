@@ -1,0 +1,10 @@
+policy,stop_n,frac
+fixed32,32,1.0
+agreement,4,0.714
+agreement,8,0.07475
+agreement,16,0.020125
+agreement,32,0.191125
+quality,4,0.654375
+quality,8,0.09575
+quality,16,0.0285
+quality,32,0.221375

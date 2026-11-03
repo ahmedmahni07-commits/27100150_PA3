@@ -1,0 +1,4 @@
+policy,kind,tau,gamma,acc,cost,rollouts
+fixed32,fixed32,,,73.7875,21347.0175,32.0
+agreement,agreement,0.625,,73.6375,10139.980999999998,11.824000000000002
+quality,quality,0.5,0.0,73.17500000000001,7663.055375,9.0075

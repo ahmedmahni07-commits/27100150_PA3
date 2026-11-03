@@ -1,0 +1,13 @@
+{
+  "math": {
+    "rollout_accuracy": 0.66315625,
+    "no_answer_rate": 0.01628125,
+    "mean_distinct_groups": 5.654
+  },
+  "mathvista": {
+    "rollout_accuracy": 0.53678125,
+    "no_answer_rate": 0.1534375,
+    "mean_distinct_groups": 3.989
+  },
+  "math_verify_version": "unknown"
+}

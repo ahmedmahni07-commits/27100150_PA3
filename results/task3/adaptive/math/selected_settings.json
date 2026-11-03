@@ -1,0 +1,22 @@
+{
+  "dev_fixed32_acc": 82.5,
+  "tolerance_pp": 1.0,
+  "chosen": {
+    "agreement": {
+      "kind": "agreement",
+      "tau": 0.625,
+      "gamma": null,
+      "acc": 82.60000000000001,
+      "cost": 7088.955499999999,
+      "rollouts": 9.15
+    },
+    "quality": {
+      "kind": "quality",
+      "tau": 0.5,
+      "gamma": 0.0,
+      "acc": 82.15,
+      "cost": 5479.528499999999,
+      "rollouts": 7.152
+    }
+  }
+}

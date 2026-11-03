@@ -1,0 +1,11 @@
+{
+  "mean_within_rollout_corr": -0.21066807401833634,
+  "median_within_rollout_corr": -0.20848316371101716,
+  "frac_rollouts_positive_corr": 0.14715313624276552,
+  "mean_of_question_means_corr": -0.21099388014225517,
+  "corr_by_correct": {
+    "false": -0.22082524516939397,
+    "true": -0.20194061664861115
+  },
+  "max_abs_err_Ztok_minus_Z_vs_cov": 1.7740949279088092e-08
+}

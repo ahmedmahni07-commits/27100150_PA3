@@ -17,7 +17,6 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import torch
 
 from common.utils import append_jsonl, ensure_dir, load_cfg, load_json, read_jsonl, save_json
 from task3_ttc.grading import NO_ANSWER, group_answers, math_equiv
@@ -44,17 +43,25 @@ def last_boxed(text: str) -> str | None:
 
 
 def load_problems(cfg) -> pd.DataFrame:
+    """The 50 live questions (problem text + gold). Uses results/task3/live_problems.json when present so the GPU
+    machine does not need the 400 MB rollout export; otherwise reads the built rollout table and writes that file."""
+    fixed = Path(cfg["paths"]["results"]) / "live_problems.json"
+    if fixed.exists():
+        return pd.DataFrame(load_json(fixed))
     split = load_json(Path(cfg["paths"]["results"]) / "splits.json")["math"]["live_math"]
     df = pd.read_parquet(Path(cfg["paths"]["outputs"]) / "math" / "rollouts.parquet",
                          columns=["qid", "rollout_id", "problem", "gold"])
     df = df[df["rollout_id"] == df["rollout_id"].min()].set_index("qid")
     if df["problem"].isna().any():
         raise ValueError("problem text not in generations.parquet – add its column name to configs/task3.yaml")
-    return df.loc[split].reset_index()
+    out = df.loc[split].reset_index()[["qid", "problem", "gold"]]
+    save_json(out.to_dict(orient="records"), fixed)
+    return out
 
 
 class Generator:
     def __init__(self, cfg):
+        import torch
         from transformers import AutoModelForCausalLM, AutoTokenizer
 
         lc = cfg["live"]
@@ -67,8 +74,9 @@ class Generator:
         return [{"role": "system", "content": self.cfg["system"]},
                 {"role": "user", "content": f"{problem}\n\n{self.cfg['instruction']}"}]
 
-    @torch.no_grad()
     def __call__(self, msgs: list[dict], cap: int, seed: int) -> dict:
+        import torch
+
         lc = self.cfg
         text = self.tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
         enc = self.tok(text, return_tensors="pt", add_special_tokens=False).to("cuda")
@@ -77,9 +85,10 @@ class Generator:
         torch.cuda.synchronize()
         torch.cuda.reset_peak_memory_stats()
         t0 = time.perf_counter()
-        out = self.model.generate(**enc, max_new_tokens=cap, do_sample=True, temperature=lc["temperature"],
+        with torch.no_grad():
+            out = self.model.generate(**enc, max_new_tokens=cap, do_sample=True, temperature=lc["temperature"],
                                   top_p=lc["top_p"], top_k=lc["top_k"], repetition_penalty=lc["repetition_penalty"],
-                                  pad_token_id=self.tok.eos_token_id)
+                                      pad_token_id=self.tok.eos_token_id)
         torch.cuda.synchronize()
         dt = time.perf_counter() - t0
         gen = out[0, enc["input_ids"].shape[1]:]
@@ -169,10 +178,13 @@ def summarize(cfg):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="configs/task3.yaml")
-    ap.add_argument("step", choices=["generate", "summarize"])
+    ap.add_argument("step", choices=["generate", "summarize", "export"])
     args = ap.parse_args()
     cfg = load_cfg(args.config)
-    generate(cfg) if args.step == "generate" else summarize(cfg)
+    if args.step == "export":
+        print(len(load_problems(cfg)), "live problems ->", Path(cfg["paths"]["results"]) / "live_problems.json")
+    else:
+        generate(cfg) if args.step == "generate" else summarize(cfg)
 
 
 if __name__ == "__main__":

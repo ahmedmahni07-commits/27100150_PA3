@@ -1,0 +1,28 @@
+{
+  "math": {
+    "n_rollouts": 32000,
+    "logp_kl_len_mismatch": 0,
+    "logp_vs_token_ids_diff": {
+      "0": 32000
+    },
+    "attn_len_mismatch": 0,
+    "nonfinite_values": 0,
+    "rollouts_per_question": {
+      "32": 1000
+    },
+    "n_questions": 1000
+  },
+  "mathvista": {
+    "n_rollouts": 32000,
+    "logp_kl_len_mismatch": 0,
+    "logp_vs_token_ids_diff": {
+      "0": 32000
+    },
+    "attn_len_mismatch": 0,
+    "nonfinite_values": 0,
+    "rollouts_per_question": {
+      "32": 1000
+    },
+    "n_questions": 1000
+  }
+}
