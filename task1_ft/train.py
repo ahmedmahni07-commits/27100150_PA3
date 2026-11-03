@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import math
+import os
 import shutil
 import time
 from pathlib import Path
@@ -54,39 +55,64 @@ def response_ce_sum(model, batch, device) -> torch.Tensor:
     return total
 
 
+def _atomic_save(obj, path: Path):
+    """Write to a temp file, flush to disk, then rename: a disconnect never leaves a half-written checkpoint."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with open(tmp, "wb") as f:
+        torch.save(obj, f)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, path)
+
+
 def save_state(out: Path, update: int, model, info, opt, sched, scaler, is_full: bool, keep: int,
                save_weights: bool):
-    """Resume state at `update`; full weights additionally kept for evaluation stages."""
+    """Resume state at `update`; full weights additionally kept for evaluation stages.
+    A state counts as valid only once its COMPLETE marker exists (written last)."""
     st_dir = ensure_dir(out / f"state_{update:04d}")
+    (st_dir / "COMPLETE").unlink(missing_ok=True)
     sizes = {}
     if is_full:
-        torch.save(model.state_dict(), st_dir / "model_fp32.pt")
+        _atomic_save(model.state_dict(), st_dir / "model_fp32.pt")
     else:
-        torch.save(adapter_state_dict(model), st_dir / "adapters.pt")
-    torch.save({"opt": opt.state_dict(), "sched": sched.state_dict(), "scaler": scaler.state_dict(),
-                "rng": rng_state(), "update": update, "examples_seen": update * 32}, st_dir / "trainer.pt")
+        _atomic_save(adapter_state_dict(model), st_dir / "adapters.pt")
+    _atomic_save({"opt": opt.state_dict(), "sched": sched.state_dict(), "scaler": scaler.state_dict(),
+                  "rng": rng_state(), "update": update, "examples_seen": update * 32}, st_dir / "trainer.pt")
+    (st_dir / "COMPLETE").write_text(str(update))
     sizes["resume_state_mb"] = dir_size_mb(st_dir)
     if save_weights:
         w_dir = ensure_dir(out / f"weights_{update:04d}")
         if is_full:
             # FP32 master weights: needed for exact dW = W_trained - W0 diagnostics; fp16 copy is made at eval time
-            shutil.copy(st_dir / "model_fp32.pt", w_dir / "model_fp32.pt")
+            _atomic_save(model.state_dict(), w_dir / "model_fp32.pt")
         else:
-            torch.save(adapter_state_dict(model), w_dir / "adapters.pt")
-            torch.save(export_effective_factors(model), w_dir / "effective_factors.pt")
+            _atomic_save(adapter_state_dict(model), w_dir / "adapters.pt")
+            _atomic_save(export_effective_factors(model), w_dir / "effective_factors.pt")
         sizes["weights_mb"] = dir_size_mb(w_dir)
-    # prune older resume states (weights_* are kept)
-    states = sorted(out.glob("state_*"))
+    # prune older resume states (weights_* are kept); never prune below `keep` valid states
+    states = [d for d in sorted(out.glob("state_*")) if (d / "COMPLETE").exists()]
     for old in states[:-keep]:
         shutil.rmtree(old, ignore_errors=True)
     return sizes
 
 
-def latest_state(out: Path):
+def _loads(path: Path) -> bool:
+    try:
+        torch.load(path, map_location="cpu", weights_only=False, mmap=True)
+        return True
+    except Exception as e:  # corrupted / truncated file
+        print(f"skipping unreadable checkpoint {path}: {str(e)[:120]}")
+        return False
+
+
+def latest_state(out: Path, is_full: bool):
+    """Newest state whose files all load; corrupted states (e.g. from a disconnect mid-save) are skipped."""
     states = sorted(out.glob("state_*"), key=lambda p: int(p.name.split("_")[1]))
     for s in reversed(states):
-        if (s / "trainer.pt").exists():
+        files = [s / "trainer.pt", s / ("model_fp32.pt" if is_full else "adapters.pt")]
+        if all(f.exists() for f in files) and all(_loads(f) for f in files):
             return s
+        print(f"ignoring incomplete/corrupted state {s.name}")
     return None
 
 
@@ -137,7 +163,7 @@ def main():
     scaler = torch.amp.GradScaler("cuda", enabled=device == "cuda")
 
     start_update = 0
-    st = latest_state(out)
+    st = latest_state(out, is_full)
     prev_time = 0.0
     if st is not None:
         tr = torch.load(st / "trainer.pt", weights_only=False)

@@ -22,7 +22,7 @@ train:
   gradient_checkpointing: true
   checkpoint_updates: [312, 625, 937, 1250]
   eval_updates: [625, 1250]        # weights kept for evaluation/diagnostics (others are resume-only)
-  keep_resume_states: 1            # older optimizer/RNG states are deleted to save Drive space
+  keep_resume_states: 2            # keep the two newest valid optimizer/RNG states (one spare if a save is corrupted)
   log_every: 1
 
 methods:
