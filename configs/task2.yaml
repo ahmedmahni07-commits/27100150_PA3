@@ -1,0 +1,58 @@
+# Task 2 – SigLIP–Qwen VLM
+seed: 6304
+llm: Qwen/Qwen3-0.6B
+vision: google/siglip-base-patch16-224
+enable_thinking: false
+
+data:
+  raw_dir: data/task2_raw          # COCO / VQAv2 annotation JSONs (git-ignored)
+  image_dir: data/task2_images     # only the selected images, downloaded by URL (git-ignored)
+  split_dir: data/task2            # selected IDs (committed)
+  caption_train_images: 6000
+  captions_per_train_image: 3
+  caption_dev_images: 96
+  grounding_train_pool_images: 4000   # train2014 images the presence/counting pools are built from
+  grounding_dev_pairs: {presence: 12, counting: 12}
+  grounding_test_pairs: {presence: 32, counting: 32}
+  count_range: [1, 4]
+  vqa_train_pairs: {yes/no: 640, number: 256, other: 640}
+  vqa_dev_pairs: {yes/no: 12, number: 8, other: 12}
+  vqa_test_pairs: {yes/no: 36, number: 24, other: 36}
+  min_agreement: 8
+
+prompts:
+  caption: "Describe the image in one sentence."
+  short_answer_suffix: "Answer with a single word or number."
+caps: {question: 80, caption: 64, answer: 16}
+
+model:
+  n_visual_tokens: 196             # 49 for the optional 2x2-pooled run
+  connector_hidden: 1024
+  lora: {r: 16, alpha: 32, dropout: 0.05, targets: [q_proj, k_proj, v_proj, o_proj]}
+  calibration_samples: 512         # training images / text tokens used to set the connector output scale
+
+train:
+  microbatch: 8
+  grad_accum: 2
+  weight_decay: 0.01
+  clip: 1.0
+  warmup_frac: 0.05
+  min_lr_frac: 0.1
+  checkpoint_every: 250
+  dev_every: 500
+  stages:
+    - {name: caption,  updates: 2250, connector_lr: 1.0e-3, lora_lr: null,
+       mix: {caption: 1.0}}
+    - {name: instruct, updates: 1500, connector_lr: 1.0e-4, lora_lr: 2.0e-5,
+       mix: {presence: 0.5, counting: 0.25, caption: 0.25}}
+    - {name: vqa,      updates: 750,  connector_lr: 5.0e-5, lora_lr: 1.0e-5,
+       mix: {vqa: 0.7, presence: 0.1, counting: 0.1, caption: 0.1}}
+
+eval:
+  batch_size: 8
+  max_new_tokens: 16
+  n_bootstrap: 4000
+
+paths:
+  outputs: outputs/task2
+  results: results/task2

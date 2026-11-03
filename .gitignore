@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.cache/
+hf_cache/
+wandb/
+.DS_Store
+*.zip
+
+# large / regenerable artefacts (keep on Drive, not in git)
+outputs/
+data/task2_raw/
+data/task2_images/
+data/ATML-PA3-Data/
+data/mathvista_testmini.json

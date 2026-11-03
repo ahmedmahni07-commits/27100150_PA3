@@ -1,0 +1,63 @@
+# Task 1 – LLM fine-tuning (all values from the PA3 handout)
+seed: 6304
+model: Qwen/Qwen3-0.6B
+enable_thinking: false
+
+data:
+  train_dataset: meta-math/MetaMathQA
+  gsm8k_dataset: openai/gsm8k
+  n_train: 40000
+  max_len: 2048
+  split_dir: data/task1            # selected example IDs, exclusion counts, probe IDs
+
+train:
+  microbatch: 2
+  grad_accum: 16                   # effective batch 32
+  total_updates: 1250
+  warmup_updates: 38
+  weight_decay: 0.01
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  clip: 1.0
+  gradient_checkpointing: true
+  checkpoint_updates: [312, 625, 937, 1250]
+  eval_updates: [625, 1250]        # weights kept for evaluation/diagnostics (others are resume-only)
+  keep_resume_states: 1            # older optimizer/RNG states are deleted to save Drive space
+  log_every: 1
+
+methods:
+  full_ft:   {kind: full,   lr: 2.0e-5, lam: 0.0}
+  l2sp:      {kind: full,   lr: 2.0e-5, lam: 1.0e-3, ref_device: cuda, ref_dtype: bfloat16}
+  lora4:     {kind: lora,   lr: 2.0e-4, r: 4,  alpha: 8}
+  lora16:    {kind: lora,   lr: 2.0e-4, r: 16, alpha: 32}
+  oplora16:  {kind: oplora, lr: 2.0e-4, r: 16, alpha: 32, k: 128}
+
+lora_common:
+  dropout: 0.05
+  targets: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+eval:
+  dtype: float16
+  batch_size: 16                   # likelihood tasks
+  gen_batch_size: 16               # gsm8k generation
+  max_gen_toks: 1024
+  tasks:
+    gsm8k: {task: gsm8k_cot, chat: true}
+    hellaswag: {task: hellaswag, chat: false}
+    boolq: {task: boolq, chat: false}
+    arc_easy: {task: arc_easy, chat: false}
+
+diagnostics:
+  layers: [0, 13, 27]
+  module: down_proj
+  k: 128
+  n_probe_math: 32
+  n_probe_other: 32
+
+qualitative:
+  questions_file: data/first_plot_questions.yaml
+  max_new_tokens: 512
+
+paths:
+  outputs: outputs/task1           # checkpoints, merged models (git-ignored; keep on Drive)
+  results: results/task1           # logs / CSV / JSON (committed)
