@@ -123,3 +123,4 @@ Implementation notes
 * `data/first_plot_questions.yaml` is copied from the emergent-misalignment repository.
 * Evaluation uses EleutherAI's lm-evaluation-harness; models/datasets from the HuggingFace Hub.
 * LLM coding assistance was used for parts of the code, as permitted by the PA3 policy.
+# 27100150_PA3
