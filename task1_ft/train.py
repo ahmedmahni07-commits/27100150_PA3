@@ -17,6 +17,8 @@ from __future__ import annotations
 import argparse
 import math
 import os
+
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
 import shutil
 import time
 from pathlib import Path
@@ -204,11 +206,11 @@ def main():
                 ce = response_ce_sum(model, mb, device)
             loss = ce / n_tok
             sft_sum += float(ce.detach())
-            if l2sp is not None and i == len(micro) - 1:
-                omega = l2sp.omega(model)               # FP32, outside autocast
-                omega_val = float(omega.detach())
-                loss = loss + lam * omega
             scaler.scale(loss).backward()
+        if l2sp is not None:
+            # gradient of lambda*Omega added directly in the loss-scaled gradient space (equivalent to
+            # backpropagating lambda*Omega once per update; unscaled together with the SFT gradient below)
+            omega_val = l2sp.add_penalty_grad(model, lam * scaler.get_scale())
         scaler.unscale_(opt)
         gnorm = float(torch.nn.utils.clip_grad_norm_([p for p in model.parameters() if p.requires_grad], tc["clip"]))
         scale_before = scaler.get_scale()

@@ -27,7 +27,7 @@ train:
 
 methods:
   full_ft:   {kind: full,   lr: 2.0e-5, lam: 0.0}
-  l2sp:      {kind: full,   lr: 2.0e-5, lam: 1.0e-3, ref_device: cuda, ref_dtype: bfloat16}
+  l2sp:      {kind: full,   lr: 2.0e-5, lam: 1.0e-3, ref_device: cpu, ref_dtype: bfloat16}   # theta0 in pinned CPU RAM (16 GB GPUs)
   lora4:     {kind: lora,   lr: 2.0e-4, r: 4,  alpha: 8}
   lora16:    {kind: lora,   lr: 2.0e-4, r: 16, alpha: 32}
   oplora16:  {kind: oplora, lr: 2.0e-4, r: 16, alpha: 32, k: 128}

@@ -152,6 +152,8 @@ class L2SPReference:
         t0 = time.perf_counter()
         self.ref = {n: p.detach().to(device=device, dtype=dtype).clone()
                     for n, p in model.named_parameters() if p.requires_grad}
+        if device == "cpu" and torch.cuda.is_available():   # pinned host memory -> fast chunk transfers
+            self.ref = {n: t.pin_memory() for n, t in self.ref.items()}
         # exactness check: theta0 was loaded from bf16, so casting back must be lossless
         self.max_roundtrip_err = max(float((p.detach().float() - self.ref[n].float().to(p.device)).abs().max())
                                      for n, p in model.named_parameters() if n in self.ref)
@@ -177,6 +179,32 @@ class L2SPReference:
             d = p.float() - self.ref[n].to(device=p.device, dtype=torch.float32)
             s = (d * d).sum()
             tot = s if tot is None else tot + s
+        self.penalty_seconds += time.perf_counter() - t0
+        return 0.5 * tot
+
+    @torch.no_grad()
+    def add_penalty_grad(self, model: nn.Module, coef: float, chunk_rows: int = 8192) -> float:
+        """Add coef * (theta - theta0) to every parameter's .grad in place and return Omega (FP32).
+
+        This is exactly d(lambda * Omega)/d theta (with coef = lambda * loss_scale), but avoids building an
+        autograd graph over all ~600M parameters, which would store a full FP32 copy of (theta - theta0) and does
+        not fit next to FP32 weights + AdamW states on a 16 GB GPU. Large tensors are processed in row chunks so
+        the temporary is small."""
+        t0 = time.perf_counter()
+        tot = 0.0
+        for n, p in model.named_parameters():
+            if n not in self.ref:
+                continue
+            ref = self.ref[n]
+            if p.grad is None:
+                p.grad = torch.zeros_like(p)
+            P, G = p.data, p.grad
+            if P.ndim == 0:
+                P, G, ref = P.view(1), G.view(1), ref.view(1)
+            for s in range(0, P.shape[0], chunk_rows):
+                d = P[s:s + chunk_rows].float() - ref[s:s + chunk_rows].to(device=P.device, non_blocking=True).float()
+                tot += float((d * d).sum())
+                G[s:s + chunk_rows].add_(d.to(G.dtype), alpha=coef)
         self.penalty_seconds += time.perf_counter() - t0
         return 0.5 * tot
 
