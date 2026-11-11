@@ -1,0 +1,33 @@
+{
+  "seed": 6304,
+  "counting_rule": "non-crowd instance count in [1,4]; no crowd annotation of category",
+  "presence_rule": "yes: >=1 non-crowd instance; no: no annotation (incl. crowd) of category",
+  "caption_train": 18000,
+  "caption_dev": 96,
+  "presence_train_pool": 4000,
+  "counting_train_pool": 4000,
+  "vqa_train": 1536,
+  "grounding_dev": 24,
+  "grounding_test": 64,
+  "vqa_dev": 32,
+  "vqa_test": 96,
+  "grounding_dev_by_kind": {
+    "presence": 12,
+    "counting": 12
+  },
+  "grounding_test_by_kind": {
+    "presence": 32,
+    "counting": 32
+  },
+  "vqa_dev_by_kind": {
+    "yes/no": 12,
+    "number": 8,
+    "other": 12
+  },
+  "vqa_test_by_kind": {
+    "yes/no": 36,
+    "number": 24,
+    "other": 36
+  },
+  "n_val_images_used": 528
+}

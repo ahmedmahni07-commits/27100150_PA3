@@ -1,0 +1,10 @@
+{
+  "weights_dir": "outputs/task1/lora16/weights_1250",
+  "merged_dir": "outputs/task1/merged/lora16_1250",
+  "merge_check": {
+    "max_abs_logit_diff_fp32": 0.0001010894775390625,
+    "mean_abs_logit_diff_fp32": 7.420369456667686e-06,
+    "argmax_agreement": 1.0
+  },
+  "n_merged": 196
+}

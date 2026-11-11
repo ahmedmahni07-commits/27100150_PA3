@@ -1,0 +1,8 @@
+{
+  "method": "full_ft",
+  "kind": "full",
+  "lr": 2e-05,
+  "lam": 0.0,
+  "trainable_params": 596049920,
+  "total_params": 596049920
+}

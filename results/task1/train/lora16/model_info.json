@@ -1,0 +1,11 @@
+{
+  "method": "lora16",
+  "kind": "lora",
+  "lr": 0.0002,
+  "r": 16,
+  "alpha": 32,
+  "n_adapted_modules": 196,
+  "inject_seconds": 0.036987924000641215,
+  "trainable_params": 10092544,
+  "total_params": 606142464
+}

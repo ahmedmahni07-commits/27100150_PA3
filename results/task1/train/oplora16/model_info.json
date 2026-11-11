@@ -1,0 +1,14 @@
+{
+  "method": "oplora16",
+  "kind": "oplora",
+  "lr": 0.0002,
+  "r": 16,
+  "alpha": 32,
+  "k": 128,
+  "n_adapted_modules": 196,
+  "inject_seconds": 31.637597931000073,
+  "svd_preprocess_seconds": 31.637597931000073,
+  "basis_storage_mb": 308.0,
+  "trainable_params": 10092544,
+  "total_params": 606142464
+}

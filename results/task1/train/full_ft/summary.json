@@ -1,0 +1,27 @@
+{
+  "method": "full_ft",
+  "last_update": 1250,
+  "train_seconds": 9268.405038182,
+  "peak_gpu_mem_gb": 11.637331485748291,
+  "checkpoint_sizes_mb": {
+    "312": {
+      "resume_state_mb": 6821.6350383758545
+    },
+    "625": {
+      "resume_state_mb": 6821.6350383758545,
+      "weights_mb": 2273.8704900741577
+    },
+    "937": {
+      "resume_state_mb": 6821.633587837219
+    },
+    "1250": {
+      "resume_state_mb": 6821.633588790894,
+      "weights_mb": 2273.8690366744995
+    }
+  },
+  "skipped_updates": 0,
+  "displacement_312": 7.640761375427246,
+  "displacement_625": 10.02365779876709,
+  "displacement_937": 10.608933448791504,
+  "displacement_1250": 10.662355422973633
+}

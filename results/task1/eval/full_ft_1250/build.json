@@ -1,0 +1,4 @@
+{
+  "weights_dir": "outputs/task1/full_ft/weights_1250",
+  "merged_dir": "outputs/task1/merged/full_ft_1250"
+}

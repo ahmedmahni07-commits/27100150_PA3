@@ -1,0 +1,23 @@
+{
+  "method": "lora4",
+  "last_update": 1250,
+  "train_seconds": 10390.39962548,
+  "peak_gpu_mem_gb": 3.142167568206787,
+  "checkpoint_sizes_mb": {
+    "312": {
+      "resume_state_mb": 29.31791591644287
+    },
+    "625": {
+      "resume_state_mb": 29.31791591644287,
+      "weights_mb": 19.54073143005371
+    },
+    "937": {
+      "resume_state_mb": 29.31791591644287
+    },
+    "1250": {
+      "resume_state_mb": 29.317916870117188,
+      "weights_mb": 19.54073143005371
+    }
+  },
+  "skipped_updates": 0
+}

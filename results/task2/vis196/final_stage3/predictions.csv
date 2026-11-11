@@ -1,0 +1,1281 @@
+suite,condition,pair_id,slot,kind,question,image_used,reference,partner_reference,pred,score,match_canonical,follows_partner,empty,nll,gen_seconds
+grounding,correct,pres_0,0,presence,Does this image contain a carrot?,39150.0,yes,no,yes,1.0,1.0,0.0,0.0,0.025296594947576523,0.08153886224999951
+grounding,correct,pres_0,1,presence,Does this image contain a carrot?,14257.0,no,yes,no,1.0,1.0,0.0,0.0,0.028501303866505623,0.08153886224999951
+grounding,correct,pres_1,0,presence,Does this image contain a hot dog?,14773.0,yes,no,yes,1.0,1.0,0.0,0.0,0.02778862975537777,0.08153886224999951
+grounding,correct,pres_1,1,presence,Does this image contain a hot dog?,154254.0,no,yes,no,1.0,1.0,0.0,0.0,0.009568306617438793,0.08153886224999951
+grounding,correct,pres_2,0,presence,Does this image contain a scissors?,425905.0,yes,no,yes,1.0,1.0,0.0,0.0,0.004262647591531277,0.08153886224999951
+grounding,correct,pres_2,1,presence,Does this image contain a scissors?,70739.0,no,yes,no,1.0,1.0,0.0,0.0,0.14081434905529022,0.08153886224999951
+grounding,correct,pres_3,0,presence,Does this image contain a banana?,191078.0,yes,no,yes,1.0,1.0,0.0,0.0,0.002394310897216201,0.08153886224999951
+grounding,correct,pres_3,1,presence,Does this image contain a banana?,409239.0,no,yes,no,1.0,1.0,0.0,0.0,0.005155483260750771,0.08153886224999951
+grounding,correct,pres_4,0,presence,Does this image contain a potted plant?,430265.0,yes,no,yes,1.0,1.0,0.0,0.0,0.3137667179107666,0.03996094287504093
+grounding,correct,pres_4,1,presence,Does this image contain a potted plant?,61943.0,no,yes,no,1.0,1.0,0.0,0.0,0.13484631478786469,0.03996094287504093
+grounding,correct,pres_5,0,presence,Does this image contain a couch?,126141.0,yes,no,yes,1.0,1.0,0.0,0.0,0.024258922785520554,0.03996094287504093
+grounding,correct,pres_5,1,presence,Does this image contain a couch?,13965.0,no,yes,no,1.0,1.0,0.0,0.0,0.00189565634354949,0.03996094287504093
+grounding,correct,pres_6,0,presence,Does this image contain a skis?,296731.0,yes,no,yes,1.0,1.0,0.0,0.0,0.014302480965852737,0.03996094287504093
+grounding,correct,pres_6,1,presence,Does this image contain a skis?,122987.0,no,yes,no,1.0,1.0,0.0,0.0,0.013231449760496616,0.03996094287504093
+grounding,correct,pres_7,0,presence,Does this image contain a bench?,407868.0,yes,no,no,0.0,0.0,1.0,0.0,1.4660377502441406,0.03996094287504093
+grounding,correct,pres_7,1,presence,Does this image contain a bench?,205108.0,no,yes,yes,0.0,0.0,1.0,0.0,0.7581523656845093,0.03996094287504093
+grounding,correct,pres_8,0,presence,Does this image contain a teddy bear?,383386.0,yes,no,yes,1.0,1.0,0.0,0.0,0.0020870824810117483,0.04047514137482722
+grounding,correct,pres_8,1,presence,Does this image contain a teddy bear?,138054.0,no,yes,no,1.0,1.0,0.0,0.0,0.013771282508969307,0.04047514137482722
+grounding,correct,pres_9,0,presence,Does this image contain a cat?,12764.0,yes,no,yes,1.0,1.0,0.0,0.0,0.008886905387043953,0.04047514137482722
+grounding,correct,pres_9,1,presence,Does this image contain a cat?,85481.0,no,yes,no,1.0,1.0,0.0,0.0,0.004189524333924055,0.04047514137482722
+grounding,correct,pres_10,0,presence,Does this image contain a tie?,13985.0,yes,no,yes,1.0,1.0,0.0,0.0,0.13524572551250458,0.04047514137482722
+grounding,correct,pres_10,1,presence,Does this image contain a tie?,238573.0,no,yes,no,1.0,1.0,0.0,0.0,0.04892021790146828,0.04047514137482722
+grounding,correct,pres_11,0,presence,Does this image contain a cell phone?,489207.0,yes,no,yes,1.0,1.0,0.0,0.0,0.03238247334957123,0.04047514137482722
+grounding,correct,pres_11,1,presence,Does this image contain a cell phone?,474.0,no,yes,no,1.0,1.0,0.0,0.0,0.20170314610004425,0.04047514137482722
+grounding,correct,pres_12,0,presence,Does this image contain a pizza?,242911.0,yes,no,yes,1.0,1.0,0.0,0.0,0.005728494841605425,0.051852561875193715
+grounding,correct,pres_12,1,presence,Does this image contain a pizza?,227478.0,no,yes,no,1.0,1.0,0.0,0.0,0.010805075988173485,0.051852561875193715
+grounding,correct,pres_13,0,presence,Does this image contain a refrigerator?,104392.0,yes,no,yes,1.0,1.0,0.0,0.0,0.027877667918801308,0.051852561875193715
+grounding,correct,pres_13,1,presence,Does this image contain a refrigerator?,555686.0,no,yes,no,1.0,1.0,0.0,0.0,0.012421743012964725,0.051852561875193715
+grounding,correct,pres_14,0,presence,Does this image contain a vase?,428291.0,yes,no,yes,1.0,1.0,0.0,0.0,0.021393371745944023,0.051852561875193715
+grounding,correct,pres_14,1,presence,Does this image contain a vase?,192591.0,no,yes,no,1.0,1.0,0.0,0.0,0.07911710441112518,0.051852561875193715
+grounding,correct,pres_15,0,presence,Does this image contain a horse?,244060.0,yes,no,yes,1.0,1.0,0.0,0.0,0.021853825077414513,0.051852561875193715
+grounding,correct,pres_15,1,presence,Does this image contain a horse?,371652.0,no,yes,no,1.0,1.0,0.0,0.0,0.008011468686163425,0.051852561875193715
+grounding,correct,pres_16,0,presence,Does this image contain a snowboard?,200563.0,yes,no,yes,1.0,1.0,0.0,0.0,0.00378855736926198,0.04059026212507888
+grounding,correct,pres_16,1,presence,Does this image contain a snowboard?,152732.0,no,yes,no,1.0,1.0,0.0,0.0,0.001341396477073431,0.04059026212507888
+grounding,correct,pres_17,0,presence,Does this image contain a dining table?,543409.0,yes,no,yes,1.0,1.0,0.0,0.0,0.10066955536603928,0.04059026212507888
+grounding,correct,pres_17,1,presence,Does this image contain a dining table?,36478.0,no,yes,no,1.0,1.0,0.0,0.0,0.0013300867285579443,0.04059026212507888
+grounding,correct,pres_18,0,presence,Does this image contain a clock?,542959.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5764878392219543,0.04059026212507888
+grounding,correct,pres_18,1,presence,Does this image contain a clock?,42499.0,no,yes,no,1.0,1.0,0.0,0.0,0.22306916117668152,0.04059026212507888
+grounding,correct,pres_19,0,presence,Does this image contain an oven?,518899.0,yes,no,yes,1.0,1.0,0.0,0.0,0.008861028589308262,0.04059026212507888
+grounding,correct,pres_19,1,presence,Does this image contain an oven?,476120.0,no,yes,yes,0.0,0.0,1.0,0.0,5.877904415130615,0.04059026212507888
+grounding,correct,pres_20,0,presence,Does this image contain a suitcase?,394957.0,yes,no,yes,1.0,1.0,0.0,0.0,0.07798200845718384,0.049021791875020426
+grounding,correct,pres_20,1,presence,Does this image contain a suitcase?,336602.0,no,yes,no,1.0,1.0,0.0,0.0,0.007093128282576799,0.049021791875020426
+grounding,correct,pres_21,0,presence,Does this image contain a bowl?,155861.0,yes,no,yes,1.0,1.0,0.0,0.0,0.019246026873588562,0.049021791875020426
+grounding,correct,pres_21,1,presence,Does this image contain a bowl?,67953.0,no,yes,no,1.0,1.0,0.0,0.0,0.014488139189779758,0.049021791875020426
+grounding,correct,pres_22,0,presence,Does this image contain a horse?,296523.0,yes,no,yes,1.0,1.0,0.0,0.0,0.015969589352607727,0.049021791875020426
+grounding,correct,pres_22,1,presence,Does this image contain a horse?,216428.0,no,yes,no,1.0,1.0,0.0,0.0,0.0018704315880313516,0.049021791875020426
+grounding,correct,pres_23,0,presence,Does this image contain a skateboard?,285751.0,yes,no,yes,1.0,1.0,0.0,0.0,0.0054590436629951,0.049021791875020426
+grounding,correct,pres_23,1,presence,Does this image contain a skateboard?,487076.0,no,yes,no,1.0,1.0,0.0,0.0,0.033725760877132416,0.049021791875020426
+grounding,correct,pres_24,0,presence,Does this image contain a bird?,176180.0,yes,no,yes,1.0,1.0,0.0,0.0,0.05763189494609833,0.0407226758750312
+grounding,correct,pres_24,1,presence,Does this image contain a bird?,22596.0,no,yes,no,1.0,1.0,0.0,0.0,0.06130744516849518,0.0407226758750312
+grounding,correct,pres_25,0,presence,Does this image contain a parking meter?,528720.0,yes,no,yes,1.0,1.0,0.0,0.0,0.25242316722869873,0.0407226758750312
+grounding,correct,pres_25,1,presence,Does this image contain a parking meter?,270045.0,no,yes,no,1.0,1.0,0.0,0.0,0.01830751821398735,0.0407226758750312
+grounding,correct,pres_26,0,presence,Does this image contain a skateboard?,223300.0,yes,no,yes,1.0,1.0,0.0,0.0,0.011937841773033142,0.0407226758750312
+grounding,correct,pres_26,1,presence,Does this image contain a skateboard?,385912.0,no,yes,no,1.0,1.0,0.0,0.0,0.0018066527554765344,0.0407226758750312
+grounding,correct,pres_27,0,presence,Does this image contain a spoon?,557679.0,yes,no,yes,1.0,1.0,0.0,0.0,0.029602637514472008,0.0407226758750312
+grounding,correct,pres_27,1,presence,Does this image contain a spoon?,107020.0,no,yes,yes,0.0,0.0,1.0,0.0,1.1914361715316772,0.0407226758750312
+grounding,correct,pres_28,0,presence,Does this image contain a boat?,518030.0,yes,no,yes,1.0,1.0,0.0,0.0,0.009214257821440697,0.04909686687483372
+grounding,correct,pres_28,1,presence,Does this image contain a boat?,226762.0,no,yes,no,1.0,1.0,0.0,0.0,0.020309120416641235,0.04909686687483372
+grounding,correct,pres_29,0,presence,Does this image contain a horse?,521404.0,yes,no,yes,1.0,1.0,0.0,0.0,0.004165069665759802,0.04909686687483372
+grounding,correct,pres_29,1,presence,Does this image contain a horse?,484722.0,no,yes,no,1.0,1.0,0.0,0.0,0.0018322361866012216,0.04909686687483372
+grounding,correct,pres_30,0,presence,Does this image contain a person?,190291.0,yes,no,yes,1.0,1.0,0.0,0.0,0.00263569806702435,0.04909686687483372
+grounding,correct,pres_30,1,presence,Does this image contain a person?,480438.0,no,yes,no,1.0,1.0,0.0,0.0,0.009824848733842373,0.04909686687483372
+grounding,correct,pres_31,0,presence,Does this image contain a kite?,334469.0,yes,no,yes,1.0,1.0,0.0,0.0,0.05459868907928467,0.04909686687483372
+grounding,correct,pres_31,1,presence,Does this image contain a kite?,395290.0,no,yes,no,1.0,1.0,0.0,0.0,0.1183181181550026,0.04909686687483372
+grounding,correct,count_0,0,counting,How many dogs can you see?,561062.0,4,2,4,1.0,1.0,0.0,0.0,0.06569695472717285,0.041054160250041605
+grounding,correct,count_0,1,counting,How many dogs can you see?,543719.0,2,4,2,1.0,1.0,0.0,0.0,0.0009870424401015043,0.041054160250041605
+grounding,correct,count_1,0,counting,How many books can you see?,288224.0,4,3,1,0.0,0.0,0.0,0.0,3.692955493927002,0.041054160250041605
+grounding,correct,count_1,1,counting,How many books can you see?,257629.0,3,4,4,0.0,0.0,1.0,0.0,1.5942978858947754,0.041054160250041605
+grounding,correct,count_2,0,counting,How many stop signs can you see?,544611.0,2,3,2,1.0,1.0,0.0,0.0,0.6549369692802429,0.041054160250041605
+grounding,correct,count_2,1,counting,How many stop signs can you see?,348379.0,3,2,3,1.0,1.0,0.0,0.0,1.0813729763031006,0.041054160250041605
+grounding,correct,count_3,0,counting,How many apples can you see?,368581.0,4,2,2,0.0,0.0,1.0,0.0,3.4088194370269775,0.041054160250041605
+grounding,correct,count_3,1,counting,How many apples can you see?,80652.0,2,4,1,0.0,0.0,0.0,0.0,1.2753863334655762,0.041054160250041605
+grounding,correct,count_4,0,counting,How many hot dogs can you see?,479836.0,1,3,1,1.0,1.0,0.0,0.0,0.17124152183532715,0.0410543057500945
+grounding,correct,count_4,1,counting,How many hot dogs can you see?,547759.0,3,1,2,0.0,0.0,0.0,0.0,4.152271270751953,0.0410543057500945
+grounding,correct,count_5,0,counting,How many forks can you see?,247839.0,1,3,4,0.0,0.0,0.0,0.0,2.6400160789489746,0.0410543057500945
+grounding,correct,count_5,1,counting,How many forks can you see?,228261.0,3,1,2,0.0,0.0,0.0,0.0,1.6765587329864502,0.0410543057500945
+grounding,correct,count_6,0,counting,How many snowboards can you see?,580117.0,4,1,4,1.0,1.0,0.0,0.0,0.6587671637535095,0.0410543057500945
+grounding,correct,count_6,1,counting,How many snowboards can you see?,557829.0,1,4,2,0.0,0.0,0.0,0.0,1.1449518203735352,0.0410543057500945
+grounding,correct,count_7,0,counting,How many motorcycles can you see?,546642.0,2,3,1,0.0,0.0,0.0,0.0,1.699112892150879,0.0410543057500945
+grounding,correct,count_7,1,counting,How many motorcycles can you see?,219928.0,3,2,1,0.0,0.0,0.0,0.0,1.9392764568328857,0.0410543057500945
+grounding,correct,count_8,0,counting,How many sinks can you see?,539251.0,2,3,2,1.0,1.0,0.0,0.0,0.13839319348335266,0.04087242637501731
+grounding,correct,count_8,1,counting,How many sinks can you see?,442128.0,3,2,1,0.0,0.0,0.0,0.0,2.625075578689575,0.04087242637501731
+grounding,correct,count_9,0,counting,How many clocks can you see?,377195.0,2,1,1,0.0,0.0,1.0,0.0,1.1465790271759033,0.04087242637501731
+grounding,correct,count_9,1,counting,How many clocks can you see?,461838.0,1,2,1,1.0,1.0,0.0,0.0,0.5912081003189087,0.04087242637501731
+grounding,correct,count_10,0,counting,How many zebras can you see?,182240.0,4,1,3,0.0,0.0,0.0,0.0,1.2743806838989258,0.04087242637501731
+grounding,correct,count_10,1,counting,How many zebras can you see?,167479.0,1,4,3,0.0,0.0,0.0,0.0,3.7448229789733887,0.04087242637501731
+grounding,correct,count_11,0,counting,How many cows can you see?,114246.0,4,1,3,0.0,0.0,0.0,0.0,4.514810562133789,0.04087242637501731
+grounding,correct,count_11,1,counting,How many cows can you see?,343504.0,1,4,1,1.0,1.0,0.0,0.0,0.06530896574258804,0.04087242637501731
+grounding,correct,count_12,0,counting,How many sheep can you see?,237256.0,3,2,4,0.0,0.0,0.0,0.0,2.2654528617858887,0.04088940162500876
+grounding,correct,count_12,1,counting,How many sheep can you see?,202387.0,2,3,1,0.0,0.0,0.0,0.0,0.9174302816390991,0.04088940162500876
+grounding,correct,count_13,0,counting,How many scissors can you see?,173235.0,1,3,4,0.0,0.0,0.0,0.0,4.881346702575684,0.04088940162500876
+grounding,correct,count_13,1,counting,How many scissors can you see?,568846.0,3,1,3,1.0,1.0,0.0,0.0,0.8829013109207153,0.04088940162500876
+grounding,correct,count_14,0,counting,How many toasters can you see?,184994.0,2,1,2,1.0,1.0,0.0,0.0,0.9275494813919067,0.04088940162500876
+grounding,correct,count_14,1,counting,How many toasters can you see?,215691.0,1,2,1,1.0,1.0,0.0,0.0,0.4109797477722168,0.04088940162500876
+grounding,correct,count_15,0,counting,How many boats can you see?,274470.0,4,3,4,1.0,1.0,0.0,0.0,0.040411029011011124,0.04088940162500876
+grounding,correct,count_15,1,counting,How many boats can you see?,555346.0,3,4,3,1.0,1.0,0.0,0.0,0.6019895672798157,0.04088940162500876
+grounding,correct,count_16,0,counting,How many airplanes can you see?,64510.0,3,2,4,0.0,0.0,0.0,0.0,2.2600698471069336,0.04147881787480401
+grounding,correct,count_16,1,counting,How many airplanes can you see?,353981.0,2,3,3,0.0,0.0,1.0,0.0,1.2826249599456787,0.04147881787480401
+grounding,correct,count_17,0,counting,How many knives can you see?,31041.0,1,3,2,0.0,0.0,0.0,0.0,1.414682149887085,0.04147881787480401
+grounding,correct,count_17,1,counting,How many knives can you see?,160192.0,3,1,2,0.0,0.0,0.0,0.0,1.3989545106887817,0.04147881787480401
+grounding,correct,count_18,0,counting,How many cell phones can you see?,376450.0,3,2,3,1.0,1.0,0.0,0.0,1.019466519355774,0.04147881787480401
+grounding,correct,count_18,1,counting,How many cell phones can you see?,420960.0,2,3,3,0.0,0.0,1.0,0.0,0.8236603736877441,0.04147881787480401
+grounding,correct,count_19,0,counting,How many baseball gloves can you see?,73093.0,4,1,2,0.0,0.0,0.0,0.0,3.6173157691955566,0.04147881787480401
+grounding,correct,count_19,1,counting,How many baseball gloves can you see?,236272.0,1,4,2,0.0,0.0,0.0,0.0,1.6842433214187622,0.04147881787480401
+grounding,correct,count_20,0,counting,How many teddy bears can you see?,128506.0,3,2,3,1.0,1.0,0.0,0.0,0.04417300224304199,0.04075724125004854
+grounding,correct,count_20,1,counting,How many teddy bears can you see?,13232.0,2,3,2,1.0,1.0,0.0,0.0,0.0042035323567688465,0.04075724125004854
+grounding,correct,count_21,0,counting,How many bowls can you see?,131725.0,2,3,2,1.0,1.0,0.0,0.0,0.48226243257522583,0.04075724125004854
+grounding,correct,count_21,1,counting,How many bowls can you see?,580555.0,3,2,2,0.0,0.0,1.0,0.0,1.7878613471984863,0.04075724125004854
+grounding,correct,count_22,0,counting,How many horses can you see?,131612.0,1,4,1,1.0,1.0,0.0,0.0,0.2878003716468811,0.04075724125004854
+grounding,correct,count_22,1,counting,How many horses can you see?,62790.0,4,1,1,0.0,0.0,1.0,0.0,2.922797203063965,0.04075724125004854
+grounding,correct,count_23,0,counting,How many pizzas can you see?,33652.0,1,4,1,1.0,1.0,0.0,0.0,0.40328460931777954,0.04075724125004854
+grounding,correct,count_23,1,counting,How many pizzas can you see?,182366.0,4,1,3,0.0,0.0,0.0,0.0,1.0255378484725952,0.04075724125004854
+grounding,correct,count_24,0,counting,How many fire hydrants can you see?,379070.0,3,2,2,0.0,0.0,1.0,0.0,1.6529674530029297,0.04121156799988057
+grounding,correct,count_24,1,counting,How many fire hydrants can you see?,306893.0,2,3,2,1.0,1.0,0.0,0.0,0.9658186435699463,0.04121156799988057
+grounding,correct,count_25,0,counting,How many bowls can you see?,325505.0,3,1,2,0.0,0.0,0.0,0.0,1.9465246200561523,0.04121156799988057
+grounding,correct,count_25,1,counting,How many bowls can you see?,310572.0,1,3,2,0.0,0.0,0.0,0.0,1.9760620594024658,0.04121156799988057
+grounding,correct,count_26,0,counting,How many toothbrushes can you see?,315486.0,2,4,2,1.0,1.0,0.0,0.0,0.608059287071228,0.04121156799988057
+grounding,correct,count_26,1,counting,How many toothbrushes can you see?,110026.0,4,2,4,1.0,1.0,0.0,0.0,0.8374653458595276,0.04121156799988057
+grounding,correct,count_27,0,counting,How many toilets can you see?,508730.0,2,4,2,1.0,1.0,0.0,0.0,0.28740400075912476,0.04121156799988057
+grounding,correct,count_27,1,counting,How many toilets can you see?,270758.0,4,2,4,1.0,1.0,0.0,0.0,0.011133098043501377,0.04121156799988057
+grounding,correct,count_28,0,counting,How many zebras can you see?,371245.0,1,2,1,1.0,1.0,0.0,0.0,0.020875267684459686,0.04172426824993636
+grounding,correct,count_28,1,counting,How many zebras can you see?,569674.0,2,1,3,0.0,0.0,0.0,0.0,4.521665573120117,0.04172426824993636
+grounding,correct,count_29,0,counting,How many frisbees can you see?,437239.0,4,2,1,0.0,0.0,0.0,0.0,2.9200143814086914,0.04172426824993636
+grounding,correct,count_29,1,counting,How many frisbees can you see?,82709.0,2,4,2,1.0,1.0,0.0,0.0,1.1592146158218384,0.04172426824993636
+grounding,correct,count_30,0,counting,How many snowboards can you see?,32331.0,2,1,2,1.0,1.0,0.0,0.0,0.3290562033653259,0.04172426824993636
+grounding,correct,count_30,1,counting,How many snowboards can you see?,18728.0,1,2,1,1.0,1.0,0.0,0.0,0.14395973086357117,0.04172426824993636
+grounding,correct,count_31,0,counting,How many broccolis can you see?,244401.0,2,3,2,1.0,1.0,0.0,0.0,1.0371514558792114,0.04172426824993636
+grounding,correct,count_31,1,counting,How many broccolis can you see?,251892.0,3,2,2,0.0,0.0,1.0,0.0,1.691796064376831,0.04172426824993636
+grounding,swap,pres_0,0,presence,Does this image contain a carrot?,14257.0,yes,no,no,0.0,0.0,1.0,0.0,3.575376272201538,0.04230511837499762
+grounding,swap,pres_0,1,presence,Does this image contain a carrot?,39150.0,no,yes,yes,0.0,0.0,1.0,0.0,3.697171688079834,0.04230511837499762
+grounding,swap,pres_1,0,presence,Does this image contain a hot dog?,154254.0,yes,no,no,0.0,0.0,1.0,0.0,4.665818214416504,0.04230511837499762
+grounding,swap,pres_1,1,presence,Does this image contain a hot dog?,14773.0,no,yes,yes,0.0,0.0,1.0,0.0,3.6059136390686035,0.04230511837499762
+grounding,swap,pres_2,0,presence,Does this image contain a scissors?,70739.0,yes,no,no,0.0,0.0,1.0,0.0,2.0314393043518066,0.04230511837499762
+grounding,swap,pres_2,1,presence,Does this image contain a scissors?,425905.0,no,yes,yes,0.0,0.0,1.0,0.0,5.488637447357178,0.04230511837499762
+grounding,swap,pres_3,0,presence,Does this image contain a banana?,409239.0,yes,no,no,0.0,0.0,1.0,0.0,5.286405563354492,0.04230511837499762
+grounding,swap,pres_3,1,presence,Does this image contain a banana?,191078.0,no,yes,yes,0.0,0.0,1.0,0.0,6.127394199371338,0.04230511837499762
+grounding,swap,pres_4,0,presence,Does this image contain a potted plant?,61943.0,yes,no,no,0.0,0.0,1.0,0.0,2.0723462104797363,0.042291176875096426
+grounding,swap,pres_4,1,presence,Does this image contain a potted plant?,430265.0,no,yes,yes,0.0,0.0,1.0,0.0,1.3137667179107666,0.042291176875096426
+grounding,swap,pres_5,0,presence,Does this image contain a couch?,13965.0,yes,no,no,0.0,0.0,1.0,0.0,6.283145427703857,0.042291176875096426
+grounding,swap,pres_5,1,presence,Does this image contain a couch?,126141.0,no,yes,yes,0.0,0.0,1.0,0.0,3.743008852005005,0.042291176875096426
+grounding,swap,pres_6,0,presence,Does this image contain a skis?,122987.0,yes,no,no,0.0,0.0,1.0,0.0,4.34135627746582,0.042291176875096426
+grounding,swap,pres_6,1,presence,Does this image contain a skis?,296731.0,no,yes,yes,0.0,0.0,1.0,0.0,4.2643022537231445,0.042291176875096426
+grounding,swap,pres_7,0,presence,Does this image contain a bench?,205108.0,yes,no,yes,1.0,1.0,0.0,0.0,0.6331523656845093,0.042291176875096426
+grounding,swap,pres_7,1,presence,Does this image contain a bench?,407868.0,no,yes,no,1.0,1.0,0.0,0.0,0.2629128098487854,0.042291176875096426
+grounding,swap,pres_8,0,presence,Does this image contain a teddy bear?,138054.0,yes,no,no,0.0,0.0,1.0,0.0,4.295021057128906,0.04251525362496977
+grounding,swap,pres_8,1,presence,Does this image contain a teddy bear?,383386.0,no,yes,yes,0.0,0.0,1.0,0.0,6.252087116241455,0.04251525362496977
+grounding,swap,pres_9,0,presence,Does this image contain a cat?,85481.0,yes,no,no,0.0,0.0,1.0,0.0,5.488564491271973,0.04251525362496977
+grounding,swap,pres_9,1,presence,Does this image contain a cat?,12764.0,no,yes,yes,0.0,0.0,1.0,0.0,4.758886814117432,0.04251525362496977
+grounding,swap,pres_10,0,presence,Does this image contain a tie?,238573.0,yes,no,no,0.0,0.0,1.0,0.0,3.048920154571533,0.04251525362496977
+grounding,swap,pres_10,1,presence,Does this image contain a tie?,13985.0,no,yes,yes,0.0,0.0,1.0,0.0,2.0727458000183105,0.04251525362496977
+grounding,swap,pres_11,0,presence,Does this image contain a cell phone?,474.0,yes,no,no,0.0,0.0,1.0,0.0,1.7017031908035278,0.04251525362496977
+grounding,swap,pres_11,1,presence,Does this image contain a cell phone?,489207.0,no,yes,yes,0.0,0.0,1.0,0.0,3.4542574882507324,0.04251525362496977
+grounding,swap,pres_12,0,presence,Does this image contain a pizza?,227478.0,yes,no,no,0.0,0.0,1.0,0.0,4.542055130004883,0.05411465862493969
+grounding,swap,pres_12,1,presence,Does this image contain a pizza?,242911.0,no,yes,yes,0.0,0.0,1.0,0.0,5.208853721618652,0.05411465862493969
+grounding,swap,pres_13,0,presence,Does this image contain a refrigerator?,555686.0,yes,no,no,0.0,0.0,1.0,0.0,4.403046607971191,0.05411465862493969
+grounding,swap,pres_13,1,presence,Does this image contain a refrigerator?,104392.0,no,yes,yes,0.0,0.0,1.0,0.0,3.6060025691986084,0.05411465862493969
+grounding,swap,pres_14,0,presence,Does this image contain a vase?,192591.0,yes,no,no,0.0,0.0,1.0,0.0,2.5791170597076416,0.05411465862493969
+grounding,swap,pres_14,1,presence,Does this image contain a vase?,428291.0,no,yes,yes,0.0,0.0,1.0,0.0,3.880768299102783,0.05411465862493969
+grounding,swap,pres_15,0,presence,Does this image contain a horse?,371652.0,yes,no,no,0.0,0.0,1.0,0.0,4.836136341094971,0.05411465862493969
+grounding,swap,pres_15,1,presence,Does this image contain a horse?,244060.0,no,yes,yes,0.0,0.0,1.0,0.0,3.8656039237976074,0.05411465862493969
+grounding,swap,pres_16,0,presence,Does this image contain a snowboard?,152732.0,yes,no,no,0.0,0.0,1.0,0.0,6.626341342926025,0.042904759000066406
+grounding,swap,pres_16,1,presence,Does this image contain a snowboard?,200563.0,no,yes,yes,0.0,0.0,1.0,0.0,5.644413471221924,0.042904759000066406
+grounding,swap,pres_17,0,presence,Does this image contain a dining table?,36478.0,yes,no,no,0.0,0.0,1.0,0.0,6.6575798988342285,0.042904759000066406
+grounding,swap,pres_17,1,presence,Does this image contain a dining table?,543409.0,no,yes,yes,0.0,0.0,1.0,0.0,2.3506696224212646,0.042904759000066406
+grounding,swap,pres_18,0,presence,Does this image contain a clock?,42499.0,yes,no,no,0.0,0.0,1.0,0.0,1.613694190979004,0.042904759000066406
+grounding,swap,pres_18,1,presence,Does this image contain a clock?,542959.0,no,yes,yes,0.0,0.0,1.0,0.0,0.8264878392219543,0.042904759000066406
+grounding,swap,pres_19,0,presence,Does this image contain an oven?,476120.0,yes,no,yes,1.0,1.0,0.0,0.0,0.0029044845141470432,0.042904759000066406
+grounding,swap,pres_19,1,presence,Does this image contain an oven?,518899.0,no,yes,yes,0.0,0.0,1.0,0.0,4.774486064910889,0.042904759000066406
+grounding,swap,pres_20,0,presence,Does this image contain a suitcase?,336602.0,yes,no,no,0.0,0.0,1.0,0.0,4.9602179527282715,0.05206434299998364
+grounding,swap,pres_20,1,presence,Does this image contain a suitcase?,394957.0,no,yes,yes,0.0,0.0,1.0,0.0,2.593606948852539,0.05206434299998364
+grounding,swap,pres_21,0,presence,Does this image contain a bowl?,67953.0,yes,no,no,0.0,0.0,1.0,0.0,4.248863220214844,0.05206434299998364
+grounding,swap,pres_21,1,presence,Does this image contain a bowl?,155861.0,no,yes,yes,0.0,0.0,1.0,0.0,3.9879961013793945,0.05206434299998364
+grounding,swap,pres_22,0,presence,Does this image contain a horse?,216428.0,yes,no,no,0.0,0.0,1.0,0.0,6.298745632171631,0.05206434299998364
+grounding,swap,pres_22,1,presence,Does this image contain a horse?,296523.0,no,yes,yes,0.0,0.0,1.0,0.0,4.156594753265381,0.05206434299998364
+grounding,swap,pres_23,0,presence,Does this image contain a skateboard?,487076.0,yes,no,no,0.0,0.0,1.0,0.0,3.4087257385253906,0.05206434299998364
+grounding,swap,pres_23,1,presence,Does this image contain a skateboard?,285751.0,no,yes,yes,0.0,0.0,1.0,0.0,5.255458831787109,0.05206434299998364
+grounding,swap,pres_24,0,presence,Does this image contain a bird?,22596.0,yes,no,no,0.0,0.0,1.0,0.0,2.826932430267334,0.043174147250056194
+grounding,swap,pres_24,1,presence,Does this image contain a bird?,176180.0,no,yes,yes,0.0,0.0,1.0,0.0,2.8857569694519043,0.043174147250056194
+grounding,swap,pres_25,0,presence,Does this image contain a parking meter?,270045.0,yes,no,no,0.0,0.0,1.0,0.0,4.018307685852051,0.043174147250056194
+grounding,swap,pres_25,1,presence,Does this image contain a parking meter?,528720.0,no,yes,yes,0.0,0.0,1.0,0.0,1.5024231672286987,0.043174147250056194
+grounding,swap,pres_26,0,presence,Does this image contain a skateboard?,385912.0,yes,no,no,0.0,0.0,1.0,0.0,6.329931735992432,0.043174147250056194
+grounding,swap,pres_26,1,presence,Does this image contain a skateboard?,223300.0,no,yes,yes,0.0,0.0,1.0,0.0,4.465062618255615,0.043174147250056194
+grounding,swap,pres_27,0,presence,Does this image contain a spoon?,107020.0,yes,no,yes,1.0,1.0,0.0,0.0,0.36331117153167725,0.043174147250056194
+grounding,swap,pres_27,1,presence,Does this image contain a spoon?,557679.0,no,yes,yes,0.0,0.0,1.0,0.0,3.545227527618408,0.043174147250056194
+grounding,swap,pres_28,0,presence,Does this image contain a boat?,226762.0,yes,no,no,0.0,0.0,1.0,0.0,3.9109342098236084,0.052319700874932096
+grounding,swap,pres_28,1,presence,Does this image contain a boat?,518030.0,no,yes,yes,0.0,0.0,1.0,0.0,4.727964401245117,0.052319700874932096
+grounding,swap,pres_29,0,presence,Does this image contain a horse?,484722.0,yes,no,no,0.0,0.0,1.0,0.0,6.329957008361816,0.052319700874932096
+grounding,swap,pres_29,1,presence,Does this image contain a horse?,521404.0,no,yes,yes,0.0,0.0,1.0,0.0,5.535415172576904,0.052319700874932096
+grounding,swap,pres_30,0,presence,Does this image contain a person?,480438.0,yes,no,no,0.0,0.0,1.0,0.0,4.634824752807617,0.052319700874932096
+grounding,swap,pres_30,1,presence,Does this image contain a person?,190291.0,no,yes,yes,0.0,0.0,1.0,0.0,6.033885478973389,0.052319700874932096
+grounding,swap,pres_31,0,presence,Does this image contain a kite?,395290.0,yes,no,no,0.0,0.0,1.0,0.0,2.1964430809020996,0.052319700874932096
+grounding,swap,pres_31,1,presence,Does this image contain a kite?,334469.0,no,yes,yes,0.0,0.0,1.0,0.0,2.945223808288574,0.052319700874932096
+grounding,swap,count_0,0,counting,How many dogs can you see?,543719.0,4,2,2,0.0,0.0,1.0,0.0,10.11036205291748,0.043286168250006085
+grounding,swap,count_0,1,counting,How many dogs can you see?,561062.0,2,4,4,0.0,0.0,1.0,0.0,7.409446716308594,0.043286168250006085
+grounding,swap,count_1,0,counting,How many books can you see?,257629.0,4,3,4,1.0,1.0,0.0,0.0,0.4380478262901306,0.043286168250006085
+grounding,swap,count_1,1,counting,How many books can you see?,288224.0,3,4,1,0.0,0.0,0.0,0.0,2.692955493927002,0.043286168250006085
+grounding,swap,count_2,0,counting,How many stop signs can you see?,348379.0,2,3,3,0.0,0.0,1.0,0.0,1.1751229763031006,0.043286168250006085
+grounding,swap,count_2,1,counting,How many stop signs can you see?,544611.0,3,2,2,0.0,0.0,1.0,0.0,1.9049370288848877,0.043286168250006085
+grounding,swap,count_3,0,counting,How many apples can you see?,80652.0,4,2,1,0.0,0.0,0.0,0.0,2.416011333465576,0.043286168250006085
+grounding,swap,count_3,1,counting,How many apples can you see?,368581.0,2,4,2,1.0,1.0,0.0,0.0,0.3150694966316223,0.043286168250006085
+grounding,swap,count_4,0,counting,How many hot dogs can you see?,547759.0,1,3,2,0.0,0.0,0.0,0.0,2.027271270751953,0.042855646999896635
+grounding,swap,count_4,1,counting,How many hot dogs can you see?,479836.0,3,1,1,0.0,0.0,1.0,0.0,3.483741521835327,0.042855646999896635
+grounding,swap,count_5,0,counting,How many forks can you see?,228261.0,1,3,2,0.0,0.0,0.0,0.0,1.2546837329864502,0.042855646999896635
+grounding,swap,count_5,1,counting,How many forks can you see?,247839.0,3,1,4,0.0,0.0,0.0,0.0,1.108765959739685,0.042855646999896635
+grounding,swap,count_6,0,counting,How many snowboards can you see?,557829.0,4,1,2,0.0,0.0,0.0,0.0,2.785576820373535,0.042855646999896635
+grounding,swap,count_6,1,counting,How many snowboards can you see?,580117.0,1,4,4,0.0,0.0,1.0,0.0,2.8306422233581543,0.042855646999896635
+grounding,swap,count_7,0,counting,How many motorcycles can you see?,219928.0,2,3,1,0.0,0.0,0.0,0.0,1.2361514568328857,0.042855646999896635
+grounding,swap,count_7,1,counting,How many motorcycles can you see?,546642.0,3,2,1,0.0,0.0,0.0,0.0,4.824112892150879,0.042855646999896635
+grounding,swap,count_8,0,counting,How many sinks can you see?,442128.0,2,3,1,0.0,0.0,0.0,0.0,0.93757563829422,0.04289278950000153
+grounding,swap,count_8,1,counting,How many sinks can you see?,539251.0,3,2,2,0.0,0.0,1.0,0.0,2.8727681636810303,0.04289278950000153
+grounding,swap,count_9,0,counting,How many clocks can you see?,461838.0,2,1,1,0.0,0.0,1.0,0.0,1.1849581003189087,0.04289278950000153
+grounding,swap,count_9,1,counting,How many clocks can you see?,377195.0,1,2,1,1.0,1.0,0.0,0.0,0.9122040867805481,0.04289278950000153
+grounding,swap,count_10,0,counting,How many zebras can you see?,167479.0,4,1,3,0.0,0.0,0.0,0.0,2.6354479789733887,0.04289278950000153
+grounding,swap,count_10,1,counting,How many zebras can you see?,182240.0,1,4,3,0.0,0.0,0.0,0.0,5.727505683898926,0.04289278950000153
+grounding,swap,count_11,0,counting,How many cows can you see?,343504.0,4,1,1,0.0,0.0,1.0,0.0,6.799684047698975,0.04289278950000153
+grounding,swap,count_11,1,counting,How many cows can you see?,114246.0,1,4,3,0.0,0.0,0.0,0.0,8.983560562133789,0.04289278950000153
+grounding,swap,count_12,0,counting,How many sheep can you see?,202387.0,3,2,1,0.0,0.0,0.0,0.0,2.4018054008483887,0.04319308324988924
+grounding,swap,count_12,1,counting,How many sheep can you see?,237256.0,2,3,4,0.0,0.0,0.0,0.0,2.4529528617858887,0.04319308324988924
+grounding,swap,count_13,0,counting,How many scissors can you see?,568846.0,1,3,3,0.0,0.0,1.0,0.0,2.851651191711426,0.04319308324988924
+grounding,swap,count_13,1,counting,How many scissors can you see?,173235.0,3,1,4,0.0,0.0,0.0,0.0,1.8969717025756836,0.04319308324988924
+grounding,swap,count_14,0,counting,How many toasters can you see?,215691.0,2,1,1,0.0,0.0,1.0,0.0,1.4578547477722168,0.04319308324988924
+grounding,swap,count_14,1,counting,How many toasters can you see?,184994.0,1,2,2,0.0,0.0,1.0,0.0,1.3181744813919067,0.04319308324988924
+grounding,swap,count_15,0,counting,How many boats can you see?,555346.0,4,3,3,0.0,0.0,1.0,0.0,1.773864507675171,0.04319308324988924
+grounding,swap,count_15,1,counting,How many boats can you see?,274470.0,3,4,4,0.0,0.0,1.0,0.0,3.4466609954833984,0.04319308324988924
+grounding,swap,count_16,0,counting,How many airplanes can you see?,353981.0,3,2,3,1.0,1.0,0.0,0.0,0.6576249003410339,0.04311528475000159
+grounding,swap,count_16,1,counting,How many airplanes can you see?,64510.0,2,3,4,0.0,0.0,0.0,0.0,4.072569847106934,0.04311528475000159
+grounding,swap,count_17,0,counting,How many knives can you see?,160192.0,1,3,2,0.0,0.0,0.0,0.0,1.3364545106887817,0.04311528475000159
+grounding,swap,count_17,1,counting,How many knives can you see?,31041.0,3,1,2,0.0,0.0,0.0,0.0,1.164682149887085,0.04311528475000159
+grounding,swap,count_18,0,counting,How many cell phones can you see?,420960.0,3,2,3,1.0,1.0,0.0,0.0,0.7767853736877441,0.04311528475000159
+grounding,swap,count_18,1,counting,How many cell phones can you see?,376450.0,2,3,3,0.0,0.0,1.0,0.0,1.644466519355774,0.04311528475000159
+grounding,swap,count_19,0,counting,How many baseball gloves can you see?,236272.0,4,1,2,0.0,0.0,0.0,0.0,2.8404932022094727,0.04311528475000159
+grounding,swap,count_19,1,counting,How many baseball gloves can you see?,73093.0,1,4,2,0.0,0.0,0.0,0.0,2.1329407691955566,0.04311528475000159
+grounding,swap,count_20,0,counting,How many teddy bears can you see?,13232.0,3,2,2,0.0,0.0,1.0,0.0,6.6917033195495605,0.04320637762498336
+grounding,swap,count_20,1,counting,How many teddy bears can you see?,128506.0,2,3,3,0.0,0.0,1.0,0.0,4.950423240661621,0.04320637762498336
+grounding,swap,count_21,0,counting,How many bowls can you see?,580555.0,2,3,2,1.0,1.0,0.0,0.0,0.6628612875938416,0.04320637762498336
+grounding,swap,count_21,1,counting,How many bowls can you see?,131725.0,3,2,2,0.0,0.0,1.0,0.0,2.372887372970581,0.04320637762498336
+grounding,swap,count_22,0,counting,How many horses can you see?,62790.0,1,4,1,1.0,1.0,0.0,0.0,0.7665470838546753,0.04320637762498336
+grounding,swap,count_22,1,counting,How many horses can you see?,131612.0,4,1,1,0.0,0.0,1.0,0.0,5.631550312042236,0.04320637762498336
+grounding,swap,count_23,0,counting,How many pizzas can you see?,182366.0,1,4,3,0.0,0.0,0.0,0.0,6.166162967681885,0.04320637762498336
+grounding,swap,count_23,1,counting,How many pizzas can you see?,33652.0,4,1,1,0.0,0.0,1.0,0.0,3.2157845497131348,0.04320637762498336
+grounding,swap,count_24,0,counting,How many fire hydrants can you see?,306893.0,3,2,2,0.0,0.0,1.0,0.0,1.1220686435699463,0.04394150462485413
+grounding,swap,count_24,1,counting,How many fire hydrants can you see?,379070.0,2,3,2,1.0,1.0,0.0,0.0,0.7310924530029297,0.04394150462485413
+grounding,swap,count_25,0,counting,How many bowls can you see?,310572.0,3,1,2,0.0,0.0,0.0,0.0,2.882312059402466,0.04394150462485413
+grounding,swap,count_25,1,counting,How many bowls can you see?,325505.0,1,3,2,0.0,0.0,0.0,0.0,0.8996496796607971,0.04394150462485413
+grounding,swap,count_26,0,counting,How many toothbrushes can you see?,110026.0,2,4,4,0.0,0.0,1.0,0.0,2.681215286254883,0.04394150462485413
+grounding,swap,count_26,1,counting,How many toothbrushes can you see?,315486.0,4,2,2,0.0,0.0,1.0,0.0,4.889309406280518,0.04394150462485413
+grounding,swap,count_27,0,counting,How many toilets can you see?,270758.0,2,4,4,0.0,0.0,1.0,0.0,7.214258193969727,0.04394150462485413
+grounding,swap,count_27,1,counting,How many toilets can you see?,508730.0,4,2,2,0.0,0.0,1.0,0.0,4.1311540603637695,0.04394150462485413
+grounding,swap,count_28,0,counting,How many zebras can you see?,569674.0,1,2,3,0.0,0.0,0.0,0.0,8.849790573120117,0.04363349774985181
+grounding,swap,count_28,1,counting,How many zebras can you see?,371245.0,2,1,1,0.0,0.0,1.0,0.0,4.130250453948975,0.04363349774985181
+grounding,swap,count_29,0,counting,How many frisbees can you see?,82709.0,4,2,2,0.0,0.0,1.0,0.0,2.346714496612549,0.04363349774985181
+grounding,swap,count_29,1,counting,How many frisbees can you see?,437239.0,2,4,1,0.0,0.0,0.0,0.0,1.1856393814086914,0.04363349774985181
+grounding,swap,count_30,0,counting,How many snowboards can you see?,18728.0,2,1,1,0.0,0.0,1.0,0.0,2.1908347606658936,0.04363349774985181
+grounding,swap,count_30,1,counting,How many snowboards can you see?,32331.0,1,2,2,0.0,0.0,1.0,0.0,1.4696812629699707,0.04363349774985181
+grounding,swap,count_31,0,counting,How many broccolis can you see?,251892.0,2,3,2,1.0,1.0,0.0,0.0,0.926171064376831,0.04363349774985181
+grounding,swap,count_31,1,counting,How many broccolis can you see?,244401.0,3,2,2,0.0,0.0,1.0,0.0,1.2402764558792114,0.04363349774985181
+grounding,mismatched,pres_0,0,presence,Does this image contain a carrot?,223300.0,yes,no,no,0.0,0.0,1.0,0.0,4.218117713928223,0.04502298887496181
+grounding,mismatched,pres_0,1,presence,Does this image contain a carrot?,385912.0,no,yes,no,1.0,1.0,0.0,0.0,0.004597925115376711,0.04502298887496181
+grounding,mismatched,pres_1,0,presence,Does this image contain a hot dog?,131612.0,yes,no,no,0.0,0.0,1.0,0.0,6.485941410064697,0.04502298887496181
+grounding,mismatched,pres_1,1,presence,Does this image contain a hot dog?,62790.0,no,yes,no,1.0,1.0,0.0,0.0,0.016135934740304947,0.04502298887496181
+grounding,mismatched,pres_2,0,presence,Does this image contain a scissors?,73093.0,yes,no,no,0.0,0.0,1.0,0.0,2.154681921005249,0.04502298887496181
+grounding,mismatched,pres_2,1,presence,Does this image contain a scissors?,236272.0,no,yes,no,1.0,1.0,0.0,0.0,0.03530570864677429,0.04502298887496181
+grounding,mismatched,pres_3,0,presence,Does this image contain a banana?,296731.0,yes,no,no,0.0,0.0,1.0,0.0,3.636200428009033,0.04502298887496181
+grounding,mismatched,pres_3,1,presence,Does this image contain a banana?,122987.0,no,yes,no,1.0,1.0,0.0,0.0,0.03824864700436592,0.04502298887496181
+grounding,mismatched,pres_4,0,presence,Does this image contain a potted plant?,176180.0,yes,no,no,0.0,0.0,1.0,0.0,3.773355007171631,0.045857583374981914
+grounding,mismatched,pres_4,1,presence,Does this image contain a potted plant?,22596.0,no,yes,no,1.0,1.0,0.0,0.0,0.21960210800170898,0.045857583374981914
+grounding,mismatched,pres_5,0,presence,Does this image contain a couch?,182240.0,yes,no,no,0.0,0.0,1.0,0.0,6.361166954040527,0.045857583374981914
+grounding,mismatched,pres_5,1,presence,Does this image contain a couch?,167479.0,no,yes,no,1.0,1.0,0.0,0.0,0.0016066036187112331,0.045857583374981914
+grounding,mismatched,pres_6,0,presence,Does this image contain a skis?,31041.0,yes,no,no,0.0,0.0,1.0,0.0,5.7532243728637695,0.045857583374981914
+grounding,mismatched,pres_6,1,presence,Does this image contain a skis?,160192.0,no,yes,no,1.0,1.0,0.0,0.0,0.0008163695456460118,0.045857583374981914
+grounding,mismatched,pres_7,0,presence,Does this image contain a bench?,557679.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5047235488891602,0.045857583374981914
+grounding,mismatched,pres_7,1,presence,Does this image contain a bench?,107020.0,no,yes,no,1.0,1.0,0.0,0.0,0.17012453079223633,0.045857583374981914
+grounding,mismatched,pres_8,0,presence,Does this image contain a teddy bear?,479836.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5971629619598389,0.042160874749924915
+grounding,mismatched,pres_8,1,presence,Does this image contain a teddy bear?,547759.0,no,yes,no,1.0,1.0,0.0,0.0,0.0071860421448946,0.042160874749924915
+grounding,mismatched,pres_9,0,presence,Does this image contain a cat?,376450.0,yes,no,no,0.0,0.0,1.0,0.0,4.233439922332764,0.042160874749924915
+grounding,mismatched,pres_9,1,presence,Does this image contain a cat?,420960.0,no,yes,no,1.0,1.0,0.0,0.0,0.027628615498542786,0.042160874749924915
+grounding,mismatched,pres_10,0,presence,Does this image contain a tie?,539251.0,yes,no,no,0.0,0.0,1.0,0.0,2.622600555419922,0.042160874749924915
+grounding,mismatched,pres_10,1,presence,Does this image contain a tie?,442128.0,no,yes,no,1.0,1.0,0.0,0.0,0.12206137925386429,0.042160874749924915
+grounding,mismatched,pres_11,0,presence,Does this image contain a cell phone?,237256.0,yes,no,no,0.0,0.0,1.0,0.0,3.439072608947754,0.042160874749924915
+grounding,mismatched,pres_11,1,presence,Does this image contain a cell phone?,202387.0,no,yes,no,1.0,1.0,0.0,0.0,0.04739246517419815,0.042160874749924915
+grounding,mismatched,pres_12,0,presence,Does this image contain a pizza?,184994.0,yes,no,yes,1.0,1.0,0.0,0.0,0.45256859064102173,0.05535020649995204
+grounding,mismatched,pres_12,1,presence,Does this image contain a pizza?,215691.0,no,yes,no,1.0,1.0,0.0,0.0,0.05851466581225395,0.05535020649995204
+grounding,mismatched,pres_13,0,presence,Does this image contain a refrigerator?,544611.0,yes,no,no,0.0,0.0,1.0,0.0,3.198122262954712,0.05535020649995204
+grounding,mismatched,pres_13,1,presence,Does this image contain a refrigerator?,348379.0,no,yes,no,1.0,1.0,0.0,0.0,0.026021035388112068,0.05535020649995204
+grounding,mismatched,pres_14,0,presence,Does this image contain a vase?,379070.0,yes,no,no,0.0,0.0,1.0,0.0,2.6515097618103027,0.05535020649995204
+grounding,mismatched,pres_14,1,presence,Does this image contain a vase?,306893.0,no,yes,no,1.0,1.0,0.0,0.0,0.1349284052848816,0.05535020649995204
+grounding,mismatched,pres_15,0,presence,Does this image contain a horse?,288224.0,yes,no,no,0.0,0.0,1.0,0.0,7.125826835632324,0.05535020649995204
+grounding,mismatched,pres_15,1,presence,Does this image contain a horse?,257629.0,no,yes,no,1.0,1.0,0.0,0.0,0.006356497760862112,0.05535020649995204
+grounding,mismatched,pres_16,0,presence,Does this image contain a snowboard?,128506.0,yes,no,no,0.0,0.0,1.0,0.0,6.236369609832764,0.04588436487506442
+grounding,mismatched,pres_16,1,presence,Does this image contain a snowboard?,13232.0,no,yes,no,1.0,1.0,0.0,0.0,0.003935688175261021,0.04588436487506442
+grounding,mismatched,pres_17,0,presence,Does this image contain a dining table?,542959.0,yes,no,no,0.0,0.0,1.0,0.0,2.3645992279052734,0.04588436487506442
+grounding,mismatched,pres_17,1,presence,Does this image contain a dining table?,42499.0,no,yes,no,1.0,1.0,0.0,0.0,0.00875125452876091,0.04588436487506442
+grounding,mismatched,pres_18,0,presence,Does this image contain a clock?,244060.0,yes,no,no,0.0,0.0,1.0,0.0,3.59077787399292,0.04588436487506442
+grounding,mismatched,pres_18,1,presence,Does this image contain a clock?,371652.0,no,yes,no,1.0,1.0,0.0,0.0,0.17504937946796417,0.04588436487506442
+grounding,mismatched,pres_19,0,presence,Does this image contain an oven?,394957.0,yes,no,no,0.0,0.0,1.0,0.0,6.018116474151611,0.04588436487506442
+grounding,mismatched,pres_19,1,presence,Does this image contain an oven?,336602.0,no,yes,no,1.0,1.0,0.0,0.0,0.0008885487914085388,0.04588436487506442
+grounding,mismatched,pres_20,0,presence,Does this image contain a suitcase?,13985.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5832241773605347,0.05558431049985302
+grounding,mismatched,pres_20,1,presence,Does this image contain a suitcase?,238573.0,no,yes,no,1.0,1.0,0.0,0.0,0.015869978815317154,0.05558431049985302
+grounding,mismatched,pres_21,0,presence,Does this image contain a bowl?,561062.0,yes,no,no,0.0,0.0,1.0,0.0,1.4541246891021729,0.05558431049985302
+grounding,mismatched,pres_21,1,presence,Does this image contain a bowl?,543719.0,no,yes,no,1.0,1.0,0.0,0.0,0.2523688077926636,0.05558431049985302
+grounding,mismatched,pres_22,0,presence,Does this image contain a horse?,155861.0,yes,no,no,0.0,0.0,1.0,0.0,5.597496509552002,0.05558431049985302
+grounding,mismatched,pres_22,1,presence,Does this image contain a horse?,67953.0,no,yes,no,1.0,1.0,0.0,0.0,0.016118809580802917,0.05558431049985302
+grounding,mismatched,pres_23,0,presence,Does this image contain a skateboard?,247839.0,yes,no,no,0.0,0.0,1.0,0.0,6.080434799194336,0.05558431049985302
+grounding,mismatched,pres_23,1,presence,Does this image contain a skateboard?,228261.0,no,yes,no,1.0,1.0,0.0,0.0,0.0035203646402806044,0.05558431049985302
+grounding,mismatched,pres_24,0,presence,Does this image contain a bird?,518030.0,yes,no,no,0.0,0.0,1.0,0.0,3.3032257556915283,0.04638923987522503
+grounding,mismatched,pres_24,1,presence,Does this image contain a bird?,226762.0,no,yes,no,1.0,1.0,0.0,0.0,0.013171685859560966,0.04638923987522503
+grounding,mismatched,pres_25,0,presence,Does this image contain a parking meter?,131725.0,yes,no,no,0.0,0.0,1.0,0.0,4.7122063636779785,0.04638923987522503
+grounding,mismatched,pres_25,1,presence,Does this image contain a parking meter?,580555.0,no,yes,no,1.0,1.0,0.0,0.0,0.006165887229144573,0.04638923987522503
+grounding,mismatched,pres_26,0,presence,Does this image contain a skateboard?,377195.0,yes,no,no,0.0,0.0,1.0,0.0,5.6130475997924805,0.04638923987522503
+grounding,mismatched,pres_26,1,presence,Does this image contain a skateboard?,461838.0,no,yes,no,1.0,1.0,0.0,0.0,0.004794766660779715,0.04638923987522503
+grounding,mismatched,pres_27,0,presence,Does this image contain a spoon?,430265.0,yes,no,no,0.0,0.0,1.0,0.0,3.621046781539917,0.04638923987522503
+grounding,mismatched,pres_27,1,presence,Does this image contain a spoon?,61943.0,no,yes,no,1.0,1.0,0.0,0.0,0.01496799010783434,0.04638923987522503
+grounding,mismatched,pres_28,0,presence,Does this image contain a boat?,528720.0,yes,no,no,0.0,0.0,1.0,0.0,3.9722139835357666,0.05642953550000129
+grounding,mismatched,pres_28,1,presence,Does this image contain a boat?,270045.0,no,yes,no,1.0,1.0,0.0,0.0,0.2668319344520569,0.05642953550000129
+grounding,mismatched,pres_29,0,presence,Does this image contain a horse?,126141.0,yes,no,no,0.0,0.0,1.0,0.0,4.433914661407471,0.05642953550000129
+grounding,mismatched,pres_29,1,presence,Does this image contain a horse?,13965.0,no,yes,no,1.0,1.0,0.0,0.0,0.00732604693621397,0.05642953550000129
+grounding,mismatched,pres_30,0,presence,Does this image contain a person?,425905.0,yes,no,no,0.0,0.0,1.0,0.0,5.006755828857422,0.05642953550000129
+grounding,mismatched,pres_30,1,presence,Does this image contain a person?,70739.0,no,yes,yes,0.0,0.0,1.0,0.0,5.924975872039795,0.05642953550000129
+grounding,mismatched,pres_31,0,presence,Does this image contain a kite?,191078.0,yes,no,no,0.0,0.0,1.0,0.0,3.3183021545410156,0.05642953550000129
+grounding,mismatched,pres_31,1,presence,Does this image contain a kite?,409239.0,no,yes,no,1.0,1.0,0.0,0.0,0.009730054996907711,0.05642953550000129
+grounding,mismatched,count_0,0,counting,How many dogs can you see?,521404.0,4,2,1,0.0,0.0,0.0,0.0,3.9425387382507324,0.04618726324997624
+grounding,mismatched,count_0,1,counting,How many dogs can you see?,484722.0,2,4,0,0.0,0.0,0.0,0.0,3.3859810829162598,0.04618726324997624
+grounding,mismatched,count_1,0,counting,How many books can you see?,580117.0,4,3,1,0.0,0.0,0.0,0.0,2.7100789546966553,0.04618726324997624
+grounding,mismatched,count_1,1,counting,How many books can you see?,557829.0,3,4,3,1.0,1.0,0.0,0.0,1.0973212718963623,0.04618726324997624
+grounding,mismatched,count_2,0,counting,How many stop signs can you see?,190291.0,2,3,1,0.0,0.0,0.0,0.0,1.2166306972503662,0.04618726324997624
+grounding,mismatched,count_2,1,counting,How many stop signs can you see?,480438.0,3,2,1,0.0,0.0,0.0,0.0,4.291163444519043,0.04618726324997624
+grounding,mismatched,count_3,0,counting,How many apples can you see?,407868.0,4,2,1,0.0,0.0,0.0,0.0,3.449641704559326,0.04618726324997624
+grounding,mismatched,count_3,1,counting,How many apples can you see?,205108.0,2,4,3,0.0,0.0,0.0,0.0,1.2186845541000366,0.04618726324997624
+grounding,mismatched,count_4,0,counting,How many hot dogs can you see?,242911.0,1,3,1,1.0,1.0,0.0,0.0,0.4341980218887329,0.04615324575001978
+grounding,mismatched,count_4,1,counting,How many hot dogs can you see?,227478.0,3,1,0,0.0,0.0,0.0,0.0,2.987666130065918,0.04615324575001978
+grounding,mismatched,count_5,0,counting,How many forks can you see?,371245.0,1,3,1,1.0,1.0,0.0,0.0,0.5820114016532898,0.04615324575001978
+grounding,mismatched,count_5,1,counting,How many forks can you see?,569674.0,3,1,1,0.0,0.0,1.0,0.0,2.8537280559539795,0.04615324575001978
+grounding,mismatched,count_6,0,counting,How many snowboards can you see?,14773.0,4,1,2,0.0,0.0,0.0,0.0,2.3491251468658447,0.04615324575001978
+grounding,mismatched,count_6,1,counting,How many snowboards can you see?,154254.0,1,4,1,1.0,1.0,0.0,0.0,0.7021809220314026,0.04615324575001978
+grounding,mismatched,count_7,0,counting,How many motorcycles can you see?,104392.0,2,3,1,0.0,0.0,0.0,0.0,2.0456433296203613,0.04615324575001978
+grounding,mismatched,count_7,1,counting,How many motorcycles can you see?,555686.0,3,2,1,0.0,0.0,0.0,0.0,4.956490516662598,0.04615324575001978
+grounding,mismatched,count_8,0,counting,How many sinks can you see?,428291.0,2,3,1,0.0,0.0,0.0,0.0,1.2570234537124634,0.04550871350011221
+grounding,mismatched,count_8,1,counting,How many sinks can you see?,192591.0,3,2,2,0.0,0.0,1.0,0.0,1.057790756225586,0.04550871350011221
+grounding,mismatched,count_9,0,counting,How many clocks can you see?,508730.0,2,1,2,1.0,1.0,0.0,0.0,0.3566698729991913,0.04550871350011221
+grounding,mismatched,count_9,1,counting,How many clocks can you see?,270758.0,1,2,4,0.0,0.0,0.0,0.0,2.969111680984497,0.04550871350011221
+grounding,mismatched,count_10,0,counting,How many zebras can you see?,274470.0,4,1,1,0.0,0.0,1.0,0.0,2.6441917419433594,0.04550871350011221
+grounding,mismatched,count_10,1,counting,How many zebras can you see?,555346.0,1,4,0,0.0,0.0,0.0,0.0,1.0922164916992188,0.04550871350011221
+grounding,mismatched,count_11,0,counting,How many cows can you see?,285751.0,4,1,0,0.0,0.0,0.0,0.0,5.174716949462891,0.04550871350011221
+grounding,mismatched,count_11,1,counting,How many cows can you see?,487076.0,1,4,1,1.0,1.0,0.0,0.0,0.5927048325538635,0.04550871350011221
+grounding,mismatched,count_12,0,counting,How many sheep can you see?,437239.0,3,2,1,0.0,0.0,0.0,0.0,3.333000898361206,0.046623582374877515
+grounding,mismatched,count_12,1,counting,How many sheep can you see?,82709.0,2,3,1,0.0,0.0,0.0,0.0,1.321334958076477,0.046623582374877515
+grounding,mismatched,count_13,0,counting,How many scissors can you see?,33652.0,1,3,1,1.0,1.0,0.0,0.0,0.6950268745422363,0.046623582374877515
+grounding,mismatched,count_13,1,counting,How many scissors can you see?,182366.0,3,1,1,0.0,0.0,1.0,0.0,1.896557092666626,0.046623582374877515
+grounding,mismatched,count_14,0,counting,How many toasters can you see?,518899.0,2,1,2,1.0,1.0,0.0,0.0,1.0257209539413452,0.046623582374877515
+grounding,mismatched,count_14,1,counting,How many toasters can you see?,476120.0,1,2,1,1.0,1.0,0.0,0.0,0.14774703979492188,0.046623582374877515
+grounding,mismatched,count_15,0,counting,How many boats can you see?,296523.0,4,3,2,0.0,0.0,0.0,0.0,4.416867256164551,0.046623582374877515
+grounding,mismatched,count_15,1,counting,How many boats can you see?,216428.0,3,4,1,0.0,0.0,0.0,0.0,3.6114346981048584,0.046623582374877515
+grounding,mismatched,count_16,0,counting,How many airplanes can you see?,325505.0,3,2,0,0.0,0.0,0.0,0.0,3.845400810241699,0.04592596712495833
+grounding,mismatched,count_16,1,counting,How many airplanes can you see?,310572.0,2,3,1,0.0,0.0,0.0,0.0,1.3884687423706055,0.04592596712495833
+grounding,mismatched,count_17,0,counting,How many knives can you see?,173235.0,1,3,2,0.0,0.0,0.0,0.0,2.074737787246704,0.04592596712495833
+grounding,mismatched,count_17,1,counting,How many knives can you see?,568846.0,3,1,3,1.0,1.0,0.0,0.0,0.9381756782531738,0.04592596712495833
+grounding,mismatched,count_18,0,counting,How many cell phones can you see?,383386.0,3,2,0,0.0,0.0,0.0,0.0,2.585386276245117,0.04592596712495833
+grounding,mismatched,count_18,1,counting,How many cell phones can you see?,138054.0,2,3,3,0.0,0.0,1.0,0.0,1.3824727535247803,0.04592596712495833
+grounding,mismatched,count_19,0,counting,How many baseball gloves can you see?,64510.0,4,1,2,0.0,0.0,0.0,0.0,1.41371750831604,0.04592596712495833
+grounding,mismatched,count_19,1,counting,How many baseball gloves can you see?,353981.0,1,4,2,0.0,0.0,0.0,0.0,1.478652834892273,0.04592596712495833
+grounding,mismatched,count_20,0,counting,How many teddy bears can you see?,244401.0,3,2,0,0.0,0.0,0.0,0.0,4.733786582946777,0.04702648925012909
+grounding,mismatched,count_20,1,counting,How many teddy bears can you see?,251892.0,2,3,1,0.0,0.0,0.0,0.0,1.5749411582946777,0.04702648925012909
+grounding,mismatched,count_21,0,counting,How many bowls can you see?,114246.0,2,3,3,0.0,0.0,1.0,0.0,1.2643003463745117,0.04702648925012909
+grounding,mismatched,count_21,1,counting,How many bowls can you see?,343504.0,3,2,1,0.0,0.0,0.0,0.0,1.8204138278961182,0.04702648925012909
+grounding,mismatched,count_22,0,counting,How many horses can you see?,546642.0,1,4,1,1.0,1.0,0.0,0.0,0.33629322052001953,0.04702648925012909
+grounding,mismatched,count_22,1,counting,How many horses can you see?,219928.0,4,1,1,0.0,0.0,1.0,0.0,3.701167583465576,0.04702648925012909
+grounding,mismatched,count_23,0,counting,How many pizzas can you see?,489207.0,1,4,1,1.0,1.0,0.0,0.0,0.27612942457199097,0.04702648925012909
+grounding,mismatched,count_23,1,counting,How many pizzas can you see?,474.0,4,1,1,0.0,0.0,1.0,0.0,4.558577537536621,0.04702648925012909
+grounding,mismatched,count_24,0,counting,How many fire hydrants can you see?,39150.0,3,2,1,0.0,0.0,0.0,0.0,2.710691452026367,0.046786343750000015
+grounding,mismatched,count_24,1,counting,How many fire hydrants can you see?,14257.0,2,3,2,1.0,1.0,0.0,0.0,0.9676461815834045,0.046786343750000015
+grounding,mismatched,count_25,0,counting,How many bowls can you see?,200563.0,3,1,2,0.0,0.0,0.0,0.0,1.7589435577392578,0.046786343750000015
+grounding,mismatched,count_25,1,counting,How many bowls can you see?,152732.0,1,3,2,0.0,0.0,0.0,0.0,1.1294145584106445,0.046786343750000015
+grounding,mismatched,count_26,0,counting,How many toothbrushes can you see?,32331.0,2,4,1,0.0,0.0,0.0,0.0,1.3258936405181885,0.046786343750000015
+grounding,mismatched,count_26,1,counting,How many toothbrushes can you see?,18728.0,4,2,1,0.0,0.0,0.0,0.0,3.2051849365234375,0.046786343750000015
+grounding,mismatched,count_27,0,counting,How many toilets can you see?,368581.0,2,4,1,0.0,0.0,0.0,0.0,1.0546562671661377,0.046786343750000015
+grounding,mismatched,count_27,1,counting,How many toilets can you see?,80652.0,4,2,0,0.0,0.0,0.0,0.0,3.685255527496338,0.046786343750000015
+grounding,mismatched,count_28,0,counting,How many zebras can you see?,12764.0,1,2,0,0.0,0.0,0.0,0.0,3.2240099906921387,0.047334585625094405
+grounding,mismatched,count_28,1,counting,How many zebras can you see?,85481.0,2,1,0,0.0,0.0,0.0,0.0,3.956768274307251,0.047334585625094405
+grounding,mismatched,count_29,0,counting,How many frisbees can you see?,543409.0,4,2,1,0.0,0.0,0.0,0.0,3.185034990310669,0.047334585625094405
+grounding,mismatched,count_29,1,counting,How many frisbees can you see?,36478.0,2,4,1,0.0,0.0,0.0,0.0,1.7139678001403809,0.047334585625094405
+grounding,mismatched,count_30,0,counting,How many snowboards can you see?,315486.0,2,1,0,0.0,0.0,0.0,0.0,3.0939667224884033,0.047334585625094405
+grounding,mismatched,count_30,1,counting,How many snowboards can you see?,110026.0,1,2,4,0.0,0.0,0.0,0.0,1.4850249290466309,0.047334585625094405
+grounding,mismatched,count_31,0,counting,How many broccolis can you see?,334469.0,2,3,1,0.0,0.0,0.0,0.0,1.3337970972061157,0.047334585625094405
+grounding,mismatched,count_31,1,counting,How many broccolis can you see?,395290.0,3,2,1,0.0,0.0,0.0,0.0,2.7594170570373535,0.047334585625094405
+grounding,none,pres_0,0,presence,Does this image contain a carrot?,,yes,no,no,0.0,0.0,1.0,0.0,0.8039068579673767,0.017762974249990293
+grounding,none,pres_0,1,presence,Does this image contain a carrot?,,no,yes,no,1.0,1.0,0.0,0.0,0.6007818579673767,0.017762974249990293
+grounding,none,pres_1,0,presence,Does this image contain a hot dog?,,yes,no,no,0.0,0.0,1.0,0.0,2.0465219020843506,0.017762974249990293
+grounding,none,pres_1,1,presence,Does this image contain a hot dog?,,no,yes,no,1.0,1.0,0.0,0.0,0.14027200639247894,0.017762974249990293
+grounding,none,pres_2,0,presence,Does this image contain a scissors?,,yes,no,no,0.0,0.0,1.0,0.0,1.4829652309417725,0.017762974249990293
+grounding,none,pres_2,1,presence,Does this image contain a scissors?,,no,yes,no,1.0,1.0,0.0,0.0,0.2642152011394501,0.017762974249990293
+grounding,none,pres_3,0,presence,Does this image contain a banana?,,yes,no,no,0.0,0.0,1.0,0.0,1.2808067798614502,0.017762974249990293
+grounding,none,pres_3,1,presence,Does this image contain a banana?,,no,yes,no,1.0,1.0,0.0,0.0,0.3276817798614502,0.017762974249990293
+grounding,none,pres_4,0,presence,Does this image contain a potted plant?,,yes,no,yes,1.0,1.0,0.0,0.0,0.2655288875102997,0.017465688999891427
+grounding,none,pres_4,1,presence,Does this image contain a potted plant?,,no,yes,yes,0.0,0.0,1.0,0.0,1.484278917312622,0.017465688999891427
+grounding,none,pres_5,0,presence,Does this image contain a couch?,,yes,no,no,0.0,0.0,1.0,0.0,1.2580790519714355,0.017465688999891427
+grounding,none,pres_5,1,presence,Does this image contain a couch?,,no,yes,no,1.0,1.0,0.0,0.0,0.33620405197143555,0.017465688999891427
+grounding,none,pres_6,0,presence,Does this image contain a skis?,,yes,no,no,0.0,0.0,1.0,0.0,1.911630630493164,0.017465688999891427
+grounding,none,pres_6,1,presence,Does this image contain a skis?,,no,yes,no,1.0,1.0,0.0,0.0,0.16163064539432526,0.017465688999891427
+grounding,none,pres_7,0,presence,Does this image contain a bench?,,yes,no,yes,1.0,1.0,0.0,0.0,0.6967553496360779,0.017465688999891427
+grounding,none,pres_7,1,presence,Does this image contain a bench?,,no,yes,yes,0.0,0.0,1.0,0.0,0.6967553496360779,0.017465688999891427
+grounding,none,pres_8,0,presence,Does this image contain a teddy bear?,,yes,no,no,0.0,0.0,1.0,0.0,1.0774824619293213,0.018132855625026423
+grounding,none,pres_8,1,presence,Does this image contain a teddy bear?,,no,yes,no,1.0,1.0,0.0,0.0,0.4212324917316437,0.018132855625026423
+grounding,none,pres_9,0,presence,Does this image contain a cat?,,yes,no,no,0.0,0.0,1.0,0.0,0.7230409979820251,0.018132855625026423
+grounding,none,pres_9,1,presence,Does this image contain a cat?,,no,yes,no,1.0,1.0,0.0,0.0,0.6761659979820251,0.018132855625026423
+grounding,none,pres_10,0,presence,Does this image contain a tie?,,yes,no,no,0.0,0.0,1.0,0.0,2.6533420085906982,0.018132855625026423
+grounding,none,pres_10,1,presence,Does this image contain a tie?,,no,yes,no,1.0,1.0,0.0,0.0,0.09084202349185944,0.018132855625026423
+grounding,none,pres_11,0,presence,Does this image contain a cell phone?,,yes,no,no,0.0,0.0,1.0,0.0,2.381671190261841,0.018132855625026423
+grounding,none,pres_11,1,presence,Does this image contain a cell phone?,,no,yes,no,1.0,1.0,0.0,0.0,0.10042116791009903,0.018132855625026423
+grounding,none,pres_12,0,presence,Does this image contain a pizza?,,yes,no,no,0.0,0.0,1.0,0.0,0.9400261044502258,0.017102500499959206
+grounding,none,pres_12,1,presence,Does this image contain a pizza?,,no,yes,no,1.0,1.0,0.0,0.0,0.5025261044502258,0.017102500499959206
+grounding,none,pres_13,0,presence,Does this image contain a refrigerator?,,yes,no,yes,1.0,1.0,0.0,0.0,0.5349686145782471,0.017102500499959206
+grounding,none,pres_13,1,presence,Does this image contain a refrigerator?,,no,yes,yes,0.0,0.0,1.0,0.0,0.8943436145782471,0.017102500499959206
+grounding,none,pres_14,0,presence,Does this image contain a vase?,,yes,no,yes,1.0,1.0,0.0,0.0,0.25165843963623047,0.017102500499959206
+grounding,none,pres_14,1,presence,Does this image contain a vase?,,no,yes,yes,0.0,0.0,1.0,0.0,1.5641584396362305,0.017102500499959206
+grounding,none,pres_15,0,presence,Does this image contain a horse?,,yes,no,no,0.0,0.0,1.0,0.0,1.4841171503067017,0.017102500499959206
+grounding,none,pres_15,1,presence,Does this image contain a horse?,,no,yes,no,1.0,1.0,0.0,0.0,0.26536718010902405,0.017102500499959206
+grounding,none,pres_16,0,presence,Does this image contain a snowboard?,,yes,no,no,0.0,0.0,1.0,0.0,1.0063366889953613,0.01699348462511807
+grounding,none,pres_16,1,presence,Does this image contain a snowboard?,,no,yes,no,1.0,1.0,0.0,0.0,0.45946165919303894,0.01699348462511807
+grounding,none,pres_17,0,presence,Does this image contain a dining table?,,yes,no,no,0.0,0.0,1.0,0.0,0.8789029121398926,0.01699348462511807
+grounding,none,pres_17,1,presence,Does this image contain a dining table?,,no,yes,no,1.0,1.0,0.0,0.0,0.5507779121398926,0.01699348462511807
+grounding,none,pres_18,0,presence,Does this image contain a clock?,,yes,no,yes,1.0,1.0,0.0,0.0,0.6212207078933716,0.01699348462511807
+grounding,none,pres_18,1,presence,Does this image contain a clock?,,no,yes,yes,0.0,0.0,1.0,0.0,0.7930957078933716,0.01699348462511807
+grounding,none,pres_19,0,presence,Does this image contain an oven?,,yes,no,yes,1.0,1.0,0.0,0.0,0.6148330569267273,0.01699348462511807
+grounding,none,pres_19,1,presence,Does this image contain an oven?,,no,yes,yes,0.0,0.0,1.0,0.0,0.7867080569267273,0.01699348462511807
+grounding,none,pres_20,0,presence,Does this image contain a suitcase?,,yes,no,no,0.0,0.0,1.0,0.0,0.8953060507774353,0.017770597624803486
+grounding,none,pres_20,1,presence,Does this image contain a suitcase?,,no,yes,no,1.0,1.0,0.0,0.0,0.5359310507774353,0.017770597624803486
+grounding,none,pres_21,0,presence,Does this image contain a bowl?,,yes,no,no,0.0,0.0,1.0,0.0,1.1494005918502808,0.017770597624803486
+grounding,none,pres_21,1,presence,Does this image contain a bowl?,,no,yes,no,1.0,1.0,0.0,0.0,0.39940062165260315,0.017770597624803486
+grounding,none,pres_22,0,presence,Does this image contain a horse?,,yes,no,no,0.0,0.0,1.0,0.0,1.4841171503067017,0.017770597624803486
+grounding,none,pres_22,1,presence,Does this image contain a horse?,,no,yes,no,1.0,1.0,0.0,0.0,0.26536718010902405,0.017770597624803486
+grounding,none,pres_23,0,presence,Does this image contain a skateboard?,,yes,no,no,0.0,0.0,1.0,0.0,1.3503001928329468,0.017770597624803486
+grounding,none,pres_23,1,presence,Does this image contain a skateboard?,,no,yes,no,1.0,1.0,0.0,0.0,0.3034251928329468,0.017770597624803486
+grounding,none,pres_24,0,presence,Does this image contain a bird?,,yes,no,yes,1.0,1.0,0.0,0.0,0.6069613695144653,0.017874763750114653
+grounding,none,pres_24,1,presence,Does this image contain a bird?,,no,yes,yes,0.0,0.0,1.0,0.0,0.8100863695144653,0.017874763750114653
+grounding,none,pres_25,0,presence,Does this image contain a parking meter?,,yes,no,no,0.0,0.0,1.0,0.0,1.5475437641143799,0.017874763750114653
+grounding,none,pres_25,1,presence,Does this image contain a parking meter?,,no,yes,no,1.0,1.0,0.0,0.0,0.25066879391670227,0.017874763750114653
+grounding,none,pres_26,0,presence,Does this image contain a skateboard?,,yes,no,no,0.0,0.0,1.0,0.0,1.3504228591918945,0.017874763750114653
+grounding,none,pres_26,1,presence,Does this image contain a skateboard?,,no,yes,no,1.0,1.0,0.0,0.0,0.3035478889942169,0.017874763750114653
+grounding,none,pres_27,0,presence,Does this image contain a spoon?,,yes,no,no,0.0,0.0,1.0,0.0,1.262339472770691,0.017874763750114653
+grounding,none,pres_27,1,presence,Does this image contain a spoon?,,no,yes,no,1.0,1.0,0.0,0.0,0.3404644727706909,0.017874763750114653
+grounding,none,pres_28,0,presence,Does this image contain a boat?,,yes,no,yes,1.0,1.0,0.0,0.0,0.40584903955459595,0.017713098874992284
+grounding,none,pres_28,1,presence,Does this image contain a boat?,,no,yes,yes,0.0,0.0,1.0,0.0,1.1089739799499512,0.017713098874992284
+grounding,none,pres_29,0,presence,Does this image contain a horse?,,yes,no,no,0.0,0.0,1.0,0.0,1.4841171503067017,0.017713098874992284
+grounding,none,pres_29,1,presence,Does this image contain a horse?,,no,yes,no,1.0,1.0,0.0,0.0,0.26536718010902405,0.017713098874992284
+grounding,none,pres_30,0,presence,Does this image contain a person?,,yes,no,yes,1.0,1.0,0.0,0.0,0.22791577875614166,0.017713098874992284
+grounding,none,pres_30,1,presence,Does this image contain a person?,,no,yes,yes,0.0,0.0,1.0,0.0,1.6497907638549805,0.017713098874992284
+grounding,none,pres_31,0,presence,Does this image contain a kite?,,yes,no,no,0.0,0.0,1.0,0.0,0.8958603739738464,0.017713098874992284
+grounding,none,pres_31,1,presence,Does this image contain a kite?,,no,yes,no,1.0,1.0,0.0,0.0,0.5364853739738464,0.017713098874992284
+grounding,none,count_0,0,counting,How many dogs can you see?,,4,2,1,0.0,0.0,0.0,0.0,3.296234130859375,0.01735072149995176
+grounding,none,count_0,1,counting,How many dogs can you see?,,2,4,1,0.0,0.0,0.0,0.0,1.874359130859375,0.01735072149995176
+grounding,none,count_1,0,counting,How many books can you see?,,4,3,1,0.0,0.0,0.0,0.0,3.1502747535705566,0.01735072149995176
+grounding,none,count_1,1,counting,How many books can you see?,,3,4,1,0.0,0.0,0.0,0.0,2.0408997535705566,0.01735072149995176
+grounding,none,count_2,0,counting,How many stop signs can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.8528938293457031,0.01735072149995176
+grounding,none,count_2,1,counting,How many stop signs can you see?,,3,2,1,0.0,0.0,0.0,0.0,2.587268829345703,0.01735072149995176
+grounding,none,count_3,0,counting,How many apples can you see?,,4,2,1,0.0,0.0,0.0,0.0,2.412161350250244,0.01735072149995176
+grounding,none,count_3,1,counting,How many apples can you see?,,2,4,1,0.0,0.0,0.0,0.0,1.4590364694595337,0.01735072149995176
+grounding,none,count_4,0,counting,How many hot dogs can you see?,,1,3,1,1.0,1.0,0.0,0.0,0.805465579032898,0.017472646874921338
+grounding,none,count_4,1,counting,How many hot dogs can you see?,,3,1,1,0.0,0.0,1.0,0.0,1.555465579032898,0.017472646874921338
+grounding,none,count_5,0,counting,How many forks can you see?,,1,3,1,1.0,1.0,0.0,0.0,0.3746972382068634,0.017472646874921338
+grounding,none,count_5,1,counting,How many forks can you see?,,3,1,1,0.0,0.0,1.0,0.0,2.671572208404541,0.017472646874921338
+grounding,none,count_6,0,counting,How many snowboards can you see?,,4,1,1,0.0,0.0,1.0,0.0,2.985400676727295,0.017472646874921338
+grounding,none,count_6,1,counting,How many snowboards can you see?,,1,4,1,1.0,1.0,0.0,0.0,0.8447755575180054,0.017472646874921338
+grounding,none,count_7,0,counting,How many motorcycles can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.4732730388641357,0.017472646874921338
+grounding,none,count_7,1,counting,How many motorcycles can you see?,,3,2,1,0.0,0.0,0.0,0.0,1.6138980388641357,0.017472646874921338
+grounding,none,count_8,0,counting,How many sinks can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.5277938842773438,0.017270907249894663
+grounding,none,count_8,1,counting,How many sinks can you see?,,3,2,1,0.0,0.0,0.0,0.0,2.3559188842773438,0.017270907249894663
+grounding,none,count_9,0,counting,How many clocks can you see?,,2,1,1,0.0,0.0,1.0,0.0,1.5978820323944092,0.017270907249894663
+grounding,none,count_9,1,counting,How many clocks can you see?,,1,2,1,1.0,1.0,0.0,0.0,0.832257091999054,0.017270907249894663
+grounding,none,count_10,0,counting,How many zebras can you see?,,4,1,1,0.0,0.0,1.0,0.0,3.7950832843780518,0.017270907249894663
+grounding,none,count_10,1,counting,How many zebras can you see?,,1,4,1,1.0,1.0,0.0,0.0,0.6388332843780518,0.017270907249894663
+grounding,none,count_11,0,counting,How many cows can you see?,,4,1,1,0.0,0.0,1.0,0.0,2.2538437843322754,0.017270907249894663
+grounding,none,count_11,1,counting,How many cows can you see?,,1,4,1,1.0,1.0,0.0,0.0,0.9257189035415649,0.017270907249894663
+grounding,none,count_12,0,counting,How many sheep can you see?,,3,2,1,0.0,0.0,0.0,0.0,1.281653642654419,0.017311715874939182
+grounding,none,count_12,1,counting,How many sheep can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.594153642654419,0.017311715874939182
+grounding,none,count_13,0,counting,How many scissors can you see?,,1,3,1,1.0,1.0,0.0,0.0,0.6047723889350891,0.017311715874939182
+grounding,none,count_13,1,counting,How many scissors can you see?,,3,1,1,0.0,0.0,1.0,0.0,2.0266473293304443,0.017311715874939182
+grounding,none,count_14,0,counting,How many toasters can you see?,,2,1,3,0.0,0.0,0.0,0.0,1.435158133506775,0.017311715874939182
+grounding,none,count_14,1,counting,How many toasters can you see?,,1,2,3,0.0,0.0,0.0,0.0,1.341408133506775,0.017311715874939182
+grounding,none,count_15,0,counting,How many boats can you see?,,4,3,3,0.0,0.0,1.0,0.0,2.3505823612213135,0.017311715874939182
+grounding,none,count_15,1,counting,How many boats can you see?,,3,4,3,1.0,1.0,0.0,0.0,1.0224573612213135,0.017311715874939182
+grounding,none,count_16,0,counting,How many airplanes can you see?,,3,2,1,0.0,0.0,0.0,0.0,1.7788589000701904,0.017406255499963663
+grounding,none,count_16,1,counting,How many airplanes can you see?,,2,3,1,0.0,0.0,0.0,0.0,2.0444839000701904,0.017406255499963663
+grounding,none,count_17,0,counting,How many knives can you see?,,1,3,1,1.0,1.0,0.0,0.0,0.5896036624908447,0.017406255499963663
+grounding,none,count_17,1,counting,How many knives can you see?,,3,1,1,0.0,0.0,1.0,0.0,1.6364786624908447,0.017406255499963663
+grounding,none,count_18,0,counting,How many cell phones can you see?,,3,2,1,0.0,0.0,0.0,0.0,2.2679131031036377,0.017406255499963663
+grounding,none,count_18,1,counting,How many cell phones can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.8772881031036377,0.017406255499963663
+grounding,none,count_19,0,counting,How many baseball gloves can you see?,,4,1,1,0.0,0.0,1.0,0.0,2.6374318599700928,0.017406255499963663
+grounding,none,count_19,1,counting,How many baseball gloves can you see?,,1,4,1,1.0,1.0,0.0,0.0,1.1061818599700928,0.017406255499963663
+grounding,none,count_20,0,counting,How many teddy bears can you see?,,3,2,1,0.0,0.0,0.0,0.0,2.016066074371338,0.0174717706249794
+grounding,none,count_20,1,counting,How many teddy bears can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.672316074371338,0.0174717706249794
+grounding,none,count_21,0,counting,How many bowls can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.6984291076660156,0.0174717706249794
+grounding,none,count_21,1,counting,How many bowls can you see?,,3,2,1,0.0,0.0,0.0,0.0,1.2765541076660156,0.0174717706249794
+grounding,none,count_22,0,counting,How many horses can you see?,,1,4,1,1.0,1.0,0.0,0.0,0.7048671841621399,0.0174717706249794
+grounding,none,count_22,1,counting,How many horses can you see?,,4,1,1,0.0,0.0,1.0,0.0,2.845492124557495,0.0174717706249794
+grounding,none,count_23,0,counting,How many pizzas can you see?,,1,4,1,1.0,1.0,0.0,0.0,1.1866377592086792,0.0174717706249794
+grounding,none,count_23,1,counting,How many pizzas can you see?,,4,1,1,0.0,0.0,1.0,0.0,2.5303878784179688,0.0174717706249794
+grounding,none,count_24,0,counting,How many fire hydrants can you see?,,3,2,1,0.0,0.0,0.0,0.0,1.5235984325408936,0.01760648812501131
+grounding,none,count_24,1,counting,How many fire hydrants can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.1642234325408936,0.01760648812501131
+grounding,none,count_25,0,counting,How many bowls can you see?,,3,1,1,0.0,0.0,1.0,0.0,1.2765541076660156,0.01760648812501131
+grounding,none,count_25,1,counting,How many bowls can you see?,,1,3,1,1.0,1.0,0.0,0.0,0.8546791076660156,0.01760648812501131
+grounding,none,count_26,0,counting,How many toothbrushes can you see?,,2,4,1,0.0,0.0,0.0,0.0,1.945061445236206,0.01760648812501131
+grounding,none,count_26,1,counting,How many toothbrushes can you see?,,4,2,1,0.0,0.0,0.0,0.0,3.804436445236206,0.01760648812501131
+grounding,none,count_27,0,counting,How many toilets can you see?,,2,4,1,0.0,0.0,0.0,0.0,1.4160056114196777,0.01760648812501131
+grounding,none,count_27,1,counting,How many toilets can you see?,,4,2,1,0.0,0.0,0.0,0.0,2.6035056114196777,0.01760648812501131
+grounding,none,count_28,0,counting,How many zebras can you see?,,1,2,1,1.0,1.0,0.0,0.0,0.6310354471206665,0.017678087124977537
+grounding,none,count_28,1,counting,How many zebras can you see?,,2,1,1,0.0,0.0,1.0,0.0,2.068535327911377,0.017678087124977537
+grounding,none,count_29,0,counting,How many frisbees can you see?,,4,2,1,0.0,0.0,0.0,0.0,2.6509971618652344,0.017678087124977537
+grounding,none,count_29,1,counting,How many frisbees can you see?,,2,4,1,0.0,0.0,0.0,0.0,1.557247281074524,0.017678087124977537
+grounding,none,count_30,0,counting,How many snowboards can you see?,,2,1,1,0.0,0.0,1.0,0.0,1.5856409072875977,0.017678087124977537
+grounding,none,count_30,1,counting,How many snowboards can you see?,,1,2,1,1.0,1.0,0.0,0.0,0.8512659668922424,0.017678087124977537
+grounding,none,count_31,0,counting,How many broccolis can you see?,,2,3,1,0.0,0.0,0.0,0.0,1.7976527214050293,0.017678087124977537
+grounding,none,count_31,1,counting,How many broccolis can you see?,,3,2,1,0.0,0.0,0.0,0.0,2.1414027214050293,0.017678087124977537
+vqa,correct,vqa_375415001_571279011,0,yes/no,Are there any grapes?,375415.0,no,yes,no,1.0,1.0,0.0,0.0,0.6113894581794739,0.04847792750001645
+vqa,correct,vqa_375415001_571279011,1,yes/no,Are there any grapes?,571279.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5370275974273682,0.04847792750001645
+vqa,correct,vqa_465422003_363991019,0,yes/no,Is he wearing a helmet?,465422.0,yes,no,yes,1.0,1.0,0.0,0.0,0.44054853916168213,0.04847792750001645
+vqa,correct,vqa_465422003_363991019,1,yes/no,Is he wearing a helmet?,363991.0,no,yes,no,1.0,1.0,0.0,0.0,0.3823275864124298,0.04847792750001645
+vqa,correct,vqa_71215000_39900004,0,yes/no,Is there patriotic bunting on the carriage?,71215.0,yes,no,yes,1.0,1.0,0.0,0.0,0.4245220422744751,0.04847792750001645
+vqa,correct,vqa_71215000_39900004,1,yes/no,Is there patriotic bunting on the carriage?,39900.0,no,yes,no,1.0,1.0,0.0,0.0,0.1836206316947937,0.04847792750001645
+vqa,correct,vqa_320203000_417606003,0,yes/no,Are there clouds?,320203.0,yes,no,yes,1.0,1.0,0.0,0.0,0.3596945106983185,0.04847792750001645
+vqa,correct,vqa_320203000_417606003,1,yes/no,Are there clouds?,417606.0,no,yes,yes,0.0,0.0,1.0,0.0,0.8280631899833679,0.04847792750001645
+vqa,correct,vqa_159791000_113082001,0,yes/no,Does the owner of the fridge like stickers?,159791.0,yes,no,yes,1.0,1.0,0.0,0.0,0.28699925541877747,0.04860999550010092
+vqa,correct,vqa_159791000_113082001,1,yes/no,Does the owner of the fridge like stickers?,113082.0,no,yes,no,1.0,1.0,0.0,0.0,0.4030415117740631,0.04860999550010092
+vqa,correct,vqa_388880005_275881015,0,yes/no,Is the boat docked?,388880.0,yes,no,yes,1.0,1.0,0.0,0.0,0.14142873883247375,0.04860999550010092
+vqa,correct,vqa_388880005_275881015,1,yes/no,Is the boat docked?,275881.0,no,yes,no,1.0,1.0,0.0,0.0,0.07244400680065155,0.04860999550010092
+vqa,correct,vqa_467843003_82986003,0,yes/no,Does the boy have good vision?,467843.0,no,yes,no,1.0,1.0,0.0,0.0,0.6565520167350769,0.04860999550010092
+vqa,correct,vqa_467843003_82986003,1,yes/no,Does the boy have good vision?,82986.0,yes,no,no,0.0,0.0,1.0,0.0,0.9946421384811401,0.04860999550010092
+vqa,correct,vqa_509471001_180984003,0,yes/no,Are they both wearing sunglasses?,509471.0,yes,no,no,0.0,0.0,1.0,0.0,1.7919557094573975,0.04860999550010092
+vqa,correct,vqa_509471001_180984003,1,yes/no,Are they both wearing sunglasses?,180984.0,no,yes,no,1.0,1.0,0.0,0.0,0.15148574113845825,0.04860999550010092
+vqa,correct,vqa_489719002_578467004,0,yes/no,Is there a baby elephant in image?,489719.0,yes,no,yes,1.0,1.0,0.0,0.0,0.05228433385491371,0.04820905874998971
+vqa,correct,vqa_489719002_578467004,1,yes/no,Is there a baby elephant in image?,578467.0,no,yes,no,1.0,1.0,0.0,0.0,0.0845864936709404,0.04820905874998971
+vqa,correct,vqa_334075002_411642000,0,yes/no,Has the batter hit the ball?,334075.0,no,yes,no,1.0,1.0,0.0,0.0,0.4873279929161072,0.04820905874998971
+vqa,correct,vqa_334075002_411642000,1,yes/no,Has the batter hit the ball?,411642.0,yes,no,no,0.5999999999999999,0.0,1.0,0.0,0.7348545789718628,0.04820905874998971
+vqa,correct,vqa_449522002_260150017,0,yes/no,Do you see salt around?,449522.0,yes,no,yes,1.0,1.0,0.0,0.0,0.1763828694820404,0.04820905874998971
+vqa,correct,vqa_449522002_260150017,1,yes/no,Do you see salt around?,260150.0,no,yes,yes,0.0,0.0,1.0,0.0,1.3393036127090454,0.04820905874998971
+vqa,correct,vqa_88109002_192905004,0,yes/no,Is the small zebra just born?,88109.0,yes,no,no,0.0,0.0,1.0,0.0,0.9659415483474731,0.04820905874998971
+vqa,correct,vqa_88109002_192905004,1,yes/no,Is the small zebra just born?,192905.0,no,yes,no,1.0,1.0,0.0,0.0,0.5059401988983154,0.04820905874998971
+vqa,correct,vqa_530207000_335340003,0,yes/no,Is there a man with a safety vest?,530207.0,yes,no,yes,1.0,1.0,0.0,0.0,0.17331764101982117,0.0491957463750623
+vqa,correct,vqa_530207000_335340003,1,yes/no,Is there a man with a safety vest?,335340.0,no,yes,yes,0.0,0.0,1.0,0.0,1.3027247190475464,0.0491957463750623
+vqa,correct,vqa_508041004_382728011,0,yes/no,Is the train near any buildings?,508041.0,yes,no,yes,1.0,1.0,0.0,0.0,0.1494012326002121,0.0491957463750623
+vqa,correct,vqa_508041004_382728011,1,yes/no,Is the train near any buildings?,382728.0,no,yes,yes,0.0,0.0,1.0,0.0,1.4670803546905518,0.0491957463750623
+vqa,correct,vqa_574805000_277174010,0,yes/no,Are there rocks visible?,574805.0,yes,no,yes,1.0,1.0,0.0,0.0,0.043619439005851746,0.0491957463750623
+vqa,correct,vqa_574805000_277174010,1,yes/no,Are there rocks visible?,277174.0,no,yes,yes,0.3,0.0,1.0,0.0,1.9777013063430786,0.0491957463750623
+vqa,correct,vqa_551811000_355956004,0,yes/no,Is there some gardening being done at the time the picture was taken?,551811.0,yes,no,yes,1.0,1.0,0.0,0.0,0.4929952621459961,0.0491957463750623
+vqa,correct,vqa_551811000_355956004,1,yes/no,Is there some gardening being done at the time the picture was taken?,355956.0,no,yes,no,1.0,1.0,0.0,0.0,0.09650212526321411,0.0491957463750623
+vqa,correct,vqa_3091005_438788019,0,yes/no,Does this cake appear to be chocolate?,3091.0,yes,no,yes,1.0,1.0,0.0,0.0,0.1084449514746666,0.04854856262500107
+vqa,correct,vqa_3091005_438788019,1,yes/no,Does this cake appear to be chocolate?,438788.0,no,yes,yes,0.0,0.0,1.0,0.0,1.3153635263442993,0.04854856262500107
+vqa,correct,vqa_97465001_506052002,0,yes/no,Is this an android phone?,97465.0,yes,no,yes,1.0,1.0,0.0,0.0,0.07766582071781158,0.04854856262500107
+vqa,correct,vqa_97465001_506052002,1,yes/no,Is this an android phone?,506052.0,no,yes,yes,0.0,0.0,1.0,0.0,1.128286600112915,0.04854856262500107
+vqa,correct,vqa_514222000_106244002,0,yes/no,Is this in a restaurant?,514222.0,no,yes,yes,0.0,0.0,1.0,0.0,1.664608359336853,0.04854856262500107
+vqa,correct,vqa_514222000_106244002,1,yes/no,Is this in a restaurant?,106244.0,yes,no,yes,1.0,1.0,0.0,0.0,0.03480915725231171,0.04854856262500107
+vqa,correct,vqa_361217000_86168021,0,yes/no,Are these baby cats?,361217.0,yes,no,no,0.0,0.0,1.0,0.0,0.8353073596954346,0.04854856262500107
+vqa,correct,vqa_361217000_86168021,1,yes/no,Are these baby cats?,86168.0,no,yes,no,1.0,1.0,0.0,0.0,0.013825485482811928,0.04854856262500107
+vqa,correct,vqa_26432006_572592019,0,yes/no,Is there a tent in the picture?,26432.0,yes,no,yes,1.0,1.0,0.0,0.0,0.47476187348365784,0.04837036374988202
+vqa,correct,vqa_26432006_572592019,1,yes/no,Is there a tent in the picture?,572592.0,no,yes,no,1.0,1.0,0.0,0.0,0.21955426037311554,0.04837036374988202
+vqa,correct,vqa_355871000_164330003,0,yes/no,Do the people look happy?,355871.0,yes,no,yes,1.0,1.0,0.0,0.0,0.11225374042987823,0.04837036374988202
+vqa,correct,vqa_355871000_164330003,1,yes/no,Do the people look happy?,164330.0,no,yes,no,1.0,1.0,0.0,0.0,0.6269090175628662,0.04837036374988202
+vqa,correct,vqa_339346000_423395002,0,yes/no,Is it winter?,339346.0,yes,no,yes,1.0,1.0,0.0,0.0,0.15217623114585876,0.04837036374988202
+vqa,correct,vqa_339346000_423395002,1,yes/no,Is it winter?,423395.0,no,yes,yes,0.0,0.0,1.0,0.0,1.0645768642425537,0.04837036374988202
+vqa,correct,vqa_577277002_465275003,0,yes/no,Is she in a library?,577277.0,yes,no,yes,1.0,1.0,0.0,0.0,0.0233156755566597,0.04837036374988202
+vqa,correct,vqa_577277002_465275003,1,yes/no,Is she in a library?,465275.0,no,yes,no,1.0,1.0,0.0,0.0,0.06997257471084595,0.04837036374988202
+vqa,correct,vqa_477846000_92338008,0,yes/no,Is the ground wet?,477846.0,yes,no,yes,1.0,1.0,0.0,0.0,0.022300660610198975,0.04794083237493396
+vqa,correct,vqa_477846000_92338008,1,yes/no,Is the ground wet?,92338.0,no,yes,no,1.0,1.0,0.0,0.0,0.4754502773284912,0.04794083237493396
+vqa,correct,vqa_466229002_146813002,0,yes/no,Is there a person in the picture?,466229.0,yes,no,yes,1.0,1.0,0.0,0.0,0.1136743351817131,0.04794083237493396
+vqa,correct,vqa_466229002_146813002,1,yes/no,Is there a person in the picture?,146813.0,no,yes,no,1.0,1.0,0.0,0.0,0.17542815208435059,0.04794083237493396
+vqa,correct,vqa_19962001_74646024,0,yes/no,Is the sky clear?,19962.0,no,yes,yes,0.0,0.0,1.0,0.0,2.19667387008667,0.04794083237493396
+vqa,correct,vqa_19962001_74646024,1,yes/no,Is the sky clear?,74646.0,yes,no,yes,1.0,1.0,0.0,0.0,0.04265967383980751,0.04794083237493396
+vqa,correct,vqa_161505000_89880045,0,yes/no,Is this the same dog?,161505.0,yes,no,yes,1.0,1.0,0.0,0.0,0.21597345173358917,0.04794083237493396
+vqa,correct,vqa_161505000_89880045,1,yes/no,Is this the same dog?,89880.0,no,yes,no,1.0,1.0,0.0,0.0,0.3492802083492279,0.04794083237493396
+vqa,correct,vqa_113235001_195862007,0,yes/no,Is this a horse?,113235.0,no,yes,no,1.0,1.0,0.0,0.0,0.342083215713501,0.048359950624899284
+vqa,correct,vqa_113235001_195862007,1,yes/no,Is this a horse?,195862.0,yes,no,yes,1.0,1.0,0.0,0.0,0.0552777424454689,0.048359950624899284
+vqa,correct,vqa_282674002_244246002,0,yes/no,Is the truck immediately ready to move?,282674.0,no,yes,no,1.0,1.0,0.0,0.0,0.2208412140607834,0.048359950624899284
+vqa,correct,vqa_282674002_244246002,1,yes/no,Is the truck immediately ready to move?,244246.0,yes,no,no,0.6,0.0,1.0,0.0,0.8450470566749573,0.048359950624899284
+vqa,correct,vqa_65415001_226588006,0,yes/no,Is this woman wearing a hat?,65415.0,no,yes,yes,0.3,0.0,1.0,0.0,0.8712500333786011,0.048359950624899284
+vqa,correct,vqa_65415001_226588006,1,yes/no,Is this woman wearing a hat?,226588.0,yes,no,yes,1.0,1.0,0.0,0.0,0.4696395993232727,0.048359950624899284
+vqa,correct,vqa_580255002_504516003,0,yes/no,Are the dogs outdoors?,580255.0,no,yes,no,1.0,1.0,0.0,0.0,0.3013380765914917,0.048359950624899284
+vqa,correct,vqa_580255002_504516003,1,yes/no,Are the dogs outdoors?,504516.0,yes,no,no,0.0,0.0,1.0,0.0,0.8719527125358582,0.048359950624899284
+vqa,correct,vqa_544432002_371364003,0,yes/no,Are they making cupcakes?,544432.0,yes,no,no,0.0,0.0,1.0,0.0,1.2925879955291748,0.04859056650002458
+vqa,correct,vqa_544432002_371364003,1,yes/no,Are they making cupcakes?,371364.0,no,yes,no,1.0,1.0,0.0,0.0,0.01822488009929657,0.04859056650002458
+vqa,correct,vqa_175688003_488942002,0,yes/no,Is there a clock on the top of the building?,175688.0,yes,no,yes,1.0,1.0,0.0,0.0,0.018291952088475227,0.04859056650002458
+vqa,correct,vqa_175688003_488942002,1,yes/no,Is there a clock on the top of the building?,488942.0,no,yes,yes,0.3,0.0,1.0,0.0,4.172391414642334,0.04859056650002458
+vqa,correct,vqa_513887003_119729002,0,yes/no,Does the person holding the bananas have a tattoo on his wrist?,513887.0,yes,no,no,0.0,0.0,1.0,0.0,2.3646888732910156,0.04859056650002458
+vqa,correct,vqa_513887003_119729002,1,yes/no,Does the person holding the bananas have a tattoo on his wrist?,119729.0,no,yes,no,1.0,1.0,0.0,0.0,0.15605223178863525,0.04859056650002458
+vqa,correct,vqa_457558001_248767003,0,yes/no,Does the signal indicate that people walking are safe to cross?,457558.0,no,yes,no,1.0,1.0,0.0,0.0,0.5390270352363586,0.04859056650002458
+vqa,correct,vqa_457558001_248767003,1,yes/no,Does the signal indicate that people walking are safe to cross?,248767.0,yes,no,no,0.6000000000000001,0.0,1.0,0.0,1.466773509979248,0.04859056650002458
+vqa,correct,vqa_331937000_215132011,0,number,How many pictures are hanging up?,331937.0,2,3,3,0.0,0.0,1.0,0.0,1.0027445554733276,0.0457870588750211
+vqa,correct,vqa_331937000_215132011,1,number,How many pictures are hanging up?,215132.0,3,2,2,0.3,0.0,1.0,0.0,1.7873083353042603,0.0457870588750211
+vqa,correct,vqa_109824000_136929002,0,number,How many doughnuts look broken?,109824.0,1,0,0,0.0,0.0,1.0,0.0,2.7910139560699463,0.0457870588750211
+vqa,correct,vqa_109824000_136929002,1,number,How many doughnuts look broken?,136929.0,0,1,0,1.0,1.0,0.0,0.0,0.1636681854724884,0.0457870588750211
+vqa,correct,vqa_70258002_458750001,0,number,How many children are there?,70258.0,5,3,4,0.0,0.0,0.0,0.0,1.2019400596618652,0.0457870588750211
+vqa,correct,vqa_70258002_458750001,1,number,How many children are there?,458750.0,3,5,4,0.0,0.0,0.0,0.0,0.8841040134429932,0.0457870588750211
+vqa,correct,vqa_26209008_237626001,0,number,How many trailers are there?,26209.0,2,1,2,1.0,1.0,0.0,0.0,0.8022487759590149,0.0457870588750211
+vqa,correct,vqa_26209008_237626001,1,number,How many trailers are there?,237626.0,1,2,1,1.0,1.0,0.0,0.0,0.21980240941047668,0.0457870588750211
+vqa,correct,vqa_552610003_510992004,0,number,What time does the clock say on the stove?,552610.0,10:32,11:59,3:15,0.0,0.0,0.0,0.0,1.920720100402832,0.07259882787502647
+vqa,correct,vqa_552610003_510992004,1,number,What time does the clock say on the stove?,510992.0,11:59,10:32,3:00,0.0,0.0,0.0,0.0,2.148826837539673,0.07259882787502647
+vqa,correct,vqa_222788000_187451001,0,number,How many surfers?,222788.0,4,3,4,1.0,1.0,0.0,0.0,0.04544622078537941,0.07259882787502647
+vqa,correct,vqa_222788000_187451001,1,number,How many surfers?,187451.0,3,4,3,1.0,1.0,0.0,0.0,0.17879125475883484,0.07259882787502647
+vqa,correct,vqa_388211004_366003002,0,number,How many hot dogs are pictured?,388211.0,3,1,4,0.0,0.0,0.0,0.0,3.3138885498046875,0.07259882787502647
+vqa,correct,vqa_388211004_366003002,1,number,How many hot dogs are pictured?,366003.0,1,3,1,1.0,1.0,0.0,0.0,0.01942620985209942,0.07259882787502647
+vqa,correct,vqa_407903001_481895006,0,number,How many surfers are in the water?,407903.0,4,2,4,1.0,1.0,0.0,0.0,1.027327299118042,0.07259882787502647
+vqa,correct,vqa_407903001_481895006,1,number,How many surfers are in the water?,481895.0,2,4,3,0.0,0.0,0.0,0.0,1.0364041328430176,0.07259882787502647
+vqa,correct,vqa_128830000_187543029,0,number,How many men in the photo?,128830.0,2,1,1,0.3,0.0,1.0,0.0,0.7954779267311096,0.046624986375036315
+vqa,correct,vqa_128830000_187543029,1,number,How many men in the photo?,187543.0,1,2,1,1.0,1.0,0.0,0.0,0.07337141036987305,0.046624986375036315
+vqa,correct,vqa_123070001_157847009,0,number,How many bodies of water are in the image?,123070.0,1,0,1,1.0,1.0,0.0,0.0,0.9664852619171143,0.046624986375036315
+vqa,correct,vqa_123070001_157847009,1,number,How many bodies of water are in the image?,157847.0,0,1,0,1.0,1.0,0.0,0.0,0.004516519606113434,0.046624986375036315
+vqa,correct,vqa_460307003_561187001,0,number,What number of brown horses are there?,460307.0,3,1,2,0.6000000000000001,0.0,0.0,0.0,1.2016804218292236,0.046624986375036315
+vqa,correct,vqa_460307003_561187001,1,number,What number of brown horses are there?,561187.0,1,3,2,0.0,0.0,0.0,0.0,2.520164728164673,0.046624986375036315
+vqa,correct,vqa_43435000_332087001,0,number,How many people are surfing in this picture?,43435.0,2,1,2,1.0,1.0,0.0,0.0,0.3323812782764435,0.046624986375036315
+vqa,correct,vqa_43435000_332087001,1,number,How many people are surfing in this picture?,332087.0,1,2,1,1.0,1.0,0.0,0.0,0.007124731782823801,0.046624986375036315
+vqa,correct,vqa_153847000_497299000,0,number,How many boats are in the background?,153847.0,2,0,2,1.0,1.0,0.0,0.0,0.8328807950019836,0.04644893499994396
+vqa,correct,vqa_153847000_497299000,1,number,How many boats are in the background?,497299.0,0,2,2,0.0,0.0,1.0,0.0,4.372946262359619,0.04644893499994396
+vqa,correct,vqa_335774001_452137005,0,number,How many small plates are on the table?,335774.0,4,1,2,0.0,0.0,0.0,0.0,1.8256442546844482,0.04644893499994396
+vqa,correct,vqa_335774001_452137005,1,number,How many small plates are on the table?,452137.0,1,4,1,1.0,1.0,0.0,0.0,0.1869179606437683,0.04644893499994396
+vqa,correct,vqa_225133000_274612010,0,number,How many yellow umbrellas?,225133.0,2,1,3,0.3,0.0,0.0,0.0,1.418647050857544,0.04644893499994396
+vqa,correct,vqa_225133000_274612010,1,number,How many yellow umbrellas?,274612.0,1,2,3,0.0,0.0,0.0,0.0,4.202488422393799,0.04644893499994396
+vqa,correct,vqa_113282002_206757008,0,number,How many suitcase(s) are there?,113282.0,5,0,4,0.0,0.0,0.0,0.0,1.9316418170928955,0.04644893499994396
+vqa,correct,vqa_113282002_206757008,1,number,How many suitcase(s) are there?,206757.0,0,5,3,0.0,0.0,0.0,0.0,5.337452411651611,0.04644893499994396
+vqa,correct,vqa_506595000_486573002,0,number,How many vases are in the photo?,506595.0,2,1,1,0.0,0.0,1.0,0.0,2.4947006702423096,0.04705080312487553
+vqa,correct,vqa_506595000_486573002,1,number,How many vases are in the photo?,486573.0,1,2,1,1.0,1.0,0.0,0.0,0.12730135023593903,0.04705080312487553
+vqa,correct,vqa_541055000_494456001,0,number,How many people are there?,541055.0,5,2,4,0.0,0.0,0.0,0.0,3.840959310531616,0.04705080312487553
+vqa,correct,vqa_541055000_494456001,1,number,How many people are there?,494456.0,2,5,2,1.0,1.0,0.0,0.0,0.01240985095500946,0.04705080312487553
+vqa,correct,vqa_404652003_470780009,0,number,How many towels are  in the room?,404652.0,2,0,1,0.6,0.0,0.0,0.0,1.2168670892715454,0.04705080312487553
+vqa,correct,vqa_404652003_470780009,1,number,How many towels are  in the room?,470780.0,0,2,0,1.0,1.0,0.0,0.0,1.0104458332061768,0.04705080312487553
+vqa,correct,vqa_385985001_384092009,0,number,How many people?,385985.0,2,1,1,0.0,0.0,1.0,0.0,0.8107711672782898,0.04705080312487553
+vqa,correct,vqa_385985001_384092009,1,number,How many people?,384092.0,1,2,1,1.0,1.0,0.0,0.0,0.07785717397928238,0.04705080312487553
+vqa,correct,vqa_258291003_232503000,0,number,How many buses?,258291.0,1,2,2,0.3,0.0,1.0,0.0,1.4886858463287354,0.04557814712484287
+vqa,correct,vqa_258291003_232503000,1,number,How many buses?,232503.0,2,1,1,0.0,0.0,1.0,0.0,1.14314603805542,0.04557814712484287
+vqa,correct,vqa_219894002_366225014,0,number,How many keyboards can you spot?,219894.0,2,1,1,0.0,0.0,1.0,0.0,0.8102453351020813,0.04557814712484287
+vqa,correct,vqa_219894002_366225014,1,number,How many keyboards can you spot?,366225.0,1,2,1,1.0,1.0,0.0,0.0,0.29010307788848877,0.04557814712484287
+vqa,correct,vqa_536743002_125873006,0,number,How many children are there?,536743.0,6,8,5,0.0,0.0,0.0,0.0,2.1397340297698975,0.04557814712484287
+vqa,correct,vqa_536743002_125873006,1,number,How many children are there?,125873.0,8,6,7,0.0,0.0,0.0,0.0,3.333235263824463,0.04557814712484287
+vqa,correct,vqa_112232001_419096008,0,number,How many trains are shown?,112232.0,2,1,2,1.0,1.0,0.0,0.0,0.012014051899313927,0.04557814712484287
+vqa,correct,vqa_112232001_419096008,1,number,How many trains are shown?,419096.0,1,2,1,1.0,1.0,0.0,0.0,0.6904792189598083,0.04557814712484287
+vqa,correct,vqa_37677001_196660015,0,other,What is the person holding?,37677.0,umbrella,surfboard,umbrella,1.0,1.0,0.0,0.0,0.0005662561161443591,0.061628034374962226
+vqa,correct,vqa_37677001_196660015,1,other,What is the person holding?,196660.0,surfboard,umbrella,surfboard,1.0,1.0,0.0,0.0,0.17148837447166443,0.061628034374962226
+vqa,correct,vqa_143370002_343466025,0,other,What room is this?,143370.0,bathroom,kitchen,bathroom,1.0,1.0,0.0,0.0,0.45140406489372253,0.061628034374962226
+vqa,correct,vqa_143370002_343466025,1,other,What room is this?,343466.0,kitchen,bathroom,kitchen,1.0,1.0,0.0,0.0,0.001769381226040423,0.061628034374962226
+vqa,correct,vqa_216296000_63595005,0,other,What color is the court?,216296.0,green,purple,white,0.0,0.0,0.0,0.0,1.301817774772644,0.061628034374962226
+vqa,correct,vqa_216296000_63595005,1,other,What color is the court?,63595.0,purple,green,red,0.0,0.0,0.0,0.0,7.566595554351807,0.061628034374962226
+vqa,correct,vqa_65208002_168811000,0,other,What is the man carrying?,65208.0,umbrella,phone,umbrella,1.0,1.0,0.0,0.0,0.03903567045927048,0.061628034374962226
+vqa,correct,vqa_65208002_168811000,1,other,What is the man carrying?,168811.0,phone,umbrella,passenger car,0.0,0.0,0.0,0.0,7.051241397857666,0.061628034374962226
+vqa,correct,vqa_71618007_75051000,0,other,Is the lid to the toilet Up or down?,71618.0,up,down,up,1.0,1.0,0.0,0.0,0.4340553879737854,0.05558149450007477
+vqa,correct,vqa_71618007_75051000,1,other,Is the lid to the toilet Up or down?,75051.0,down,up,up,0.0,0.0,1.0,0.0,1.1846847534179688,0.05558149450007477
+vqa,correct,vqa_514722002_448849006,0,other,What is going over the water?,514722.0,train,boat,cars,0.0,0.0,0.0,0.0,2.7093896865844727,0.05558149450007477
+vqa,correct,vqa_514722002_448849006,1,other,What is going over the water?,448849.0,boat,train,people,0.0,0.0,0.0,0.0,3.8213648796081543,0.05558149450007477
+vqa,correct,vqa_247986002_469398004,0,other,Is this man holding the cell phone with his right or left hand?,247986.0,left,right,right,0.0,0.0,1.0,0.0,1.0350703001022339,0.05558149450007477
+vqa,correct,vqa_247986002_469398004,1,other,Is this man holding the cell phone with his right or left hand?,469398.0,right,left,right,1.0,1.0,0.0,0.0,0.4743766486644745,0.05558149450007477
+vqa,correct,vqa_297260002_136624011,0,other,What is the green food on top of the sandwich?,297260.0,pickle,lettuce,pasta,0.0,0.0,0.0,0.0,6.796103477478027,0.05558149450007477
+vqa,correct,vqa_297260002_136624011,1,other,What is the green food on top of the sandwich?,136624.0,lettuce,pickle,salmon,0.0,0.0,0.0,0.0,3.114065170288086,0.05558149450007477
+vqa,correct,vqa_94922002_516733015,0,other,What sport is the man playing?,94922.0,frisbee,baseball,frisbee,1.0,1.0,0.0,0.0,0.02066090516746044,0.06205169600002591
+vqa,correct,vqa_94922002_516733015,1,other,What sport is the man playing?,516733.0,baseball,frisbee,baseball,1.0,1.0,0.0,0.0,0.03027539700269699,0.06205169600002591
+vqa,correct,vqa_404568004_357060004,0,other,What color is the beak of the bird?,404568.0,yellow,black,black,0.0,0.0,1.0,0.0,2.100142240524292,0.06205169600002591
+vqa,correct,vqa_404568004_357060004,1,other,What color is the beak of the bird?,357060.0,black,yellow,black,1.0,1.0,0.0,0.0,1.1567429304122925,0.06205169600002591
+vqa,correct,vqa_396167001_128748005,0,other,What is the last name of the person in the foreground?,396167.0,chappell,navarro,Smith,0.0,0.0,0.0,0.0,5.17871618270874,0.06205169600002591
+vqa,correct,vqa_396167001_128748005,1,other,What is the last name of the person in the foreground?,128748.0,navarro,chappell,Wright,0.0,0.0,0.0,0.0,4.194601535797119,0.06205169600002591
+vqa,correct,vqa_247587000_413349006,0,other,What is the man standing on?,247587.0,surfboard,skateboard,surfboard,1.0,1.0,0.0,0.0,0.14450262486934662,0.06205169600002591
+vqa,correct,vqa_247587000_413349006,1,other,What is the man standing on?,413349.0,skateboard,surfboard,skateboard,1.0,1.0,0.0,0.0,0.11545906215906143,0.06205169600002591
+vqa,correct,vqa_260307001_528977003,0,other,The one way sign is pointing to which side of the picture?,260307.0,right,left,right,1.0,1.0,0.0,0.0,0.7760559916496277,0.06268925787503576
+vqa,correct,vqa_260307001_528977003,1,other,The one way sign is pointing to which side of the picture?,528977.0,left,right,left,1.0,1.0,0.0,0.0,0.5412389636039734,0.06268925787503576
+vqa,correct,vqa_113589002_538844004,0,other,What is on the right of the picture?,113589.0,banana,broccoli,banana,1.0,1.0,0.0,0.0,0.616417646408081,0.06268925787503576
+vqa,correct,vqa_113589002_538844004,1,other,What is on the right of the picture?,538844.0,broccoli,banana,salmon,0.0,0.0,0.0,0.0,1.007629156112671,0.06268925787503576
+vqa,correct,vqa_577073002_184978021,0,other,What is this person doing?,577073.0,skiing,snowboarding,skating,0.0,0.0,0.0,0.0,1.4713109731674194,0.06268925787503576
+vqa,correct,vqa_577073002_184978021,1,other,What is this person doing?,184978.0,snowboarding,skiing,snowboarding,1.0,1.0,0.0,0.0,0.22565731406211853,0.06268925787503576
+vqa,correct,vqa_434410000_511066010,0,other,What is leaning against the house?,434410.0,ladder,surfboard,wooden plank,0.0,0.0,0.0,0.0,4.277731895446777,0.06268925787503576
+vqa,correct,vqa_434410000_511066010,1,other,What is leaning against the house?,511066.0,surfboard,ladder,floor,0.0,0.0,0.0,0.0,1.552366852760315,0.06268925787503576
+vqa,correct,vqa_10114000_110601007,0,other,Which room is this?,10114.0,kitchen,bathroom,kitchen,1.0,1.0,0.0,0.0,0.0010077141923829913,0.05383665187491715
+vqa,correct,vqa_10114000_110601007,1,other,Which room is this?,110601.0,bathroom,kitchen,bathroom,1.0,1.0,0.0,0.0,0.1266406923532486,0.05383665187491715
+vqa,correct,vqa_547875012_105812087,0,other,What kind of drink are they having?,547875.0,beer,water,beer,1.0,1.0,0.0,0.0,0.2094115912914276,0.05383665187491715
+vqa,correct,vqa_547875012_105812087,1,other,What kind of drink are they having?,105812.0,water,beer,coffee,0.0,0.0,0.0,0.0,6.2588043212890625,0.05383665187491715
+vqa,correct,vqa_85913000_519676005,0,other,What color is the bike?,85913.0,blue,white,blue,1.0,1.0,0.0,0.0,0.0028767890762537718,0.05383665187491715
+vqa,correct,vqa_85913000_519676005,1,other,What color is the bike?,519676.0,white,blue,white,1.0,1.0,0.0,0.0,0.09903699159622192,0.05383665187491715
+vqa,correct,vqa_75055002_240637021,0,other,What animal do you see?,75055.0,cat,dog,cat,1.0,1.0,0.0,0.0,0.23299778997898102,0.05383665187491715
+vqa,correct,vqa_75055002_240637021,1,other,What animal do you see?,240637.0,dog,cat,cat,0.0,0.0,1.0,0.0,5.386524677276611,0.05383665187491715
+vqa,correct,vqa_489382003_272212017,0,other,What kind of animal is pictured?,489382.0,sheep,cow,sheep,1.0,1.0,0.0,0.0,0.005962451454252005,0.06108109712499754
+vqa,correct,vqa_489382003_272212017,1,other,What kind of animal is pictured?,272212.0,cow,sheep,cow,1.0,1.0,0.0,0.0,0.47423309087753296,0.06108109712499754
+vqa,correct,vqa_292225005_115796003,0,other,What sport is being played?,292225.0,tennis,frisbee,tennis,1.0,1.0,0.0,0.0,0.4835924506187439,0.06108109712499754
+vqa,correct,vqa_292225005_115796003,1,other,What sport is being played?,115796.0,frisbee,tennis,frisbee,1.0,1.0,0.0,0.0,0.2549147307872772,0.06108109712499754
+vqa,correct,vqa_365618001_478857005,0,other,Is the road straight or curved?,365618.0,curved,straight,curved,1.0,1.0,0.0,0.0,0.23047380149364471,0.06108109712499754
+vqa,correct,vqa_365618001_478857005,1,other,Is the road straight or curved?,478857.0,straight,curved,curved,0.3,0.0,1.0,0.0,1.9354186058044434,0.06108109712499754
+vqa,correct,vqa_27620001_484674000,0,other,What color is the chair?,27620.0,gray,brown,gray,1.0,1.0,0.0,0.0,0.8418092727661133,0.06108109712499754
+vqa,correct,vqa_27620001_484674000,1,other,What color is the chair?,484674.0,brown,gray,white,0.0,0.0,0.0,0.0,2.221066951751709,0.06108109712499754
+vqa,correct,vqa_455188002_135071006,0,other,What color is the pot?,455188.0,red,orange,red,1.0,1.0,0.0,0.0,0.28131163120269775,0.05368554524989122
+vqa,correct,vqa_455188002_135071006,1,other,What color is the pot?,135071.0,orange,red,white,0.0,0.0,0.0,0.0,4.495357990264893,0.05368554524989122
+vqa,correct,vqa_24845012_554523021,0,other,What kind of room is this?,24845.0,bathroom,kitchen,bathroom,1.0,1.0,0.0,0.0,0.2805422842502594,0.05368554524989122
+vqa,correct,vqa_24845012_554523021,1,other,What kind of room is this?,554523.0,kitchen,bathroom,bathroom,0.0,0.0,1.0,0.0,0.6037608981132507,0.05368554524989122
+vqa,correct,vqa_373810001_71647003,0,other,What color is the bear on the right?,373810.0,pink,white,pink,1.0,1.0,0.0,0.0,0.43318435549736023,0.05368554524989122
+vqa,correct,vqa_373810001_71647003,1,other,What color is the bear on the right?,71647.0,white,pink,brown,0.3,0.0,0.0,0.0,0.9504622220993042,0.05368554524989122
+vqa,correct,vqa_149184000_222500006,0,other,What color is the oven on the left?,149184.0,white,silver,brown,0.0,0.0,0.0,0.0,1.4098765850067139,0.05368554524989122
+vqa,correct,vqa_149184000_222500006,1,other,What color is the oven on the left?,222500.0,silver,white,brown,0.0,0.0,0.0,0.0,3.3186159133911133,0.05368554524989122
+vqa,correct,vqa_311497006_286089010,0,other,Which hand is the woman holding a tennis racket?,311497.0,right,left,left,0.0,0.0,1.0,0.0,1.09773588180542,0.05326600437501838
+vqa,correct,vqa_311497006_286089010,1,other,Which hand is the woman holding a tennis racket?,286089.0,left,right,right,0.0,0.0,1.0,0.0,0.9422966241836548,0.05326600437501838
+vqa,correct,vqa_151299001_424551003,0,other,What is the guy doing?,151299.0,snowboarding,skiing,snowboarding,1.0,1.0,0.0,0.0,0.2793138027191162,0.05326600437501838
+vqa,correct,vqa_151299001_424551003,1,other,What is the guy doing?,424551.0,skiing,snowboarding,snowboarding,0.0,0.0,1.0,0.0,0.47648265957832336,0.05326600437501838
+vqa,correct,vqa_335814002_204525003,0,other,What is the man wearing on his face?,335814.0,sunglasses,glasses,hat,0.0,0.0,0.0,0.0,1.8300405740737915,0.05326600437501838
+vqa,correct,vqa_335814002_204525003,1,other,What is the man wearing on his face?,204525.0,glasses,sunglasses,hat,0.0,0.0,0.0,0.0,3.2052109241485596,0.05326600437501838
+vqa,correct,vqa_257219002_564489003,0,other,What color is the girls hair band?,257219.0,black,red,white,0.0,0.0,0.0,0.0,2.044149398803711,0.05326600437501838
+vqa,correct,vqa_257219002_564489003,1,other,What color is the girls hair band?,564489.0,red,black,red,1.0,1.0,0.0,0.0,0.01200180221349001,0.05326600437501838
+vqa,correct,vqa_421955001_209530012,0,other,What is on the trays on both sides of picture?,421955.0,cookies,pizza,cake,0.0,0.0,0.0,0.0,5.834317207336426,0.05402286237494991
+vqa,correct,vqa_421955001_209530012,1,other,What is on the trays on both sides of picture?,209530.0,pizza,cookies,fork,0.0,0.0,0.0,0.0,4.537173271179199,0.05402286237494991
+vqa,correct,vqa_25807000_184030004,0,other,Who is on a surfboard?,25807.0,man,woman,surfer,0.0,0.0,0.0,0.0,3.2075605392456055,0.05402286237494991
+vqa,correct,vqa_25807000_184030004,1,other,Who is on a surfboard?,184030.0,woman,man,person,0.0,0.0,0.0,0.0,4.517446994781494,0.05402286237494991
+vqa,correct,vqa_148042002_345397006,0,other,What type of phone is this?,148042.0,nokia,iphone,cell,0.0,0.0,0.0,0.0,3.123383045196533,0.05402286237494991
+vqa,correct,vqa_148042002_345397006,1,other,What type of phone is this?,345397.0,iphone,nokia,iphone,1.0,1.0,0.0,0.0,0.38607272505760193,0.05402286237494991
+vqa,correct,vqa_45962000_189078001,0,other,Are these bananas large or small?,45962.0,large,small,large,1.0,1.0,0.0,0.0,0.09423685073852539,0.05402286237494991
+vqa,correct,vqa_45962000_189078001,1,other,Are these bananas large or small?,189078.0,small,large,large,0.3,0.0,1.0,0.0,1.2152647972106934,0.05402286237494991
+vqa,swap,vqa_375415001_571279011,0,yes/no,Are there any grapes?,571279.0,no,yes,yes,0.0,0.0,1.0,0.0,0.8807775974273682,0.04263777799997115
+vqa,swap,vqa_375415001_571279011,1,yes/no,Are there any grapes?,375415.0,yes,no,no,0.0,0.0,1.0,0.0,0.7832644581794739,0.04263777799997115
+vqa,swap,vqa_465422003_363991019,0,yes/no,Is he wearing a helmet?,363991.0,yes,no,no,0.0,0.0,1.0,0.0,1.1479525566101074,0.04263777799997115
+vqa,swap,vqa_465422003_363991019,1,yes/no,Is he wearing a helmet?,465422.0,no,yes,yes,0.0,0.0,1.0,0.0,1.0342985391616821,0.04263777799997115
+vqa,swap,vqa_71215000_39900004,0,yes/no,Is there patriotic bunting on the carriage?,39900.0,yes,no,no,0.3,0.0,1.0,0.0,1.7929956912994385,0.04263777799997115
+vqa,swap,vqa_71215000_39900004,1,yes/no,Is there patriotic bunting on the carriage?,71215.0,no,yes,yes,0.0,0.0,1.0,0.0,1.065147042274475,0.04263777799997115
+vqa,swap,vqa_320203000_417606003,0,yes/no,Are there clouds?,417606.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5780631899833679,0.04263777799997115
+vqa,swap,vqa_320203000_417606003,1,yes/no,Are there clouds?,320203.0,no,yes,yes,0.0,0.0,1.0,0.0,1.203444480895996,0.04263777799997115
+vqa,swap,vqa_159791000_113082001,0,yes/no,Does the owner of the fridge like stickers?,113082.0,yes,no,no,0.0,0.0,1.0,0.0,1.1061664819717407,0.0419308556249689
+vqa,swap,vqa_159791000_113082001,1,yes/no,Does the owner of the fridge like stickers?,159791.0,no,yes,yes,0.0,0.0,1.0,0.0,1.396374225616455,0.0419308556249689
+vqa,swap,vqa_388880005_275881015,0,yes/no,Is the boat docked?,275881.0,yes,no,no,0.6,0.0,1.0,0.0,2.666193962097168,0.0419308556249689
+vqa,swap,vqa_388880005_275881015,1,yes/no,Is the boat docked?,388880.0,no,yes,yes,0.0,0.0,1.0,0.0,2.0320537090301514,0.0419308556249689
+vqa,swap,vqa_467843003_82986003,0,yes/no,Does the boy have good vision?,82986.0,no,yes,no,1.0,1.0,0.0,0.0,0.4633921682834625,0.0419308556249689
+vqa,swap,vqa_467843003_82986003,1,yes/no,Does the boy have good vision?,467843.0,yes,no,no,0.0,0.0,1.0,0.0,0.7346770167350769,0.0419308556249689
+vqa,swap,vqa_509471001_180984003,0,yes/no,Are they both wearing sunglasses?,180984.0,yes,no,no,0.0,0.0,1.0,0.0,1.9639856815338135,0.0419308556249689
+vqa,swap,vqa_509471001_180984003,1,yes/no,Are they both wearing sunglasses?,509471.0,no,yes,no,1.0,1.0,0.0,0.0,0.18258064985275269,0.0419308556249689
+vqa,swap,vqa_489719002_578467004,0,yes/no,Is there a baby elephant in image?,578467.0,yes,no,no,0.0,0.0,1.0,0.0,2.5220863819122314,0.04250849637514875
+vqa,swap,vqa_489719002_578467004,1,yes/no,Is there a baby elephant in image?,489719.0,no,yes,yes,0.6,0.0,1.0,0.0,2.9897842407226562,0.04250849637514875
+vqa,swap,vqa_334075002_411642000,0,yes/no,Has the batter hit the ball?,411642.0,no,yes,no,1.0,1.0,0.0,0.0,0.6567295789718628,0.04250849637514875
+vqa,swap,vqa_334075002_411642000,1,yes/no,Has the batter hit the ball?,334075.0,yes,no,no,0.5999999999999999,0.0,1.0,0.0,0.9560779929161072,0.04250849637514875
+vqa,swap,vqa_449522002_260150017,0,yes/no,Do you see salt around?,260150.0,yes,no,yes,1.0,1.0,0.0,0.0,0.308053582906723,0.04250849637514875
+vqa,swap,vqa_449522002_260150017,1,yes/no,Do you see salt around?,449522.0,no,yes,yes,0.0,0.0,1.0,0.0,1.8638828992843628,0.04250849637514875
+vqa,swap,vqa_88109002_192905004,0,yes/no,Is the small zebra just born?,192905.0,yes,no,no,0.0,0.0,1.0,0.0,0.9278151988983154,0.04250849637514875
+vqa,swap,vqa_88109002_192905004,1,yes/no,Is the small zebra just born?,88109.0,no,yes,no,1.0,1.0,0.0,0.0,0.48156651854515076,0.04250849637514875
+vqa,swap,vqa_530207000_335340003,0,yes/no,Is there a man with a safety vest?,335340.0,yes,no,yes,1.0,1.0,0.0,0.0,0.318349689245224,0.04291441612508606
+vqa,swap,vqa_530207000_335340003,1,yes/no,Is there a man with a safety vest?,530207.0,no,yes,yes,0.0,0.0,1.0,0.0,1.8451926708221436,0.04291441612508606
+vqa,swap,vqa_508041004_382728011,0,yes/no,Is the train near any buildings?,382728.0,yes,no,yes,1.0,1.0,0.0,0.0,0.26395532488822937,0.04291441612508606
+vqa,swap,vqa_508041004_382728011,1,yes/no,Is the train near any buildings?,508041.0,no,yes,yes,0.0,0.0,1.0,0.0,1.9931511878967285,0.04291441612508606
+vqa,swap,vqa_574805000_277174010,0,yes/no,Are there rocks visible?,277174.0,yes,no,yes,1.0,1.0,0.0,0.0,0.14957626163959503,0.04291441612508606
+vqa,swap,vqa_574805000_277174010,1,yes/no,Are there rocks visible?,574805.0,no,yes,yes,0.3,0.0,1.0,0.0,3.168619394302368,0.04291441612508606
+vqa,swap,vqa_551811000_355956004,0,yes/no,Is there some gardening being done at the time the picture was taken?,355956.0,yes,no,no,0.3,0.0,1.0,0.0,2.3933770656585693,0.04291441612508606
+vqa,swap,vqa_551811000_355956004,1,yes/no,Is there some gardening being done at the time the picture was taken?,551811.0,no,yes,yes,0.0,0.0,1.0,0.0,0.9461202621459961,0.04291441612508606
+vqa,swap,vqa_3091005_438788019,0,yes/no,Does this cake appear to be chocolate?,438788.0,yes,no,yes,1.0,1.0,0.0,0.0,0.3153635561466217,0.04283804812484959
+vqa,swap,vqa_3091005_438788019,1,yes/no,Does this cake appear to be chocolate?,3091.0,no,yes,yes,0.0,0.0,1.0,0.0,2.280319929122925,0.04283804812484959
+vqa,swap,vqa_97465001_506052002,0,yes/no,Is this an android phone?,506052.0,yes,no,yes,1.0,1.0,0.0,0.0,0.3939116299152374,0.04283804812484959
+vqa,swap,vqa_97465001_506052002,1,yes/no,Is this an android phone?,97465.0,no,yes,yes,0.0,0.0,1.0,0.0,2.6089158058166504,0.04283804812484959
+vqa,swap,vqa_514222000_106244002,0,yes/no,Is this in a restaurant?,106244.0,no,yes,yes,0.0,0.0,1.0,0.0,3.456684112548828,0.04283804812484959
+vqa,swap,vqa_514222000_106244002,1,yes/no,Is this in a restaurant?,514222.0,yes,no,yes,1.0,1.0,0.0,0.0,0.21148335933685303,0.04283804812484959
+vqa,swap,vqa_361217000_86168021,0,yes/no,Are these baby cats?,86168.0,yes,no,no,0.0,0.0,1.0,0.0,4.295075416564941,0.04283804812484959
+vqa,swap,vqa_361217000_86168021,1,yes/no,Are these baby cats?,361217.0,no,yes,no,1.0,1.0,0.0,0.0,0.5696823596954346,0.04283804812484959
+vqa,swap,vqa_26432006_572592019,0,yes/no,Is there a tent in the picture?,572592.0,yes,no,no,0.0,0.0,1.0,0.0,1.6258043050765991,0.042401740749937744
+vqa,swap,vqa_26432006_572592019,1,yes/no,Is there a tent in the picture?,26432.0,no,yes,yes,0.0,0.0,1.0,0.0,0.9747618436813354,0.042401740749937744
+vqa,swap,vqa_355871000_164330003,0,yes/no,Do the people look happy?,164330.0,yes,no,no,0.0,0.0,1.0,0.0,0.7675340175628662,0.042401740749937744
+vqa,swap,vqa_355871000_164330003,1,yes/no,Do the people look happy?,355871.0,no,yes,yes,0.3,0.0,1.0,0.0,2.2528786659240723,0.042401740749937744
+vqa,swap,vqa_339346000_423395002,0,yes/no,Is it winter?,423395.0,yes,no,yes,1.0,1.0,0.0,0.0,0.4239518940448761,0.042401740749937744
+vqa,swap,vqa_339346000_423395002,1,yes/no,Is it winter?,339346.0,no,yes,yes,0.0,0.0,1.0,0.0,1.9646762609481812,0.042401740749937744
+vqa,swap,vqa_577277002_465275003,0,yes/no,Is she in a library?,465275.0,yes,no,no,0.6,0.0,1.0,0.0,2.710597515106201,0.042401740749937744
+vqa,swap,vqa_577277002_465275003,1,yes/no,Is she in a library?,577277.0,no,yes,yes,0.0,0.0,1.0,0.0,3.788940668106079,0.042401740749937744
+vqa,swap,vqa_477846000_92338008,0,yes/no,Is the ground wet?,92338.0,yes,no,no,0.0,0.0,1.0,0.0,0.9754502773284912,0.04200345074991674
+vqa,swap,vqa_477846000_92338008,1,yes/no,Is the ground wet?,477846.0,no,yes,yes,0.6,0.0,1.0,0.0,3.8348007202148438,0.04200345074991674
+vqa,swap,vqa_466229002_146813002,0,yes/no,Is there a person in the picture?,146813.0,yes,no,no,0.0,0.0,1.0,0.0,1.8316781520843506,0.04200345074991674
+vqa,swap,vqa_466229002_146813002,1,yes/no,Is there a person in the picture?,466229.0,no,yes,yes,0.0,0.0,1.0,0.0,2.2386744022369385,0.04200345074991674
+vqa,swap,vqa_19962001_74646024,0,yes/no,Is the sky clear?,74646.0,no,yes,yes,0.0,0.0,1.0,0.0,3.1832847595214844,0.04200345074991674
+vqa,swap,vqa_19962001_74646024,1,yes/no,Is the sky clear?,19962.0,yes,no,yes,1.0,1.0,0.0,0.0,0.11854886263608932,0.04200345074991674
+vqa,swap,vqa_161505000_89880045,0,yes/no,Is this the same dog?,89880.0,yes,no,no,0.3,0.0,1.0,0.0,1.2242802381515503,0.04200345074991674
+vqa,swap,vqa_161505000_89880045,1,yes/no,Is this the same dog?,161505.0,no,yes,yes,0.0,0.0,1.0,0.0,1.6534734964370728,0.04200345074991674
+vqa,swap,vqa_113235001_195862007,0,yes/no,Is this a horse?,195862.0,no,yes,yes,0.0,0.0,1.0,0.0,2.9615278244018555,0.04207300112489065
+vqa,swap,vqa_113235001_195862007,1,yes/no,Is this a horse?,113235.0,yes,no,no,0.0,0.0,1.0,0.0,1.248333215713501,0.04207300112489065
+vqa,swap,vqa_282674002_244246002,0,yes/no,Is the truck immediately ready to move?,244246.0,no,yes,no,1.0,1.0,0.0,0.0,0.5637970566749573,0.04207300112489065
+vqa,swap,vqa_282674002_244246002,1,yes/no,Is the truck immediately ready to move?,282674.0,yes,no,no,0.6,0.0,1.0,0.0,1.6270911693572998,0.04207300112489065
+vqa,swap,vqa_65415001_226588006,0,yes/no,Is this woman wearing a hat?,226588.0,no,yes,yes,0.3,0.0,1.0,0.0,0.9852645993232727,0.04207300112489065
+vqa,swap,vqa_65415001_226588006,1,yes/no,Is this woman wearing a hat?,65415.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5431250333786011,0.04207300112489065
+vqa,swap,vqa_580255002_504516003,0,yes/no,Are the dogs outdoors?,504516.0,no,yes,no,1.0,1.0,0.0,0.0,0.5438277125358582,0.04207300112489065
+vqa,swap,vqa_580255002_504516003,1,yes/no,Are the dogs outdoors?,580255.0,yes,no,no,0.0,0.0,1.0,0.0,1.3482130765914917,0.04207300112489065
+vqa,swap,vqa_544432002_371364003,0,yes/no,Are they making cupcakes?,371364.0,yes,no,no,0.0,0.0,1.0,0.0,4.033849716186523,0.042605733124901235
+vqa,swap,vqa_544432002_371364003,1,yes/no,Are they making cupcakes?,544432.0,no,yes,no,1.0,1.0,0.0,0.0,0.3238380551338196,0.042605733124901235
+vqa,swap,vqa_175688003_488942002,0,yes/no,Is there a clock on the top of the building?,488942.0,yes,no,yes,1.0,1.0,0.0,0.0,0.016141213476657867,0.042605733124901235
+vqa,swap,vqa_175688003_488942002,1,yes/no,Is there a clock on the top of the building?,175688.0,no,yes,yes,0.3,0.0,1.0,0.0,4.14329195022583,0.042605733124901235
+vqa,swap,vqa_513887003_119729002,0,yes/no,Does the person holding the bananas have a tattoo on his wrist?,119729.0,yes,no,no,0.0,0.0,1.0,0.0,1.9373022317886353,0.042605733124901235
+vqa,swap,vqa_513887003_119729002,1,yes/no,Does the person holding the bananas have a tattoo on his wrist?,513887.0,no,yes,no,1.0,1.0,0.0,0.0,0.09906398504972458,0.042605733124901235
+vqa,swap,vqa_457558001_248767003,0,yes/no,Does the signal indicate that people walking are safe to cross?,248767.0,no,yes,no,1.0,1.0,0.0,0.0,0.26364848017692566,0.042605733124901235
+vqa,swap,vqa_457558001_248767003,1,yes/no,Does the signal indicate that people walking are safe to cross?,457558.0,yes,no,no,0.6000000000000001,0.0,1.0,0.0,0.8827770352363586,0.042605733124901235
+vqa,swap,vqa_331937000_215132011,0,number,How many pictures are hanging up?,215132.0,2,3,2,1.0,1.0,0.0,0.0,0.8341833353042603,0.04151795149982718
+vqa,swap,vqa_331937000_215132011,1,number,How many pictures are hanging up?,331937.0,3,2,3,1.0,1.0,0.0,0.0,0.7371195554733276,0.04151795149982718
+vqa,swap,vqa_109824000_136929002,0,number,How many doughnuts look broken?,136929.0,1,0,0,0.0,0.0,1.0,0.0,2.944918155670166,0.04151795149982718
+vqa,swap,vqa_109824000_136929002,1,number,How many doughnuts look broken?,109824.0,0,1,0,1.0,1.0,0.0,0.0,0.1972639411687851,0.04151795149982718
+vqa,swap,vqa_70258002_458750001,0,number,How many children are there?,458750.0,5,3,4,0.0,0.0,0.0,0.0,4.102853775024414,0.04151795149982718
+vqa,swap,vqa_70258002_458750001,1,number,How many children are there?,70258.0,3,5,4,0.0,0.0,0.0,0.0,3.4050650596618652,0.04151795149982718
+vqa,swap,vqa_26209008_237626001,0,number,How many trailers are there?,237626.0,2,1,1,0.3,0.0,1.0,0.0,1.7823023796081543,0.04151795149982718
+vqa,swap,vqa_26209008_237626001,1,number,How many trailers are there?,26209.0,1,2,2,0.0,0.0,1.0,0.0,1.9584987163543701,0.04151795149982718
+vqa,swap,vqa_552610003_510992004,0,number,What time does the clock say on the stove?,510992.0,10:32,11:59,3:00,0.0,0.0,0.0,0.0,1.7961727380752563,0.06793356612502066
+vqa,swap,vqa_552610003_510992004,1,number,What time does the clock say on the stove?,552610.0,11:59,10:32,3:15,0.0,0.0,0.0,0.0,2.345771312713623,0.06793356612502066
+vqa,swap,vqa_222788000_187451001,0,number,How many surfers?,187451.0,4,3,3,0.0,0.0,1.0,0.0,1.8350412845611572,0.06793356612502066
+vqa,swap,vqa_222788000_187451001,1,number,How many surfers?,222788.0,3,4,4,0.0,0.0,1.0,0.0,5.045446395874023,0.06793356612502066
+vqa,swap,vqa_388211004_366003002,0,number,How many hot dogs are pictured?,366003.0,3,1,1,0.0,0.0,1.0,0.0,6.238176345825195,0.06793356612502066
+vqa,swap,vqa_388211004_366003002,1,number,How many hot dogs are pictured?,388211.0,1,3,4,0.0,0.0,0.0,0.0,7.9388885498046875,0.06793356612502066
+vqa,swap,vqa_407903001_481895006,0,number,How many surfers are in the water?,481895.0,4,2,3,0.0,0.0,0.0,0.0,3.0676541328430176,0.06793356612502066
+vqa,swap,vqa_407903001_481895006,1,number,How many surfers are in the water?,407903.0,2,4,4,0.0,0.0,1.0,0.0,1.746077299118042,0.06793356612502066
+vqa,swap,vqa_128830000_187543029,0,number,How many men in the photo?,187543.0,2,1,1,0.3,0.0,1.0,0.0,2.823371410369873,0.042319479999832765
+vqa,swap,vqa_128830000_187543029,1,number,How many men in the photo?,128830.0,1,2,1,1.0,1.0,0.0,0.0,0.7329779267311096,0.042319479999832765
+vqa,swap,vqa_123070001_157847009,0,number,How many bodies of water are in the image?,157847.0,1,0,0,0.0,0.0,1.0,0.0,5.6763916015625,0.042319479999832765
+vqa,swap,vqa_123070001_157847009,1,number,How many bodies of water are in the image?,123070.0,0,1,1,0.3,0.0,1.0,0.0,1.1071102619171143,0.042319479999832765
+vqa,swap,vqa_460307003_561187001,0,number,What number of brown horses are there?,561187.0,3,1,2,0.6000000000000001,0.0,0.0,0.0,3.082664728164673,0.042319479999832765
+vqa,swap,vqa_460307003_561187001,1,number,What number of brown horses are there?,460307.0,1,3,2,0.0,0.0,0.0,0.0,1.7329304218292236,0.042319479999832765
+vqa,swap,vqa_43435000_332087001,0,number,How many people are surfing in this picture?,332087.0,2,1,1,0.3,0.0,1.0,0.0,5.444624900817871,0.042319479999832765
+vqa,swap,vqa_43435000_332087001,1,number,How many people are surfing in this picture?,43435.0,1,2,2,0.0,0.0,1.0,0.0,1.348006248474121,0.042319479999832765
+vqa,swap,vqa_153847000_497299000,0,number,How many boats are in the background?,497299.0,2,0,2,1.0,1.0,0.0,0.0,0.5760712623596191,0.04223688150000271
+vqa,swap,vqa_153847000_497299000,1,number,How many boats are in the background?,153847.0,0,2,2,0.0,0.0,1.0,0.0,4.067255973815918,0.04223688150000271
+vqa,swap,vqa_335774001_452137005,0,number,How many small plates are on the table?,452137.0,4,1,1,0.0,0.0,1.0,0.0,5.155667781829834,0.04223688150000271
+vqa,swap,vqa_335774001_452137005,1,number,How many small plates are on the table?,335774.0,1,4,2,0.0,0.0,0.0,0.0,1.5912692546844482,0.04223688150000271
+vqa,swap,vqa_225133000_274612010,0,number,How many yellow umbrellas?,274612.0,2,1,3,0.3,0.0,0.0,0.0,2.030613660812378,0.04223688150000271
+vqa,swap,vqa_225133000_274612010,1,number,How many yellow umbrellas?,225133.0,1,2,3,0.0,0.0,0.0,0.0,2.606147050857544,0.04223688150000271
+vqa,swap,vqa_113282002_206757008,0,number,How many suitcase(s) are there?,206757.0,5,0,3,0.0,0.0,0.0,0.0,3.5718274116516113,0.04223688150000271
+vqa,swap,vqa_113282002_206757008,1,number,How many suitcase(s) are there?,113282.0,0,5,4,0.0,0.0,0.0,0.0,9.681641578674316,0.04223688150000271
+vqa,swap,vqa_506595000_486573002,0,number,How many vases are in the photo?,486573.0,2,1,1,0.0,0.0,1.0,0.0,2.2523014545440674,0.04211626112510203
+vqa,swap,vqa_506595000_486573002,1,number,How many vases are in the photo?,506595.0,1,2,1,1.0,1.0,0.0,0.0,0.1040756031870842,0.04211626112510203
+vqa,swap,vqa_541055000_494456001,0,number,How many people are there?,494456.0,5,2,2,0.0,0.0,1.0,0.0,11.465535163879395,0.04211626112510203
+vqa,swap,vqa_541055000_494456001,1,number,How many people are there?,541055.0,2,5,4,0.0,0.0,0.0,0.0,8.653459548950195,0.04211626112510203
+vqa,swap,vqa_404652003_470780009,0,number,How many towels are  in the room?,470780.0,2,0,0,0.0,0.0,1.0,0.0,1.6198208332061768,0.04211626112510203
+vqa,swap,vqa_404652003_470780009,1,number,How many towels are  in the room?,404652.0,0,2,1,0.0,0.0,0.0,0.0,1.6699920892715454,0.04211626112510203
+vqa,swap,vqa_385985001_384092009,0,number,How many people?,384092.0,2,1,1,0.0,0.0,1.0,0.0,3.577857255935669,0.04211626112510203
+vqa,swap,vqa_385985001_384092009,1,number,How many people?,385985.0,1,2,1,1.0,1.0,0.0,0.0,0.6545211672782898,0.04211626112510203
+vqa,swap,vqa_258291003_232503000,0,number,How many buses?,232503.0,1,2,1,1.0,1.0,0.0,0.0,0.8150210380554199,0.041415065874844004
+vqa,swap,vqa_258291003_232503000,1,number,How many buses?,258291.0,2,1,2,1.0,1.0,0.0,0.0,0.9730608463287354,0.041415065874844004
+vqa,swap,vqa_219894002_366225014,0,number,How many keyboards can you spot?,366225.0,2,1,1,0.0,0.0,1.0,0.0,1.4776030778884888,0.041415065874844004
+vqa,swap,vqa_219894002_366225014,1,number,How many keyboards can you spot?,219894.0,1,2,1,1.0,1.0,0.0,0.0,0.7321203351020813,0.041415065874844004
+vqa,swap,vqa_536743002_125873006,0,number,How many children are there?,125873.0,6,8,7,0.0,0.0,0.0,0.0,1.1144851446151733,0.041415065874844004
+vqa,swap,vqa_536743002_125873006,1,number,How many children are there?,536743.0,8,6,5,0.0,0.0,0.0,0.0,6.124109268188477,0.041415065874844004
+vqa,swap,vqa_112232001_419096008,0,number,How many trains are shown?,419096.0,2,1,1,0.0,0.0,1.0,0.0,0.8154792189598083,0.041415065874844004
+vqa,swap,vqa_112232001_419096008,1,number,How many trains are shown?,112232.0,1,2,2,0.3,0.0,1.0,0.0,5.621388912200928,0.041415065874844004
+vqa,swap,vqa_37677001_196660015,0,other,What is the person holding?,196660.0,umbrella,surfboard,surfboard,0.0,0.0,1.0,0.0,7.421093463897705,0.058328106749968356
+vqa,swap,vqa_37677001_196660015,1,other,What is the person holding?,37677.0,surfboard,umbrella,umbrella,0.0,0.0,1.0,0.0,11.415718078613281,0.058328106749968356
+vqa,swap,vqa_143370002_343466025,0,other,What room is this?,343466.0,bathroom,kitchen,kitchen,0.0,0.0,1.0,0.0,6.397634506225586,0.058328106749968356
+vqa,swap,vqa_143370002_343466025,1,other,What room is this?,143370.0,kitchen,bathroom,bathroom,0.0,0.0,1.0,0.0,2.053385019302368,0.058328106749968356
+vqa,swap,vqa_216296000_63595005,0,other,What color is the court?,63595.0,green,purple,red,0.0,0.0,0.0,0.0,1.8478455543518066,0.058328106749968356
+vqa,swap,vqa_216296000_63595005,1,other,What color is the court?,216296.0,purple,green,white,0.0,0.0,0.0,0.0,6.989317893981934,0.058328106749968356
+vqa,swap,vqa_65208002_168811000,0,other,What is the man carrying?,168811.0,umbrella,phone,passenger car,0.0,0.0,0.0,0.0,4.137051582336426,0.058328106749968356
+vqa,swap,vqa_65208002_168811000,1,other,What is the man carrying?,65208.0,phone,umbrella,umbrella,0.0,0.0,1.0,0.0,8.851103782653809,0.058328106749968356
+vqa,swap,vqa_71618007_75051000,0,other,Is the lid to the toilet Up or down?,75051.0,up,down,up,1.0,1.0,0.0,0.0,0.37218475341796875,0.051135462749925864
+vqa,swap,vqa_71618007_75051000,1,other,Is the lid to the toilet Up or down?,71618.0,down,up,up,0.0,0.0,1.0,0.0,1.0590553283691406,0.051135462749925864
+vqa,swap,vqa_514722002_448849006,0,other,What is going over the water?,448849.0,train,boat,people,0.0,0.0,0.0,0.0,9.188552856445312,0.051135462749925864
+vqa,swap,vqa_514722002_448849006,1,other,What is going over the water?,514722.0,boat,train,cars,0.0,0.0,0.0,0.0,3.3656396865844727,0.051135462749925864
+vqa,swap,vqa_247986002_469398004,0,other,Is this man holding the cell phone with his right or left hand?,469398.0,left,right,right,0.0,0.0,1.0,0.0,0.9743766784667969,0.051135462749925864
+vqa,swap,vqa_247986002_469398004,1,other,Is this man holding the cell phone with his right or left hand?,247986.0,right,left,right,1.0,1.0,0.0,0.0,0.4413202702999115,0.051135462749925864
+vqa,swap,vqa_297260002_136624011,0,other,What is the green food on top of the sandwich?,136624.0,pickle,lettuce,salmon,0.0,0.0,0.0,0.0,8.1433744430542,0.051135462749925864
+vqa,swap,vqa_297260002_136624011,1,other,What is the green food on top of the sandwich?,297260.0,lettuce,pickle,pasta,0.0,0.0,0.0,0.0,2.956324338912964,0.051135462749925864
+vqa,swap,vqa_94922002_516733015,0,other,What sport is the man playing?,516733.0,frisbee,baseball,baseball,0.0,0.0,1.0,0.0,3.756173849105835,0.05932753050001338
+vqa,swap,vqa_94922002_516733015,1,other,What sport is the man playing?,94922.0,baseball,frisbee,frisbee,0.0,0.0,1.0,0.0,3.9463324546813965,0.05932753050001338
+vqa,swap,vqa_404568004_357060004,0,other,What color is the beak of the bird?,357060.0,yellow,black,black,0.0,0.0,1.0,0.0,2.469243049621582,0.05932753050001338
+vqa,swap,vqa_404568004_357060004,1,other,What color is the beak of the bird?,404568.0,black,yellow,black,1.0,1.0,0.0,0.0,1.178267240524292,0.05932753050001338
+vqa,swap,vqa_396167001_128748005,0,other,What is the last name of the person in the foreground?,128748.0,chappell,navarro,Wright,0.0,0.0,0.0,0.0,5.4088826179504395,0.05932753050001338
+vqa,swap,vqa_396167001_128748005,1,other,What is the last name of the person in the foreground?,396167.0,navarro,chappell,Smith,0.0,0.0,0.0,0.0,4.066135883331299,0.05932753050001338
+vqa,swap,vqa_247587000_413349006,0,other,What is the man standing on?,413349.0,surfboard,skateboard,skateboard,0.0,0.0,1.0,0.0,6.826909065246582,0.05932753050001338
+vqa,swap,vqa_247587000_413349006,1,other,What is the man standing on?,247587.0,skateboard,surfboard,surfboard,0.0,0.0,1.0,0.0,2.895871877670288,0.05932753050001338
+vqa,swap,vqa_260307001_528977003,0,other,The one way sign is pointing to which side of the picture?,528977.0,right,left,left,0.0,0.0,1.0,0.0,0.9474889636039734,0.05939806187507202
+vqa,swap,vqa_260307001_528977003,1,other,The one way sign is pointing to which side of the picture?,260307.0,left,right,right,0.0,0.0,1.0,0.0,0.8229309916496277,0.05939806187507202
+vqa,swap,vqa_113589002_538844004,0,other,What is on the right of the picture?,538844.0,banana,broccoli,salmon,0.0,0.0,0.0,0.0,6.334314346313477,0.05939806187507202
+vqa,swap,vqa_113589002_538844004,1,other,What is on the right of the picture?,113589.0,broccoli,banana,banana,0.0,0.0,1.0,0.0,5.0591607093811035,0.05939806187507202
+vqa,swap,vqa_577073002_184978021,0,other,What is this person doing?,184978.0,skiing,snowboarding,snowboarding,0.0,0.0,1.0,0.0,1.3911372423171997,0.05939806187507202
+vqa,swap,vqa_577073002_184978021,1,other,What is this person doing?,577073.0,snowboarding,skiing,skating,0.0,0.0,0.0,0.0,0.7182549238204956,0.05939806187507202
+vqa,swap,vqa_434410000_511066010,0,other,What is leaning against the house?,511066.0,ladder,surfboard,floor,0.0,0.0,0.0,0.0,3.0228419303894043,0.05939806187507202
+vqa,swap,vqa_434410000_511066010,1,other,What is leaning against the house?,434410.0,surfboard,ladder,wooden plank,0.0,0.0,0.0,0.0,6.836768627166748,0.05939806187507202
+vqa,swap,vqa_10114000_110601007,0,other,Which room is this?,110601.0,kitchen,bathroom,bathroom,0.0,0.0,1.0,0.0,2.7106544971466064,0.0501475321250382
+vqa,swap,vqa_10114000_110601007,1,other,Which room is this?,10114.0,bathroom,kitchen,kitchen,0.0,0.0,1.0,0.0,3.959261655807495,0.0501475321250382
+vqa,swap,vqa_547875012_105812087,0,other,What kind of drink are they having?,105812.0,beer,water,coffee,0.0,0.0,0.0,0.0,4.8838043212890625,0.0501475321250382
+vqa,swap,vqa_547875012_105812087,1,other,What kind of drink are they having?,547875.0,water,beer,beer,0.0,0.0,1.0,0.0,7.39691162109375,0.0501475321250382
+vqa,swap,vqa_85913000_519676005,0,other,What color is the bike?,519676.0,blue,white,white,0.0,0.0,1.0,0.0,4.192787170410156,0.0501475321250382
+vqa,swap,vqa_85913000_519676005,1,other,What color is the bike?,85913.0,white,blue,blue,0.0,0.0,1.0,0.0,7.8778767585754395,0.0501475321250382
+vqa,swap,vqa_75055002_240637021,0,other,What animal do you see?,240637.0,cat,dog,cat,1.0,1.0,0.0,0.0,0.05839952453970909,0.0501475321250382
+vqa,swap,vqa_75055002_240637021,1,other,What animal do you see?,75055.0,dog,cat,cat,0.0,0.0,1.0,0.0,1.7798727750778198,0.0501475321250382
+vqa,swap,vqa_489382003_272212017,0,other,What kind of animal is pictured?,272212.0,sheep,cow,cow,0.0,0.0,1.0,0.0,2.0447139739990234,0.057441314624838924
+vqa,swap,vqa_489382003_272212017,1,other,What kind of animal is pictured?,489382.0,cow,sheep,sheep,0.0,0.0,1.0,0.0,6.819220542907715,0.057441314624838924
+vqa,swap,vqa_292225005_115796003,0,other,What sport is being played?,115796.0,tennis,frisbee,frisbee,0.0,0.0,1.0,0.0,2.5718834400177,0.057441314624838924
+vqa,swap,vqa_292225005_115796003,1,other,What sport is being played?,292225.0,frisbee,tennis,tennis,0.0,0.0,1.0,0.0,1.664331078529358,0.057441314624838924
+vqa,swap,vqa_365618001_478857005,0,other,Is the road straight or curved?,478857.0,curved,straight,curved,1.0,1.0,0.0,0.0,0.08554525673389435,0.057441314624838924
+vqa,swap,vqa_365618001_478857005,1,other,Is the road straight or curved?,365618.0,straight,curved,curved,0.3,0.0,1.0,0.0,1.036956787109375,0.057441314624838924
+vqa,swap,vqa_27620001_484674000,0,other,What color is the chair?,484674.0,gray,brown,white,0.0,0.0,0.0,0.0,2.283566951751709,0.057441314624838924
+vqa,swap,vqa_27620001_484674000,1,other,What color is the chair?,27620.0,brown,gray,gray,0.0,0.0,1.0,0.0,1.2168092727661133,0.057441314624838924
+vqa,swap,vqa_455188002_135071006,0,other,What color is the pot?,135071.0,red,orange,white,0.0,0.0,0.0,0.0,2.0891079902648926,0.05055776062499717
+vqa,swap,vqa_455188002_135071006,1,other,What color is the pot?,455188.0,orange,red,red,0.0,0.0,1.0,0.0,7.140686511993408,0.05055776062499717
+vqa,swap,vqa_24845012_554523021,0,other,What kind of room is this?,554523.0,bathroom,kitchen,bathroom,1.0,1.0,0.0,0.0,0.5774648189544678,0.05055776062499717
+vqa,swap,vqa_24845012_554523021,1,other,What kind of room is this?,24845.0,kitchen,bathroom,bathroom,0.0,0.0,1.0,0.0,2.034205436706543,0.05055776062499717
+vqa,swap,vqa_373810001_71647003,0,other,What color is the bear on the right?,71647.0,pink,white,brown,0.0,0.0,0.0,0.0,4.434837341308594,0.05055776062499717
+vqa,swap,vqa_373810001_71647003,1,other,What color is the bear on the right?,373810.0,white,pink,pink,0.0,0.0,1.0,0.0,2.4175593852996826,0.05055776062499717
+vqa,swap,vqa_149184000_222500006,0,other,What color is the oven on the left?,222500.0,white,silver,brown,0.0,0.0,0.0,0.0,3.0217409133911133,0.05055776062499717
+vqa,swap,vqa_149184000_222500006,1,other,What color is the oven on the left?,149184.0,silver,white,brown,0.0,0.0,0.0,0.0,3.722376585006714,0.05055776062499717
+vqa,swap,vqa_311497006_286089010,0,other,Which hand is the woman holding a tennis racket?,286089.0,right,left,right,1.0,1.0,0.0,0.0,0.5516716241836548,0.051772827124977994
+vqa,swap,vqa_311497006_286089010,1,other,Which hand is the woman holding a tennis racket?,311497.0,left,right,left,1.0,1.0,0.0,0.0,0.4571109414100647,0.051772827124977994
+vqa,swap,vqa_151299001_424551003,0,other,What is the guy doing?,424551.0,snowboarding,skiing,snowboarding,1.0,1.0,0.0,0.0,0.44882532954216003,0.051772827124977994
+vqa,swap,vqa_151299001_424551003,1,other,What is the guy doing?,151299.0,skiing,snowboarding,snowboarding,0.0,0.0,1.0,0.0,1.054978370666504,0.051772827124977994
+vqa,swap,vqa_335814002_204525003,0,other,What is the man wearing on his face?,204525.0,sunglasses,glasses,hat,0.0,0.0,0.0,0.0,2.4953572750091553,0.051772827124977994
+vqa,swap,vqa_335814002_204525003,1,other,What is the man wearing on his face?,335814.0,glasses,sunglasses,hat,0.0,0.0,0.0,0.0,2.874492645263672,0.051772827124977994
+vqa,swap,vqa_257219002_564489003,0,other,What color is the girls hair band?,564489.0,black,red,red,0.0,0.0,1.0,0.0,8.152626991271973,0.051772827124977994
+vqa,swap,vqa_257219002_564489003,1,other,What color is the girls hair band?,257219.0,red,black,white,0.0,0.0,0.0,0.0,2.950399398803711,0.051772827124977994
+vqa,swap,vqa_421955001_209530012,0,other,What is on the trays on both sides of picture?,209530.0,cookies,pizza,fork,0.0,0.0,0.0,0.0,5.193423271179199,0.051565167124863365
+vqa,swap,vqa_421955001_209530012,1,other,What is on the trays on both sides of picture?,421955.0,pizza,cookies,cake,0.0,0.0,0.0,0.0,8.935879707336426,0.051565167124863365
+vqa,swap,vqa_25807000_184030004,0,other,Who is on a surfboard?,184030.0,man,woman,person,0.0,0.0,0.0,0.0,3.7049472332000732,0.051565167124863365
+vqa,swap,vqa_25807000_184030004,1,other,Who is on a surfboard?,25807.0,woman,man,surfer,0.0,0.0,0.0,0.0,9.238810539245605,0.051565167124863365
+vqa,swap,vqa_148042002_345397006,0,other,What type of phone is this?,345397.0,nokia,iphone,iphone,0.0,0.0,1.0,0.0,3.9865682125091553,0.051565167124863365
+vqa,swap,vqa_148042002_345397006,1,other,What type of phone is this?,148042.0,iphone,nokia,cell,0.0,0.0,0.0,0.0,3.676669120788574,0.051565167124863365
+vqa,swap,vqa_45962000_189078001,0,other,Are these bananas large or small?,189078.0,large,small,large,1.0,1.0,0.0,0.0,0.6058897376060486,0.051565167124863365
+vqa,swap,vqa_45962000_189078001,1,other,Are these bananas large or small?,45962.0,small,large,large,0.3,0.0,1.0,0.0,2.7192368507385254,0.051565167124863365
+vqa,mismatched,vqa_375415001_571279011,0,yes/no,Are there any grapes?,339346.0,no,yes,no,1.0,1.0,0.0,0.0,0.10235390812158585,0.04164943974978996
+vqa,mismatched,vqa_375415001_571279011,1,yes/no,Are there any grapes?,423395.0,yes,no,no,0.0,0.0,1.0,0.0,0.8717843890190125,0.04164943974978996
+vqa,mismatched,vqa_465422003_363991019,0,yes/no,Is he wearing a helmet?,421955.0,yes,no,yes,1.0,1.0,0.0,0.0,0.5115906000137329,0.04164943974978996
+vqa,mismatched,vqa_465422003_363991019,1,yes/no,Is he wearing a helmet?,209530.0,no,yes,no,1.0,1.0,0.0,0.0,0.28576669096946716,0.04164943974978996
+vqa,mismatched,vqa_71215000_39900004,0,yes/no,Is there patriotic bunting on the carriage?,577277.0,yes,no,no,0.3,0.0,1.0,0.0,1.7928386926651,0.04164943974978996
+vqa,mismatched,vqa_71215000_39900004,1,yes/no,Is there patriotic bunting on the carriage?,465275.0,no,yes,no,1.0,1.0,0.0,0.0,0.14637169241905212,0.04164943974978996
+vqa,mismatched,vqa_320203000_417606003,0,yes/no,Are there clouds?,175688.0,yes,no,yes,1.0,1.0,0.0,0.0,0.1589047759771347,0.04164943974978996
+vqa,mismatched,vqa_320203000_417606003,1,yes/no,Are there clouds?,488942.0,no,yes,no,1.0,1.0,0.0,0.0,0.26772013306617737,0.04164943974978996
+vqa,mismatched,vqa_159791000_113082001,0,yes/no,Does the owner of the fridge like stickers?,388211.0,yes,no,no,0.0,0.0,1.0,0.0,2.1970303058624268,0.041712299499977235
+vqa,mismatched,vqa_159791000_113082001,1,yes/no,Does the owner of the fridge like stickers?,366003.0,no,yes,no,1.0,1.0,0.0,0.0,0.05412992462515831,0.041712299499977235
+vqa,mismatched,vqa_388880005_275881015,0,yes/no,Is the boat docked?,10114.0,yes,no,no,0.6,0.0,1.0,0.0,2.6371939182281494,0.041712299499977235
+vqa,mismatched,vqa_388880005_275881015,1,yes/no,Is the boat docked?,110601.0,no,yes,no,1.0,1.0,0.0,0.0,0.07564637809991837,0.041712299499977235
+vqa,mismatched,vqa_467843003_82986003,0,yes/no,Does the boy have good vision?,113589.0,no,yes,no,1.0,1.0,0.0,0.0,0.4247758090496063,0.041712299499977235
+vqa,mismatched,vqa_467843003_82986003,1,yes/no,Does the boy have good vision?,538844.0,yes,no,no,0.0,0.0,1.0,0.0,1.024568796157837,0.041712299499977235
+vqa,mismatched,vqa_509471001_180984003,0,yes/no,Are they both wearing sunglasses?,530207.0,yes,no,no,0.0,0.0,1.0,0.0,1.5266481637954712,0.041712299499977235
+vqa,mismatched,vqa_509471001_180984003,1,yes/no,Are they both wearing sunglasses?,335340.0,no,yes,no,1.0,1.0,0.0,0.0,0.40265578031539917,0.041712299499977235
+vqa,mismatched,vqa_489719002_578467004,0,yes/no,Is there a baby elephant in image?,113235.0,yes,no,no,0.0,0.0,1.0,0.0,4.665818214416504,0.04115257687499252
+vqa,mismatched,vqa_489719002_578467004,1,yes/no,Is there a baby elephant in image?,195862.0,no,yes,no,1.0,1.0,0.0,0.0,0.04945213720202446,0.04115257687499252
+vqa,mismatched,vqa_334075002_411642000,0,yes/no,Has the batter hit the ball?,297260.0,no,yes,no,1.0,1.0,0.0,0.0,0.1010342538356781,0.04115257687499252
+vqa,mismatched,vqa_334075002_411642000,1,yes/no,Has the batter hit the ball?,136624.0,yes,no,no,0.5999999999999999,0.0,1.0,0.0,2.507577896118164,0.04115257687499252
+vqa,mismatched,vqa_449522002_260150017,0,yes/no,Do you see salt around?,513887.0,yes,no,no,0.0,0.0,1.0,0.0,0.9485760927200317,0.04115257687499252
+vqa,mismatched,vqa_449522002_260150017,1,yes/no,Do you see salt around?,119729.0,no,yes,yes,0.0,0.0,1.0,0.0,0.8191152811050415,0.04115257687499252
+vqa,mismatched,vqa_88109002_192905004,0,yes/no,Is the small zebra just born?,282674.0,yes,no,no,0.0,0.0,1.0,0.0,1.351191520690918,0.04115257687499252
+vqa,mismatched,vqa_88109002_192905004,1,yes/no,Is the small zebra just born?,244246.0,no,yes,no,1.0,1.0,0.0,0.0,0.14989687502384186,0.04115257687499252
+vqa,mismatched,vqa_530207000_335340003,0,yes/no,Is there a man with a safety vest?,19962.0,yes,no,yes,1.0,1.0,0.0,0.0,0.6049423813819885,0.04185498337506033
+vqa,mismatched,vqa_530207000_335340003,1,yes/no,Is there a man with a safety vest?,74646.0,no,yes,yes,0.0,0.0,1.0,0.0,0.8007717132568359,0.04185498337506033
+vqa,mismatched,vqa_508041004_382728011,0,yes/no,Is the train near any buildings?,334075.0,yes,no,no,0.0,0.0,1.0,0.0,1.9375005960464478,0.04185498337506033
+vqa,mismatched,vqa_508041004_382728011,1,yes/no,Is the train near any buildings?,411642.0,no,yes,no,1.0,1.0,0.0,0.0,0.14301466941833496,0.04185498337506033
+vqa,mismatched,vqa_574805000_277174010,0,yes/no,Are there rocks visible?,222788.0,yes,no,yes,1.0,1.0,0.0,0.0,0.6116640567779541,0.04185498337506033
+vqa,mismatched,vqa_574805000_277174010,1,yes/no,Are there rocks visible?,187451.0,no,yes,yes,0.3,0.0,1.0,0.0,1.0048902034759521,0.04185498337506033
+vqa,mismatched,vqa_551811000_355956004,0,yes/no,Is there some gardening being done at the time the picture was taken?,544432.0,yes,no,no,0.3,0.0,1.0,0.0,2.18261456489563,0.04185498337506033
+vqa,mismatched,vqa_551811000_355956004,1,yes/no,Is there some gardening being done at the time the picture was taken?,371364.0,no,yes,no,1.0,1.0,0.0,0.0,0.023484298959374428,0.04185498337506033
+vqa,mismatched,vqa_3091005_438788019,0,yes/no,Does this cake appear to be chocolate?,506595.0,yes,no,no,0.0,0.0,1.0,0.0,3.378859519958496,0.04153219625004567
+vqa,mismatched,vqa_3091005_438788019,1,yes/no,Does this cake appear to be chocolate?,486573.0,no,yes,no,1.0,1.0,0.0,0.0,0.014101272448897362,0.04153219625004567
+vqa,mismatched,vqa_97465001_506052002,0,yes/no,Is this an android phone?,311497.0,yes,no,no,0.0,0.0,1.0,0.0,5.006761074066162,0.04153219625004567
+vqa,mismatched,vqa_97465001_506052002,1,yes/no,Is this an android phone?,286089.0,no,yes,no,1.0,1.0,0.0,0.0,0.01094775926321745,0.04153219625004567
+vqa,mismatched,vqa_514222000_106244002,0,yes/no,Is this in a restaurant?,109824.0,no,yes,yes,0.0,0.0,1.0,0.0,0.7931806445121765,0.04153219625004567
+vqa,mismatched,vqa_514222000_106244002,1,yes/no,Is this in a restaurant?,136929.0,yes,no,yes,1.0,1.0,0.0,0.0,0.2861208915710449,0.04153219625004567
+vqa,mismatched,vqa_361217000_86168021,0,yes/no,Are these baby cats?,43435.0,yes,no,no,0.0,0.0,1.0,0.0,6.408004283905029,0.04153219625004567
+vqa,mismatched,vqa_361217000_86168021,1,yes/no,Are these baby cats?,332087.0,no,yes,no,1.0,1.0,0.0,0.0,0.0007207180024124682,0.04153219625004567
+vqa,mismatched,vqa_26432006_572592019,0,yes/no,Is there a tent in the picture?,24845.0,yes,no,no,0.0,0.0,1.0,0.0,2.8416268825531006,0.04123664162489149
+vqa,mismatched,vqa_26432006_572592019,1,yes/no,Is there a tent in the picture?,554523.0,no,yes,no,1.0,1.0,0.0,0.0,0.037177130579948425,0.04123664162489149
+vqa,mismatched,vqa_355871000_164330003,0,yes/no,Do the people look happy?,247986.0,yes,no,no,0.0,0.0,1.0,0.0,2.1025679111480713,0.04123664162489149
+vqa,mismatched,vqa_355871000_164330003,1,yes/no,Do the people look happy?,469398.0,no,yes,no,1.0,1.0,0.0,0.0,0.07504373043775558,0.04123664162489149
+vqa,mismatched,vqa_339346000_423395002,0,yes/no,Is it winter?,375415.0,yes,no,no,0.0,0.0,1.0,0.0,2.1137473583221436,0.04123664162489149
+vqa,mismatched,vqa_339346000_423395002,1,yes/no,Is it winter?,571279.0,no,yes,no,1.0,1.0,0.0,0.0,0.16594961285591125,0.04123664162489149
+vqa,mismatched,vqa_577277002_465275003,0,yes/no,Is she in a library?,449522.0,yes,no,no,0.6,0.0,1.0,0.0,2.915418863296509,0.04123664162489149
+vqa,mismatched,vqa_577277002_465275003,1,yes/no,Is she in a library?,260150.0,no,yes,no,1.0,1.0,0.0,0.0,0.15843136608600616,0.04123664162489149
+vqa,mismatched,vqa_477846000_92338008,0,yes/no,Is the ground wet?,159791.0,yes,no,no,0.0,0.0,1.0,0.0,3.0342609882354736,0.041351616874862884
+vqa,mismatched,vqa_477846000_92338008,1,yes/no,Is the ground wet?,113082.0,no,yes,no,1.0,1.0,0.0,0.0,0.2572340667247772,0.041351616874862884
+vqa,mismatched,vqa_466229002_146813002,0,yes/no,Is there a person in the picture?,149184.0,yes,no,no,0.0,0.0,1.0,0.0,0.7515804171562195,0.041351616874862884
+vqa,mismatched,vqa_466229002_146813002,1,yes/no,Is there a person in the picture?,222500.0,no,yes,no,1.0,1.0,0.0,0.0,0.4878233075141907,0.041351616874862884
+vqa,mismatched,vqa_19962001_74646024,0,yes/no,Is the sky clear?,508041.0,no,yes,yes,0.0,0.0,1.0,0.0,1.014691710472107,0.041351616874862884
+vqa,mismatched,vqa_19962001_74646024,1,yes/no,Is the sky clear?,382728.0,yes,no,yes,1.0,1.0,0.0,0.0,0.175575390458107,0.041351616874862884
+vqa,mismatched,vqa_161505000_89880045,0,yes/no,Is this the same dog?,94922.0,yes,no,yes,1.0,1.0,0.0,0.0,0.41998380422592163,0.041351616874862884
+vqa,mismatched,vqa_161505000_89880045,1,yes/no,Is this the same dog?,516733.0,no,yes,no,1.0,1.0,0.0,0.0,0.04479316994547844,0.041351616874862884
+vqa,mismatched,vqa_113235001_195862007,0,yes/no,Is this a horse?,580255.0,no,yes,no,1.0,1.0,0.0,0.0,0.03395382687449455,0.041396899499886786
+vqa,mismatched,vqa_113235001_195862007,1,yes/no,Is this a horse?,504516.0,yes,no,no,0.0,0.0,1.0,0.0,5.800053596496582,0.041396899499886786
+vqa,mismatched,vqa_282674002_244246002,0,yes/no,Is the truck immediately ready to move?,574805.0,no,yes,no,1.0,1.0,0.0,0.0,0.3137229084968567,0.041396899499886786
+vqa,mismatched,vqa_282674002_244246002,1,yes/no,Is the truck immediately ready to move?,277174.0,yes,no,no,0.6,0.0,1.0,0.0,1.792231559753418,0.041396899499886786
+vqa,mismatched,vqa_65415001_226588006,0,yes/no,Is this woman wearing a hat?,385985.0,no,yes,yes,0.3,0.0,1.0,0.0,0.7501477003097534,0.041396899499886786
+vqa,mismatched,vqa_65415001_226588006,1,yes/no,Is this woman wearing a hat?,384092.0,yes,no,no,0.0,0.0,1.0,0.0,1.235021948814392,0.041396899499886786
+vqa,mismatched,vqa_580255002_504516003,0,yes/no,Are the dogs outdoors?,161505.0,no,yes,yes,0.0,0.0,1.0,0.0,1.2809633016586304,0.041396899499886786
+vqa,mismatched,vqa_580255002_504516003,1,yes/no,Are the dogs outdoors?,89880.0,yes,no,yes,1.0,1.0,0.0,0.0,0.11152978241443634,0.041396899499886786
+vqa,mismatched,vqa_544432002_371364003,0,yes/no,Are they making cupcakes?,514722.0,yes,no,no,0.0,0.0,1.0,0.0,4.49578332901001,0.042007816749901394
+vqa,mismatched,vqa_544432002_371364003,1,yes/no,Are they making cupcakes?,448849.0,no,yes,no,1.0,1.0,0.0,0.0,0.02018260397017002,0.042007816749901394
+vqa,mismatched,vqa_175688003_488942002,0,yes/no,Is there a clock on the top of the building?,257219.0,yes,no,no,0.0,0.0,1.0,0.0,1.348707914352417,0.042007816749901394
+vqa,mismatched,vqa_175688003_488942002,1,yes/no,Is there a clock on the top of the building?,564489.0,no,yes,no,1.0,1.0,0.0,0.0,0.34015268087387085,0.042007816749901394
+vqa,mismatched,vqa_513887003_119729002,0,yes/no,Does the person holding the bananas have a tattoo on his wrist?,151299.0,yes,no,no,0.0,0.0,1.0,0.0,1.8183794021606445,0.042007816749901394
+vqa,mismatched,vqa_513887003_119729002,1,yes/no,Does the person holding the bananas have a tattoo on his wrist?,424551.0,no,yes,no,1.0,1.0,0.0,0.0,0.216817706823349,0.042007816749901394
+vqa,mismatched,vqa_457558001_248767003,0,yes/no,Does the signal indicate that people walking are safe to cross?,404568.0,no,yes,no,1.0,1.0,0.0,0.0,0.08126827329397202,0.042007816749901394
+vqa,mismatched,vqa_457558001_248767003,1,yes/no,Does the signal indicate that people walking are safe to cross?,357060.0,yes,no,no,0.6000000000000001,0.0,1.0,0.0,2.681161403656006,0.042007816749901394
+vqa,mismatched,vqa_331937000_215132011,0,number,How many pictures are hanging up?,75055.0,2,3,2,1.0,1.0,0.0,0.0,0.821446418762207,0.040952523374926386
+vqa,mismatched,vqa_331937000_215132011,1,number,How many pictures are hanging up?,240637.0,3,2,1,0.0,0.0,0.0,0.0,2.652339458465576,0.040952523374926386
+vqa,mismatched,vqa_109824000_136929002,0,number,How many doughnuts look broken?,27620.0,1,0,0,0.0,0.0,1.0,0.0,1.8337180614471436,0.040952523374926386
+vqa,mismatched,vqa_109824000_136929002,1,number,How many doughnuts look broken?,484674.0,0,1,0,1.0,1.0,0.0,0.0,0.32585909962654114,0.040952523374926386
+vqa,mismatched,vqa_70258002_458750001,0,number,How many children are there?,455188.0,5,3,0,0.0,0.0,0.0,0.0,8.494975090026855,0.040952523374926386
+vqa,mismatched,vqa_70258002_458750001,1,number,How many children are there?,135071.0,3,5,0,0.3,0.0,0.0,0.0,5.73453950881958,0.040952523374926386
+vqa,mismatched,vqa_26209008_237626001,0,number,How many trailers are there?,25807.0,2,1,1,0.3,0.0,1.0,0.0,1.2190799713134766,0.040952523374926386
+vqa,mismatched,vqa_26209008_237626001,1,number,How many trailers are there?,184030.0,1,2,0,0.3,0.0,0.0,0.0,2.0462841987609863,0.040952523374926386
+vqa,mismatched,vqa_552610003_510992004,0,number,What time does the clock say on the stove?,541055.0,10:32,11:59,3:15,0.0,0.0,0.0,0.0,2.053858995437622,0.07051285100010318
+vqa,mismatched,vqa_552610003_510992004,1,number,What time does the clock say on the stove?,494456.0,11:59,10:32,3:15,0.0,0.0,0.0,0.0,2.2486519813537598,0.07051285100010318
+vqa,mismatched,vqa_222788000_187451001,0,number,How many surfers?,292225.0,4,3,2,0.0,0.0,0.0,0.0,5.976550102233887,0.07051285100010318
+vqa,mismatched,vqa_222788000_187451001,1,number,How many surfers?,115796.0,3,4,2,0.0,0.0,0.0,0.0,1.0500683784484863,0.07051285100010318
+vqa,mismatched,vqa_388211004_366003002,0,number,How many hot dogs are pictured?,260307.0,3,1,1,0.0,0.0,1.0,0.0,2.2235677242279053,0.07051285100010318
+vqa,mismatched,vqa_388211004_366003002,1,number,How many hot dogs are pictured?,528977.0,1,3,1,1.0,1.0,0.0,0.0,1.1201319694519043,0.07051285100010318
+vqa,mismatched,vqa_407903001_481895006,0,number,How many surfers are in the water?,489719.0,4,2,0,0.0,0.0,0.0,0.0,3.818251132965088,0.07051285100010318
+vqa,mismatched,vqa_407903001_481895006,1,number,How many surfers are in the water?,578467.0,2,4,0,0.0,0.0,0.0,0.0,2.8434224128723145,0.07051285100010318
+vqa,mismatched,vqa_128830000_187543029,0,number,How many men in the photo?,335814.0,2,1,2,1.0,1.0,0.0,0.0,0.691760241985321,0.04236496575003912
+vqa,mismatched,vqa_128830000_187543029,1,number,How many men in the photo?,204525.0,1,2,1,1.0,1.0,0.0,0.0,0.023362958803772926,0.04236496575003912
+vqa,mismatched,vqa_123070001_157847009,0,number,How many bodies of water are in the image?,331937.0,1,0,0,0.0,0.0,1.0,0.0,2.759587287902832,0.04236496575003912
+vqa,mismatched,vqa_123070001_157847009,1,number,How many bodies of water are in the image?,215132.0,0,1,0,1.0,1.0,0.0,0.0,0.00038842763751745224,0.04236496575003912
+vqa,mismatched,vqa_460307003_561187001,0,number,What number of brown horses are there?,113282.0,3,1,1,0.0,0.0,1.0,0.0,2.042527437210083,0.04236496575003912
+vqa,mismatched,vqa_460307003_561187001,1,number,What number of brown horses are there?,206757.0,1,3,1,1.0,1.0,0.0,0.0,1.1961734294891357,0.04236496575003912
+vqa,mismatched,vqa_43435000_332087001,0,number,How many people are surfing in this picture?,71618.0,2,1,0,0.0,0.0,0.0,0.0,7.991978645324707,0.04236496575003912
+vqa,mismatched,vqa_43435000_332087001,1,number,How many people are surfing in this picture?,75051.0,1,2,0,0.0,0.0,0.0,0.0,8.175353050231934,0.04236496575003912
+vqa,mismatched,vqa_153847000_497299000,0,number,How many boats are in the background?,477846.0,2,0,0,0.0,0.0,1.0,0.0,4.024255275726318,0.04162686962490625
+vqa,mismatched,vqa_153847000_497299000,1,number,How many boats are in the background?,92338.0,0,2,0,1.0,1.0,0.0,0.0,0.2443901151418686,0.04162686962490625
+vqa,mismatched,vqa_335774001_452137005,0,number,How many small plates are on the table?,373810.0,4,1,0,0.0,0.0,0.0,0.0,3.7467637062072754,0.04162686962490625
+vqa,mismatched,vqa_335774001_452137005,1,number,How many small plates are on the table?,71647.0,1,4,2,0.0,0.0,0.0,0.0,1.6996670961380005,0.04162686962490625
+vqa,mismatched,vqa_225133000_274612010,0,number,How many yellow umbrellas?,97465.0,2,1,0,0.0,0.0,0.0,0.0,2.0024173259735107,0.04162686962490625
+vqa,mismatched,vqa_225133000_274612010,1,number,How many yellow umbrellas?,506052.0,1,2,0,0.0,0.0,0.0,0.0,1.5522143840789795,0.04162686962490625
+vqa,mismatched,vqa_113282002_206757008,0,number,How many suitcase(s) are there?,467843.0,5,0,0,0.0,0.0,1.0,0.0,7.201471328735352,0.04162686962490625
+vqa,mismatched,vqa_113282002_206757008,1,number,How many suitcase(s) are there?,82986.0,0,5,0,1.0,1.0,0.0,0.0,0.21454152464866638,0.04162686962490625
+vqa,mismatched,vqa_506595000_486573002,0,number,How many vases are in the photo?,489382.0,2,1,2,1.0,1.0,0.0,0.0,1.283488154411316,0.04159197850003693
+vqa,mismatched,vqa_506595000_486573002,1,number,How many vases are in the photo?,272212.0,1,2,2,0.0,0.0,1.0,0.0,1.2038910388946533,0.04159197850003693
+vqa,mismatched,vqa_541055000_494456001,0,number,How many people are there?,216296.0,5,2,3,0.0,0.0,0.0,0.0,7.394514560699463,0.04159197850003693
+vqa,mismatched,vqa_541055000_494456001,1,number,How many people are there?,63595.0,2,5,2,1.0,1.0,0.0,0.0,0.5964788198471069,0.04159197850003693
+vqa,mismatched,vqa_404652003_470780009,0,number,How many towels are  in the room?,434410.0,2,0,1,0.6,0.0,0.0,0.0,1.1569751501083374,0.04159197850003693
+vqa,mismatched,vqa_404652003_470780009,1,number,How many towels are  in the room?,511066.0,0,2,1,0.0,0.0,0.0,0.0,1.5212827920913696,0.04159197850003693
+vqa,mismatched,vqa_385985001_384092009,0,number,How many people?,148042.0,2,1,1,0.0,0.0,1.0,0.0,2.4112603664398193,0.04159197850003693
+vqa,mismatched,vqa_385985001_384092009,1,number,How many people?,345397.0,1,2,1,1.0,1.0,0.0,0.0,0.019400138407945633,0.04159197850003693
+vqa,mismatched,vqa_258291003_232503000,0,number,How many buses?,355871.0,1,2,2,0.3,0.0,1.0,0.0,1.2367708683013916,0.04051610387500659
+vqa,mismatched,vqa_258291003_232503000,1,number,How many buses?,164330.0,2,1,0,0.0,0.0,0.0,0.0,1.4417675733566284,0.04051610387500659
+vqa,mismatched,vqa_219894002_366225014,0,number,How many keyboards can you spot?,153847.0,2,1,1,0.0,0.0,1.0,0.0,1.4841495752334595,0.04051610387500659
+vqa,mismatched,vqa_219894002_366225014,1,number,How many keyboards can you spot?,497299.0,1,2,1,1.0,1.0,0.0,0.0,1.1994317770004272,0.04051610387500659
+vqa,mismatched,vqa_536743002_125873006,0,number,How many children are there?,123070.0,6,8,0,0.0,0.0,0.0,0.0,10.004378318786621,0.04051610387500659
+vqa,mismatched,vqa_536743002_125873006,1,number,How many children are there?,157847.0,8,6,0,0.0,0.0,0.0,0.0,10.973298072814941,0.04051610387500659
+vqa,mismatched,vqa_112232001_419096008,0,number,How many trains are shown?,465422.0,2,1,1,0.0,0.0,1.0,0.0,2.6279547214508057,0.04051610387500659
+vqa,mismatched,vqa_112232001_419096008,1,number,How many trains are shown?,363991.0,1,2,0,0.0,0.0,0.0,0.0,3.230414390563965,0.04051610387500659
+vqa,mismatched,vqa_37677001_196660015,0,other,What is the person holding?,396167.0,umbrella,surfboard,bat,0.0,0.0,0.0,0.0,5.753759860992432,0.048974203624993606
+vqa,mismatched,vqa_37677001_196660015,1,other,What is the person holding?,128748.0,surfboard,umbrella,bat,0.0,0.0,0.0,0.0,9.468649864196777,0.048974203624993606
+vqa,mismatched,vqa_143370002_343466025,0,other,What room is this?,70258.0,bathroom,kitchen,park,0.0,0.0,0.0,0.0,3.7526094913482666,0.048974203624993606
+vqa,mismatched,vqa_143370002_343466025,1,other,What room is this?,458750.0,kitchen,bathroom,park,0.0,0.0,0.0,0.0,2.8243730068206787,0.048974203624993606
+vqa,mismatched,vqa_216296000_63595005,0,other,What color is the court?,407903.0,green,purple,white,0.0,0.0,0.0,0.0,2.7841901779174805,0.048974203624993606
+vqa,mismatched,vqa_216296000_63595005,1,other,What color is the court?,481895.0,purple,green,white,0.0,0.0,0.0,0.0,6.178216934204102,0.048974203624993606
+vqa,mismatched,vqa_65208002_168811000,0,other,What is the man carrying?,457558.0,umbrella,phone,carrot,0.0,0.0,0.0,0.0,3.533607244491577,0.048974203624993606
+vqa,mismatched,vqa_65208002_168811000,1,other,What is the man carrying?,248767.0,phone,umbrella,car,0.0,0.0,0.0,0.0,6.215669631958008,0.048974203624993606
+vqa,mismatched,vqa_71618007_75051000,0,other,Is the lid to the toilet Up or down?,143370.0,up,down,up,1.0,1.0,0.0,0.0,0.2692631483078003,0.05108812487515024
+vqa,mismatched,vqa_71618007_75051000,1,other,Is the lid to the toilet Up or down?,343466.0,down,up,up,0.0,0.0,1.0,0.0,1.4807202816009521,0.05108812487515024
+vqa,mismatched,vqa_514722002_448849006,0,other,What is going over the water?,335774.0,train,boat,waves,0.0,0.0,0.0,0.0,11.575368881225586,0.05108812487515024
+vqa,mismatched,vqa_514722002_448849006,1,other,What is going over the water?,452137.0,boat,train,waves,0.0,0.0,0.0,0.0,4.9550395011901855,0.05108812487515024
+vqa,mismatched,vqa_247986002_469398004,0,other,Is this man holding the cell phone with his right or left hand?,320203.0,left,right,right,0.0,0.0,1.0,0.0,0.8891575932502747,0.05108812487515024
+vqa,mismatched,vqa_247986002_469398004,1,other,Is this man holding the cell phone with his right or left hand?,417606.0,right,left,right,1.0,1.0,0.0,0.0,0.5234277844429016,0.05108812487515024
+vqa,mismatched,vqa_297260002_136624011,0,other,What is the green food on top of the sandwich?,404652.0,pickle,lettuce,sandwich,0.0,0.0,0.0,0.0,8.618287086486816,0.05108812487515024
+vqa,mismatched,vqa_297260002_136624011,1,other,What is the green food on top of the sandwich?,470780.0,lettuce,pickle,burger,0.0,0.0,0.0,0.0,2.8264081478118896,0.05108812487515024
+vqa,mismatched,vqa_94922002_516733015,0,other,What sport is the man playing?,514222.0,frisbee,baseball,soccer,0.0,0.0,0.0,0.0,3.2056167125701904,0.05074281037491346
+vqa,mismatched,vqa_94922002_516733015,1,other,What sport is the man playing?,106244.0,baseball,frisbee,soccer,0.0,0.0,0.0,0.0,1.4173543453216553,0.05074281037491346
+vqa,mismatched,vqa_404568004_357060004,0,other,What color is the beak of the bird?,361217.0,yellow,black,black,0.0,0.0,1.0,0.0,4.011954307556152,0.05074281037491346
+vqa,mismatched,vqa_404568004_357060004,1,other,What color is the beak of the bird?,86168.0,black,yellow,black,1.0,1.0,0.0,0.0,0.04584551975131035,0.05074281037491346
+vqa,mismatched,vqa_396167001_128748005,0,other,What is the last name of the person in the foreground?,552610.0,chappell,navarro,Meyer,0.0,0.0,0.0,0.0,4.887614727020264,0.05074281037491346
+vqa,mismatched,vqa_396167001_128748005,1,other,What is the last name of the person in the foreground?,510992.0,navarro,chappell,Meyer,0.0,0.0,0.0,0.0,4.691564083099365,0.05074281037491346
+vqa,mismatched,vqa_247587000_413349006,0,other,What is the man standing on?,577073.0,surfboard,skateboard,snowboard,0.0,0.0,0.0,0.0,4.953253269195557,0.05074281037491346
+vqa,mismatched,vqa_247587000_413349006,1,other,What is the man standing on?,184978.0,skateboard,surfboard,snowboard,0.0,0.0,0.0,0.0,2.6761152744293213,0.05074281037491346
+vqa,mismatched,vqa_260307001_528977003,0,other,The one way sign is pointing to which side of the picture?,547875.0,right,left,left,0.0,0.0,1.0,0.0,0.7503712773323059,0.05927411862512599
+vqa,mismatched,vqa_260307001_528977003,1,other,The one way sign is pointing to which side of the picture?,105812.0,left,right,right,0.0,0.0,1.0,0.0,0.761950671672821,0.05927411862512599
+vqa,mismatched,vqa_113589002_538844004,0,other,What is on the right of the picture?,85913.0,banana,broccoli,blue,0.0,0.0,0.0,0.0,8.430691719055176,0.05927411862512599
+vqa,mismatched,vqa_113589002_538844004,1,other,What is on the right of the picture?,519676.0,broccoli,banana,motorcycle,0.0,0.0,0.0,0.0,5.144155502319336,0.05927411862512599
+vqa,mismatched,vqa_577073002_184978021,0,other,What is this person doing?,258291.0,skiing,snowboarding,riding,0.0,0.0,0.0,0.0,4.842983722686768,0.05927411862512599
+vqa,mismatched,vqa_577073002_184978021,1,other,What is this person doing?,232503.0,snowboarding,skiing,waiting for bus,0.0,0.0,0.0,0.0,5.14907693862915,0.05927411862512599
+vqa,mismatched,vqa_434410000_511066010,0,other,What is leaning against the house?,71215.0,ladder,surfboard,house,0.0,0.0,0.0,0.0,4.196040630340576,0.05927411862512599
+vqa,mismatched,vqa_434410000_511066010,1,other,What is leaning against the house?,39900.0,surfboard,ladder,house,0.0,0.0,0.0,0.0,8.220999717712402,0.05927411862512599
+vqa,mismatched,vqa_10114000_110601007,0,other,Which room is this?,3091.0,kitchen,bathroom,coffee,0.0,0.0,0.0,0.0,2.2391676902770996,0.058564935624872305
+vqa,mismatched,vqa_10114000_110601007,1,other,Which room is this?,438788.0,bathroom,kitchen,kitchen,0.0,0.0,1.0,0.0,4.423427104949951,0.058564935624872305
+vqa,mismatched,vqa_547875012_105812087,0,other,What kind of drink are they having?,551811.0,beer,water,beer,1.0,1.0,0.0,0.0,1.3272780179977417,0.058564935624872305
+vqa,mismatched,vqa_547875012_105812087,1,other,What kind of drink are they having?,355956.0,water,beer,beer,0.0,0.0,1.0,0.0,3.576150894165039,0.058564935624872305
+vqa,mismatched,vqa_85913000_519676005,0,other,What color is the bike?,45962.0,blue,white,no,0.0,0.0,0.0,0.0,5.918784141540527,0.058564935624872305
+vqa,mismatched,vqa_85913000_519676005,1,other,What color is the bike?,189078.0,white,blue,red,0.0,0.0,0.0,0.0,1.9659206867218018,0.058564935624872305
+vqa,mismatched,vqa_75055002_240637021,0,other,What animal do you see?,509471.0,cat,dog,frisbee,0.0,0.0,0.0,0.0,4.157598972320557,0.058564935624872305
+vqa,mismatched,vqa_75055002_240637021,1,other,What animal do you see?,180984.0,dog,cat,frisbee,0.0,0.0,0.0,0.0,6.436539649963379,0.058564935624872305
+vqa,mismatched,vqa_489382003_272212017,0,other,What kind of animal is pictured?,466229.0,sheep,cow,dog,0.0,0.0,0.0,0.0,6.810060024261475,0.04859064649986067
+vqa,mismatched,vqa_489382003_272212017,1,other,What kind of animal is pictured?,146813.0,cow,sheep,cat,0.0,0.0,0.0,0.0,3.5617423057556152,0.04859064649986067
+vqa,mismatched,vqa_292225005_115796003,0,other,What sport is being played?,88109.0,tennis,frisbee,zoo,0.0,0.0,0.0,0.0,3.4819657802581787,0.04859064649986067
+vqa,mismatched,vqa_292225005_115796003,1,other,What sport is being played?,192905.0,frisbee,tennis,zoo,0.0,0.0,0.0,0.0,4.490984916687012,0.04859064649986067
+vqa,mismatched,vqa_365618001_478857005,0,other,Is the road straight or curved?,26209.0,curved,straight,curved,1.0,1.0,0.0,0.0,0.052898623049259186,0.04859064649986067
+vqa,mismatched,vqa_365618001_478857005,1,other,Is the road straight or curved?,237626.0,straight,curved,curved,0.3,0.0,1.0,0.0,0.8427773118019104,0.04859064649986067
+vqa,mismatched,vqa_27620001_484674000,0,other,What color is the chair?,225133.0,gray,brown,yellow,0.0,0.0,0.0,0.0,2.632711172103882,0.04859064649986067
+vqa,mismatched,vqa_27620001_484674000,1,other,What color is the chair?,274612.0,brown,gray,yellow,0.0,0.0,0.0,0.0,2.3089122772216797,0.04859064649986067
+vqa,mismatched,vqa_455188002_135071006,0,other,What color is the pot?,536743.0,red,orange,brown,0.0,0.0,0.0,0.0,2.0465056896209717,0.05065079387509286
+vqa,mismatched,vqa_455188002_135071006,1,other,What color is the pot?,125873.0,orange,red,white,0.0,0.0,0.0,0.0,5.259302616119385,0.05065079387509286
+vqa,mismatched,vqa_24845012_554523021,0,other,What kind of room is this?,460307.0,bathroom,kitchen,cow barn,0.0,0.0,0.0,0.0,5.45346736907959,0.05065079387509286
+vqa,mismatched,vqa_24845012_554523021,1,other,What kind of room is this?,561187.0,kitchen,bathroom,yard,0.0,0.0,0.0,0.0,2.9131546020507812,0.05065079387509286
+vqa,mismatched,vqa_373810001_71647003,0,other,What color is the bear on the right?,65208.0,pink,white,blue,0.3,0.0,0.0,0.0,4.140375137329102,0.05065079387509286
+vqa,mismatched,vqa_373810001_71647003,1,other,What color is the bear on the right?,168811.0,white,pink,white,1.0,1.0,0.0,0.0,1.0027861595153809,0.05065079387509286
+vqa,mismatched,vqa_149184000_222500006,0,other,What color is the oven on the left?,365618.0,white,silver,green,0.0,0.0,0.0,0.0,1.3082878589630127,0.05065079387509286
+vqa,mismatched,vqa_149184000_222500006,1,other,What color is the oven on the left?,478857.0,silver,white,green,0.0,0.0,0.0,0.0,6.915742874145508,0.05065079387509286
+vqa,mismatched,vqa_311497006_286089010,0,other,Which hand is the woman holding a tennis racket?,65415.0,right,left,right,1.0,1.0,0.0,0.0,0.626303493976593,0.05861489487506333
+vqa,mismatched,vqa_311497006_286089010,1,other,Which hand is the woman holding a tennis racket?,226588.0,left,right,right,0.0,0.0,1.0,0.0,0.9864703416824341,0.05861489487506333
+vqa,mismatched,vqa_151299001_424551003,0,other,What is the guy doing?,128830.0,snowboarding,skiing,skateboarding,0.0,0.0,0.0,0.0,4.777727127075195,0.05861489487506333
+vqa,mismatched,vqa_151299001_424551003,1,other,What is the guy doing?,187543.0,skiing,snowboarding,parking,0.0,0.0,0.0,0.0,3.6128580570220947,0.05861489487506333
+vqa,mismatched,vqa_335814002_204525003,0,other,What is the man wearing on his face?,247587.0,sunglasses,glasses,hat,0.0,0.0,0.0,0.0,1.8276004791259766,0.05861489487506333
+vqa,mismatched,vqa_335814002_204525003,1,other,What is the man wearing on his face?,413349.0,glasses,sunglasses,hat,0.0,0.0,0.0,0.0,3.6586461067199707,0.05861489487506333
+vqa,mismatched,vqa_257219002_564489003,0,other,What color is the girls hair band?,219894.0,black,red,black,1.0,1.0,0.0,0.0,0.14364401996135712,0.05861489487506333
+vqa,mismatched,vqa_257219002_564489003,1,other,What color is the girls hair band?,366225.0,red,black,white,0.0,0.0,0.0,0.0,3.415907382965088,0.05861489487506333
+vqa,mismatched,vqa_421955001_209530012,0,other,What is on the trays on both sides of picture?,112232.0,cookies,pizza,trays,0.0,0.0,0.0,0.0,8.586090087890625,0.05109737212501386
+vqa,mismatched,vqa_421955001_209530012,1,other,What is on the trays on both sides of picture?,419096.0,pizza,cookies,carriers,0.0,0.0,0.0,0.0,9.076435089111328,0.05109737212501386
+vqa,mismatched,vqa_25807000_184030004,0,other,Who is on a surfboard?,26432.0,man,woman,no,0.0,0.0,0.0,0.0,9.445331573486328,0.05109737212501386
+vqa,mismatched,vqa_25807000_184030004,1,other,Who is on a surfboard?,572592.0,woman,man,no,0.0,0.0,0.0,0.0,10.6998872756958,0.05109737212501386
+vqa,mismatched,vqa_148042002_345397006,0,other,What type of phone is this?,388880.0,nokia,iphone,smart,0.0,0.0,0.0,0.0,1.9558013677597046,0.05109737212501386
+vqa,mismatched,vqa_148042002_345397006,1,other,What type of phone is this?,275881.0,iphone,nokia,cell,0.0,0.0,0.0,0.0,2.1305527687072754,0.05109737212501386
+vqa,mismatched,vqa_45962000_189078001,0,other,Are these bananas large or small?,37677.0,large,small,small,0.3,0.0,1.0,0.0,1.2566039562225342,0.05109737212501386
+vqa,mismatched,vqa_45962000_189078001,1,other,Are these bananas large or small?,196660.0,small,large,small,1.0,1.0,0.0,0.0,0.49372681975364685,0.05109737212501386
+vqa,none,vqa_375415001_571279011,0,yes/no,Are there any grapes?,,no,yes,yes,0.0,0.0,1.0,0.0,1.0511200428009033,0.01744681150012184
+vqa,none,vqa_375415001_571279011,1,yes/no,Are there any grapes?,,yes,no,yes,1.0,1.0,0.0,0.0,0.4729951024055481,0.01744681150012184
+vqa,none,vqa_465422003_363991019,0,yes/no,Is he wearing a helmet?,,yes,no,yes,1.0,1.0,0.0,0.0,0.6679752469062805,0.01744681150012184
+vqa,none,vqa_465422003_363991019,1,yes/no,Is he wearing a helmet?,,no,yes,yes,0.0,0.0,1.0,0.0,0.8398502469062805,0.01744681150012184
+vqa,none,vqa_71215000_39900004,0,yes/no,Is there patriotic bunting on the carriage?,,yes,no,no,0.3,0.0,1.0,0.0,0.7977443933486938,0.01744681150012184
+vqa,none,vqa_71215000_39900004,1,yes/no,Is there patriotic bunting on the carriage?,,no,yes,no,1.0,1.0,0.0,0.0,0.6727443933486938,0.01744681150012184
+vqa,none,vqa_320203000_417606003,0,yes/no,Are there clouds?,,yes,no,yes,1.0,1.0,0.0,0.0,0.2593995928764343,0.01744681150012184
+vqa,none,vqa_320203000_417606003,1,yes/no,Are there clouds?,,no,yes,yes,0.0,0.0,1.0,0.0,1.525024652481079,0.01744681150012184
+vqa,none,vqa_159791000_113082001,0,yes/no,Does the owner of the fridge like stickers?,,yes,no,no,0.0,0.0,1.0,0.0,1.3855254650115967,0.017490594874971066
+vqa,none,vqa_159791000_113082001,1,yes/no,Does the owner of the fridge like stickers?,,no,yes,no,1.0,1.0,0.0,0.0,0.3074004650115967,0.017490594874971066
+vqa,none,vqa_388880005_275881015,0,yes/no,Is the boat docked?,,yes,no,no,0.6,0.0,1.0,0.0,1.8360755443572998,0.017490594874971066
+vqa,none,vqa_388880005_275881015,1,yes/no,Is the boat docked?,,no,yes,no,1.0,1.0,0.0,0.0,0.17982551455497742,0.017490594874971066
+vqa,none,vqa_467843003_82986003,0,yes/no,Does the boy have good vision?,,no,yes,yes,0.6,0.0,1.0,0.0,1.1512763500213623,0.017490594874971066
+vqa,none,vqa_467843003_82986003,1,yes/no,Does the boy have good vision?,,yes,no,yes,1.0,1.0,0.0,0.0,0.4169014096260071,0.017490594874971066
+vqa,none,vqa_509471001_180984003,0,yes/no,Are they both wearing sunglasses?,,yes,no,yes,1.0,1.0,0.0,0.0,0.6664929986000061,0.017490594874971066
+vqa,none,vqa_509471001_180984003,1,yes/no,Are they both wearing sunglasses?,,no,yes,yes,0.0,0.0,1.0,0.0,0.7289929986000061,0.017490594874971066
+vqa,none,vqa_489719002_578467004,0,yes/no,Is there a baby elephant in image?,,yes,no,no,0.0,0.0,1.0,0.0,2.132869243621826,0.017784058500183164
+vqa,none,vqa_489719002_578467004,1,yes/no,Is there a baby elephant in image?,,no,yes,no,1.0,1.0,0.0,0.0,0.179744154214859,0.017784058500183164
+vqa,none,vqa_334075002_411642000,0,yes/no,Has the batter hit the ball?,,no,yes,yes,0.0,0.0,1.0,0.0,1.1879725456237793,0.017784058500183164
+vqa,none,vqa_334075002_411642000,1,yes/no,Has the batter hit the ball?,,yes,no,yes,1.0,1.0,0.0,0.0,0.5785974860191345,0.017784058500183164
+vqa,none,vqa_449522002_260150017,0,yes/no,Do you see salt around?,,yes,no,yes,1.0,1.0,0.0,0.0,0.5945084095001221,0.017784058500183164
+vqa,none,vqa_449522002_260150017,1,yes/no,Do you see salt around?,,no,yes,yes,0.0,0.0,1.0,0.0,1.203883409500122,0.017784058500183164
+vqa,none,vqa_88109002_192905004,0,yes/no,Is the small zebra just born?,,yes,no,no,0.0,0.0,1.0,0.0,0.920900285243988,0.017784058500183164
+vqa,none,vqa_88109002_192905004,1,yes/no,Is the small zebra just born?,,no,yes,no,1.0,1.0,0.0,0.0,0.561525285243988,0.017784058500183164
+vqa,none,vqa_530207000_335340003,0,yes/no,Is there a man with a safety vest?,,yes,no,no,0.0,0.0,1.0,0.0,1.1848342418670654,0.017727123125041544
+vqa,none,vqa_530207000_335340003,1,yes/no,Is there a man with a safety vest?,,no,yes,no,1.0,1.0,0.0,0.0,0.48170924186706543,0.017727123125041544
+vqa,none,vqa_508041004_382728011,0,yes/no,Is the train near any buildings?,,yes,no,no,0.0,0.0,1.0,0.0,1.4222759008407593,0.017727123125041544
+vqa,none,vqa_508041004_382728011,1,yes/no,Is the train near any buildings?,,no,yes,no,1.0,1.0,0.0,0.0,0.2972758710384369,0.017727123125041544
+vqa,none,vqa_574805000_277174010,0,yes/no,Are there rocks visible?,,yes,no,yes,1.0,1.0,0.0,0.0,0.4847763180732727,0.017727123125041544
+vqa,none,vqa_574805000_277174010,1,yes/no,Are there rocks visible?,,no,yes,yes,0.3,0.0,1.0,0.0,1.000401258468628,0.017727123125041544
+vqa,none,vqa_551811000_355956004,0,yes/no,Is there some gardening being done at the time the picture was taken?,,yes,no,no,0.3,0.0,1.0,0.0,0.7549772262573242,0.017727123125041544
+vqa,none,vqa_551811000_355956004,1,yes/no,Is there some gardening being done at the time the picture was taken?,,no,yes,no,1.0,1.0,0.0,0.0,0.6924772262573242,0.017727123125041544
+vqa,none,vqa_3091005_438788019,0,yes/no,Does this cake appear to be chocolate?,,yes,no,no,0.0,0.0,1.0,0.0,2.6351571083068848,0.017260357249824665
+vqa,none,vqa_3091005_438788019,1,yes/no,Does this cake appear to be chocolate?,,no,yes,no,1.0,1.0,0.0,0.0,0.13515721261501312,0.017260357249824665
+vqa,none,vqa_97465001_506052002,0,yes/no,Is this an android phone?,,yes,no,no,0.0,0.0,1.0,0.0,1.0581741333007812,0.017260357249824665
+vqa,none,vqa_97465001_506052002,1,yes/no,Is this an android phone?,,no,yes,no,1.0,1.0,0.0,0.0,0.5112990736961365,0.017260357249824665
+vqa,none,vqa_514222000_106244002,0,yes/no,Is this in a restaurant?,,no,yes,no,1.0,1.0,0.0,0.0,0.16785743832588196,0.017260357249824665
+vqa,none,vqa_514222000_106244002,1,yes/no,Is this in a restaurant?,,yes,no,no,0.3,0.0,1.0,0.0,1.9647324085235596,0.017260357249824665
+vqa,none,vqa_361217000_86168021,0,yes/no,Are these baby cats?,,yes,no,no,0.0,0.0,1.0,0.0,2.229172945022583,0.017260357249824665
+vqa,none,vqa_361217000_86168021,1,yes/no,Are these baby cats?,,no,yes,no,1.0,1.0,0.0,0.0,0.11979792267084122,0.017260357249824665
+vqa,none,vqa_26432006_572592019,0,yes/no,Is there a tent in the picture?,,yes,no,no,0.0,0.0,1.0,0.0,1.0059493780136108,0.017400306750005257
+vqa,none,vqa_26432006_572592019,1,yes/no,Is there a tent in the picture?,,no,yes,no,1.0,1.0,0.0,0.0,0.8809493780136108,0.017400306750005257
+vqa,none,vqa_355871000_164330003,0,yes/no,Do the people look happy?,,yes,no,yes,1.0,1.0,0.0,0.0,0.4473416805267334,0.017400306750005257
+vqa,none,vqa_355871000_164330003,1,yes/no,Do the people look happy?,,no,yes,yes,0.3,0.0,1.0,0.0,1.1973416805267334,0.017400306750005257
+vqa,none,vqa_339346000_423395002,0,yes/no,Is it winter?,,yes,no,no,0.0,0.0,1.0,0.0,2.2180798053741455,0.017400306750005257
+vqa,none,vqa_339346000_423395002,1,yes/no,Is it winter?,,no,yes,no,1.0,1.0,0.0,0.0,0.3118298053741455,0.017400306750005257
+vqa,none,vqa_577277002_465275003,0,yes/no,Is she in a library?,,yes,no,no,0.6,0.0,1.0,0.0,1.3058618307113647,0.017400306750005257
+vqa,none,vqa_577277002_465275003,1,yes/no,Is she in a library?,,no,yes,no,1.0,1.0,0.0,0.0,0.32148683071136475,0.017400306750005257
+vqa,none,vqa_477846000_92338008,0,yes/no,Is the ground wet?,,yes,no,no,0.0,0.0,1.0,0.0,0.7606428861618042,0.01743525737492746
+vqa,none,vqa_477846000_92338008,1,yes/no,Is the ground wet?,,no,yes,no,1.0,1.0,0.0,0.0,0.6512678861618042,0.01743525737492746
+vqa,none,vqa_466229002_146813002,0,yes/no,Is there a person in the picture?,,yes,no,yes,1.0,1.0,0.0,0.0,0.7379005551338196,0.01743525737492746
+vqa,none,vqa_466229002_146813002,1,yes/no,Is there a person in the picture?,,no,yes,yes,0.0,0.0,1.0,0.0,0.9410255551338196,0.01743525737492746
+vqa,none,vqa_19962001_74646024,0,yes/no,Is the sky clear?,,no,yes,yes,0.0,0.0,1.0,0.0,1.6044020652770996,0.01743525737492746
+vqa,none,vqa_19962001_74646024,1,yes/no,Is the sky clear?,,yes,no,yes,1.0,1.0,0.0,0.0,0.3544021248817444,0.01743525737492746
+vqa,none,vqa_161505000_89880045,0,yes/no,Is this the same dog?,,yes,no,no,0.3,0.0,1.0,0.0,1.8079391717910767,0.01743525737492746
+vqa,none,vqa_161505000_89880045,1,yes/no,Is this the same dog?,,no,yes,no,1.0,1.0,0.0,0.0,0.21418920159339905,0.01743525737492746
+vqa,none,vqa_113235001_195862007,0,yes/no,Is this a horse?,,no,yes,no,1.0,1.0,0.0,0.0,0.16624332964420319,0.017382448500029568
+vqa,none,vqa_113235001_195862007,1,yes/no,Is this a horse?,,yes,no,no,0.0,0.0,1.0,0.0,3.197493314743042,0.017382448500029568
+vqa,none,vqa_282674002_244246002,0,yes/no,Is the truck immediately ready to move?,,no,yes,yes,0.0,0.0,1.0,0.0,1.5129821300506592,0.017382448500029568
+vqa,none,vqa_282674002_244246002,1,yes/no,Is the truck immediately ready to move?,,yes,no,yes,1.0,1.0,0.0,0.0,0.2942321002483368,0.017382448500029568
+vqa,none,vqa_65415001_226588006,0,yes/no,Is this woman wearing a hat?,,no,yes,no,1.0,1.0,0.0,0.0,0.67721027135849,0.017382448500029568
+vqa,none,vqa_65415001_226588006,1,yes/no,Is this woman wearing a hat?,,yes,no,no,0.0,0.0,1.0,0.0,0.77096027135849,0.017382448500029568
+vqa,none,vqa_580255002_504516003,0,yes/no,Are the dogs outdoors?,,no,yes,no,1.0,1.0,0.0,0.0,0.5951260924339294,0.017382448500029568
+vqa,none,vqa_580255002_504516003,1,yes/no,Are the dogs outdoors?,,yes,no,no,0.0,0.0,1.0,0.0,0.8138760924339294,0.017382448500029568
+vqa,none,vqa_544432002_371364003,0,yes/no,Are they making cupcakes?,,yes,no,yes,1.0,1.0,0.0,0.0,0.5497833490371704,0.0173315983752218
+vqa,none,vqa_544432002_371364003,1,yes/no,Are they making cupcakes?,,no,yes,yes,0.0,0.0,1.0,0.0,0.8779083490371704,0.0173315983752218
+vqa,none,vqa_175688003_488942002,0,yes/no,Is there a clock on the top of the building?,,yes,no,no,0.0,0.0,1.0,0.0,0.9815400242805481,0.0173315983752218
+vqa,none,vqa_175688003_488942002,1,yes/no,Is there a clock on the top of the building?,,no,yes,no,1.0,1.0,0.0,0.0,0.4971650242805481,0.0173315983752218
+vqa,none,vqa_513887003_119729002,0,yes/no,Does the person holding the bananas have a tattoo on his wrist?,,yes,no,no,0.0,0.0,1.0,0.0,1.5188512802124023,0.0173315983752218
+vqa,none,vqa_513887003_119729002,1,yes/no,Does the person holding the bananas have a tattoo on his wrist?,,no,yes,no,1.0,1.0,0.0,0.0,0.26885125041007996,0.0173315983752218
+vqa,none,vqa_457558001_248767003,0,yes/no,Does the signal indicate that people walking are safe to cross?,,no,yes,yes,0.0,0.0,1.0,0.0,2.3673524856567383,0.0173315983752218
+vqa,none,vqa_457558001_248767003,1,yes/no,Does the signal indicate that people walking are safe to cross?,,yes,no,yes,1.0,1.0,0.0,0.0,0.4611024856567383,0.0173315983752218
+vqa,none,vqa_331937000_215132011,0,number,How many pictures are hanging up?,,2,3,1,0.0,0.0,0.0,0.0,1.4099349975585938,0.017331184875047256
+vqa,none,vqa_331937000_215132011,1,number,How many pictures are hanging up?,,3,2,1,0.0,0.0,0.0,0.0,1.8005599975585938,0.017331184875047256
+vqa,none,vqa_109824000_136929002,0,number,How many doughnuts look broken?,,1,0,1,1.0,1.0,0.0,0.0,0.6857782602310181,0.017331184875047256
+vqa,none,vqa_109824000_136929002,1,number,How many doughnuts look broken?,,0,1,1,0.0,0.0,1.0,0.0,1.904528260231018,0.017331184875047256
+vqa,none,vqa_70258002_458750001,0,number,How many children are there?,,5,3,1,0.0,0.0,0.0,0.0,5.033019542694092,0.017331184875047256
+vqa,none,vqa_70258002_458750001,1,number,How many children are there?,,3,5,1,0.0,0.0,0.0,0.0,2.017394542694092,0.017331184875047256
+vqa,none,vqa_26209008_237626001,0,number,How many trailers are there?,,2,1,1,0.3,0.0,1.0,0.0,1.1589877605438232,0.017331184875047256
+vqa,none,vqa_26209008_237626001,1,number,How many trailers are there?,,1,2,1,1.0,1.0,0.0,0.0,0.9714877605438232,0.017331184875047256
+vqa,none,vqa_552610003_510992004,0,number,What time does the clock say on the stove?,,10:32,11:59,3:00,0.0,0.0,0.0,0.0,2.2380969524383545,0.04300204724995638
+vqa,none,vqa_552610003_510992004,1,number,What time does the clock say on the stove?,,11:59,10:32,3:00,0.0,0.0,0.0,0.0,2.3082640171051025,0.04300204724995638
+vqa,none,vqa_222788000_187451001,0,number,How many surfers?,,4,3,1,0.0,0.0,0.0,0.0,3.346801996231079,0.04300204724995638
+vqa,none,vqa_222788000_187451001,1,number,How many surfers?,,3,4,1,0.0,0.0,0.0,0.0,1.831176996231079,0.04300204724995638
+vqa,none,vqa_388211004_366003002,0,number,How many hot dogs are pictured?,,3,1,2,0.0,0.0,0.0,0.0,1.2889691591262817,0.04300204724995638
+vqa,none,vqa_388211004_366003002,1,number,How many hot dogs are pictured?,,1,3,2,0.0,0.0,0.0,0.0,1.3202191591262817,0.04300204724995638
+vqa,none,vqa_407903001_481895006,0,number,How many surfers are in the water?,,4,2,1,0.0,0.0,0.0,0.0,3.069021224975586,0.04300204724995638
+vqa,none,vqa_407903001_481895006,1,number,How many surfers are in the water?,,2,4,1,0.0,0.0,0.0,0.0,1.506521224975586,0.04300204724995638
+vqa,none,vqa_128830000_187543029,0,number,How many men in the photo?,,2,1,1,0.3,0.0,1.0,0.0,1.010606288909912,0.017108564250065683
+vqa,none,vqa_128830000_187543029,1,number,How many men in the photo?,,1,2,1,1.0,1.0,0.0,0.0,0.9012313485145569,0.017108564250065683
+vqa,none,vqa_123070001_157847009,0,number,How many bodies of water are in the image?,,1,0,1,1.0,1.0,0.0,0.0,0.5056402683258057,0.017108564250065683
+vqa,none,vqa_123070001_157847009,1,number,How many bodies of water are in the image?,,0,1,1,0.3,0.0,1.0,0.0,4.161890029907227,0.017108564250065683
+vqa,none,vqa_460307003_561187001,0,number,What number of brown horses are there?,,3,1,1,0.0,0.0,1.0,0.0,1.6481825113296509,0.017108564250065683
+vqa,none,vqa_460307003_561187001,1,number,What number of brown horses are there?,,1,3,1,1.0,1.0,0.0,0.0,0.9919325113296509,0.017108564250065683
+vqa,none,vqa_43435000_332087001,0,number,How many people are surfing in this picture?,,2,1,1,0.3,0.0,1.0,0.0,1.1122678518295288,0.017108564250065683
+vqa,none,vqa_43435000_332087001,1,number,How many people are surfing in this picture?,,1,2,1,1.0,1.0,0.0,0.0,0.9247678518295288,0.017108564250065683
+vqa,none,vqa_153847000_497299000,0,number,How many boats are in the background?,,2,0,2,1.0,1.0,0.0,0.0,1.0105185508728027,0.01733105774997057
+vqa,none,vqa_153847000_497299000,1,number,How many boats are in the background?,,0,2,2,0.0,0.0,1.0,0.0,2.5886435508728027,0.01733105774997057
+vqa,none,vqa_335774001_452137005,0,number,How many small plates are on the table?,,4,1,1,0.0,0.0,1.0,0.0,3.3969407081604004,0.01733105774997057
+vqa,none,vqa_335774001_452137005,1,number,How many small plates are on the table?,,1,4,1,1.0,1.0,0.0,0.0,0.7719408273696899,0.01733105774997057
+vqa,none,vqa_225133000_274612010,0,number,How many yellow umbrellas?,,2,1,1,0.0,0.0,1.0,0.0,1.6276941299438477,0.01733105774997057
+vqa,none,vqa_225133000_274612010,1,number,How many yellow umbrellas?,,1,2,1,1.0,1.0,0.0,0.0,0.5495691299438477,0.01733105774997057
+vqa,none,vqa_113282002_206757008,0,number,How many suitcase(s) are there?,,5,0,1,0.0,0.0,0.0,0.0,6.480220794677734,0.01733105774997057
+vqa,none,vqa_113282002_206757008,1,number,How many suitcase(s) are there?,,0,5,1,0.3,0.0,0.0,0.0,2.9645957946777344,0.01733105774997057
+vqa,none,vqa_506595000_486573002,0,number,How many vases are in the photo?,,2,1,4,0.0,0.0,0.0,0.0,1.7480524778366089,0.01722434900011649
+vqa,none,vqa_506595000_486573002,1,number,How many vases are in the photo?,,1,2,4,0.0,0.0,0.0,0.0,1.6543024778366089,0.01722434900011649
+vqa,none,vqa_541055000_494456001,0,number,How many people are there?,,5,2,1,0.0,0.0,0.0,0.0,4.342129230499268,0.01722434900011649
+vqa,none,vqa_541055000_494456001,1,number,How many people are there?,,2,5,1,0.0,0.0,0.0,0.0,1.9046294689178467,0.01722434900011649
+vqa,none,vqa_404652003_470780009,0,number,How many towels are  in the room?,,2,0,2,1.0,1.0,0.0,0.0,1.1712754964828491,0.01722434900011649
+vqa,none,vqa_404652003_470780009,1,number,How many towels are  in the room?,,0,2,2,0.0,0.0,1.0,0.0,3.9525256156921387,0.01722434900011649
+vqa,none,vqa_385985001_384092009,0,number,How many people?,,2,1,1,0.0,0.0,1.0,0.0,1.4473779201507568,0.01722434900011649
+vqa,none,vqa_385985001_384092009,1,number,How many people?,,1,2,1,1.0,1.0,0.0,0.0,0.8067529797554016,0.01722434900011649
+vqa,none,vqa_258291003_232503000,0,number,How many buses?,,1,2,1,1.0,1.0,0.0,0.0,1.1735856533050537,0.017229817500037825
+vqa,none,vqa_258291003_232503000,1,number,How many buses?,,2,1,1,0.0,0.0,1.0,0.0,1.3923356533050537,0.017229817500037825
+vqa,none,vqa_219894002_366225014,0,number,How many keyboards can you spot?,,2,1,1,0.0,0.0,1.0,0.0,1.7287747859954834,0.017229817500037825
+vqa,none,vqa_219894002_366225014,1,number,How many keyboards can you spot?,,1,2,1,1.0,1.0,0.0,0.0,0.6662748456001282,0.017229817500037825
+vqa,none,vqa_536743002_125873006,0,number,How many children are there?,,6,8,1,0.0,0.0,0.0,0.0,5.861144542694092,0.017229817500037825
+vqa,none,vqa_536743002_125873006,1,number,How many children are there?,,8,6,1,0.0,0.0,0.0,0.0,6.204894542694092,0.017229817500037825
+vqa,none,vqa_112232001_419096008,0,number,How many trains are shown?,,2,1,1,0.0,0.0,1.0,0.0,1.1935621500015259,0.017229817500037825
+vqa,none,vqa_112232001_419096008,1,number,How many trains are shown?,,1,2,1,1.0,1.0,0.0,0.0,1.0685621500015259,0.017229817500037825
+vqa,none,vqa_37677001_196660015,0,other,What is the person holding?,,umbrella,surfboard,person,0.0,0.0,0.0,0.0,4.239356517791748,0.02631273837482695
+vqa,none,vqa_37677001_196660015,1,other,What is the person holding?,,surfboard,umbrella,person,0.0,0.0,0.0,0.0,8.019098281860352,0.02631273837482695
+vqa,none,vqa_143370002_343466025,0,other,What room is this?,,bathroom,kitchen,no,0.0,0.0,0.0,0.0,2.956820487976074,0.02631273837482695
+vqa,none,vqa_143370002_343466025,1,other,What room is this?,,kitchen,bathroom,no,0.0,0.0,0.0,0.0,2.4966702461242676,0.02631273837482695
+vqa,none,vqa_216296000_63595005,0,other,What color is the court?,,green,purple,red,0.0,0.0,0.0,0.0,1.1934926509857178,0.02631273837482695
+vqa,none,vqa_216296000_63595005,1,other,What color is the court?,,purple,green,red,0.0,0.0,0.0,0.0,5.505992889404297,0.02631273837482695
+vqa,none,vqa_65208002_168811000,0,other,What is the man carrying?,,umbrella,phone,carrot,0.0,0.0,0.0,0.0,3.329317331314087,0.02631273837482695
+vqa,none,vqa_65208002_168811000,1,other,What is the man carrying?,,phone,umbrella,carrot,0.0,0.0,0.0,0.0,8.204741477966309,0.02631273837482695
+vqa,none,vqa_71618007_75051000,0,other,Is the lid to the toilet Up or down?,,up,down,up,1.0,1.0,0.0,0.0,0.10235239565372467,0.017097044499905678
+vqa,none,vqa_71618007_75051000,1,other,Is the lid to the toilet Up or down?,,down,up,up,0.0,0.0,1.0,0.0,2.3367273807525635,0.017097044499905678
+vqa,none,vqa_514722002_448849006,0,other,What is going over the water?,,train,boat,over,0.0,0.0,0.0,0.0,10.653352737426758,0.017097044499905678
+vqa,none,vqa_514722002_448849006,1,other,What is going over the water?,,boat,train,over,0.0,0.0,0.0,0.0,4.8486647605896,0.017097044499905678
+vqa,none,vqa_247986002_469398004,0,other,Is this man holding the cell phone with his right or left hand?,,left,right,right,0.0,0.0,1.0,0.0,1.033674955368042,0.017097044499905678
+vqa,none,vqa_247986002_469398004,1,other,Is this man holding the cell phone with his right or left hand?,,right,left,right,1.0,1.0,0.0,0.0,0.4399248957633972,0.017097044499905678
+vqa,none,vqa_297260002_136624011,0,other,What is the green food on top of the sandwich?,,pickle,lettuce,green,0.0,0.0,0.0,0.0,9.036361694335938,0.017097044499905678
+vqa,none,vqa_297260002_136624011,1,other,What is the green food on top of the sandwich?,,lettuce,pickle,green,0.0,0.0,0.0,0.0,2.24161958694458,0.017097044499905678
+vqa,none,vqa_94922002_516733015,0,other,What sport is the man playing?,,frisbee,baseball,soccer,0.0,0.0,0.0,0.0,4.33555269241333,0.026319714875171485
+vqa,none,vqa_94922002_516733015,1,other,What sport is the man playing?,,baseball,frisbee,soccer,0.0,0.0,0.0,0.0,2.440585136413574,0.026319714875171485
+vqa,none,vqa_404568004_357060004,0,other,What color is the beak of the bird?,,yellow,black,red,0.0,0.0,0.0,0.0,3.1414389610290527,0.026319714875171485
+vqa,none,vqa_404568004_357060004,1,other,What color is the beak of the bird?,,black,yellow,red,0.0,0.0,0.0,0.0,3.3601889610290527,0.026319714875171485
+vqa,none,vqa_396167001_128748005,0,other,What is the last name of the person in the foreground?,,chappell,navarro,M,0.0,0.0,0.0,0.0,8.218648910522461,0.026319714875171485
+vqa,none,vqa_396167001_128748005,1,other,What is the last name of the person in the foreground?,,navarro,chappell,M,0.0,0.0,0.0,0.0,5.608946800231934,0.026319714875171485
+vqa,none,vqa_247587000_413349006,0,other,What is the man standing on?,,surfboard,skateboard,man,0.0,0.0,0.0,0.0,8.342954635620117,0.026319714875171485
+vqa,none,vqa_247587000_413349006,1,other,What is the man standing on?,,skateboard,surfboard,man,0.0,0.0,0.0,0.0,3.8232057094573975,0.026319714875171485
+vqa,none,vqa_260307001_528977003,0,other,The one way sign is pointing to which side of the picture?,,right,left,left,0.0,0.0,1.0,0.0,1.124766230583191,0.025473707624996678
+vqa,none,vqa_260307001_528977003,1,other,The one way sign is pointing to which side of the picture?,,left,right,left,1.0,1.0,0.0,0.0,0.4216412305831909,0.025473707624996678
+vqa,none,vqa_113589002_538844004,0,other,What is on the right of the picture?,,banana,broccoli,right,0.0,0.0,0.0,0.0,11.386504173278809,0.025473707624996678
+vqa,none,vqa_113589002_538844004,1,other,What is on the right of the picture?,,broccoli,banana,right,0.0,0.0,0.0,0.0,9.047344207763672,0.025473707624996678
+vqa,none,vqa_577073002_184978021,0,other,What is this person doing?,,skiing,snowboarding,sitting,0.0,0.0,0.0,0.0,5.060981750488281,0.025473707624996678
+vqa,none,vqa_577073002_184978021,1,other,What is this person doing?,,snowboarding,skiing,sitting,0.0,0.0,0.0,0.0,5.202792644500732,0.025473707624996678
+vqa,none,vqa_434410000_511066010,0,other,What is leaning against the house?,,ladder,surfboard,leaning,0.0,0.0,0.0,0.0,5.288600921630859,0.025473707624996678
+vqa,none,vqa_434410000_511066010,1,other,What is leaning against the house?,,surfboard,ladder,leaning,0.0,0.0,0.0,0.0,11.069361686706543,0.025473707624996678
+vqa,none,vqa_10114000_110601007,0,other,Which room is this?,,kitchen,bathroom,1,0.0,0.0,0.0,0.0,1.5501468181610107,0.01702610500001356
+vqa,none,vqa_10114000_110601007,1,other,Which room is this?,,bathroom,kitchen,1,0.0,0.0,0.0,0.0,1.9246890544891357,0.01702610500001356
+vqa,none,vqa_547875012_105812087,0,other,What kind of drink are they having?,,beer,water,tea,0.0,0.0,0.0,0.0,4.5275397300720215,0.01702610500001356
+vqa,none,vqa_547875012_105812087,1,other,What kind of drink are they having?,,water,beer,tea,0.0,0.0,0.0,0.0,3.9025397300720215,0.01702610500001356
+vqa,none,vqa_85913000_519676005,0,other,What color is the bike?,,blue,white,red,0.0,0.0,0.0,0.0,2.447317600250244,0.01702610500001356
+vqa,none,vqa_85913000_519676005,1,other,What color is the bike?,,white,blue,red,0.0,0.0,0.0,0.0,3.072317600250244,0.01702610500001356
+vqa,none,vqa_75055002_240637021,0,other,What animal do you see?,,cat,dog,lion,0.0,0.0,0.0,0.0,3.3430089950561523,0.01702610500001356
+vqa,none,vqa_75055002_240637021,1,other,What animal do you see?,,dog,cat,lion,0.0,0.0,0.0,0.0,3.6398839950561523,0.01702610500001356
+vqa,none,vqa_489382003_272212017,0,other,What kind of animal is pictured?,,sheep,cow,lion,0.0,0.0,0.0,0.0,4.52003812789917,0.025187867249996998
+vqa,none,vqa_489382003_272212017,1,other,What kind of animal is pictured?,,cow,sheep,lion,0.0,0.0,0.0,0.0,3.854766368865967,0.025187867249996998
+vqa,none,vqa_292225005_115796003,0,other,What sport is being played?,,tennis,frisbee,soccer,0.0,0.0,0.0,0.0,5.116307258605957,0.025187867249996998
+vqa,none,vqa_292225005_115796003,1,other,What sport is being played?,,frisbee,tennis,soccer,0.0,0.0,0.0,0.0,4.372323513031006,0.025187867249996998
+vqa,none,vqa_365618001_478857005,0,other,Is the road straight or curved?,,curved,straight,straight,0.0,0.0,1.0,0.0,1.3065052032470703,0.025187867249996998
+vqa,none,vqa_365618001_478857005,1,other,Is the road straight or curved?,,straight,curved,straight,1.0,1.0,0.0,0.0,0.09078127890825272,0.025187867249996998
+vqa,none,vqa_27620001_484674000,0,other,What color is the chair?,,gray,brown,red,0.0,0.0,0.0,0.0,4.096712112426758,0.025187867249996998
+vqa,none,vqa_27620001_484674000,1,other,What color is the chair?,,brown,gray,red,0.0,0.0,0.0,0.0,3.409212112426758,0.025187867249996998
+vqa,none,vqa_455188002_135071006,0,other,What color is the pot?,,red,orange,red,1.0,1.0,0.0,0.0,0.9856388568878174,0.017354862374986624
+vqa,none,vqa_455188002_135071006,1,other,What color is the pot?,,orange,red,red,0.0,0.0,1.0,0.0,4.266888618469238,0.017354862374986624
+vqa,none,vqa_24845012_554523021,0,other,What kind of room is this?,,bathroom,kitchen,room,0.0,0.0,0.0,0.0,2.4636199474334717,0.017354862374986624
+vqa,none,vqa_24845012_554523021,1,other,What kind of room is this?,,kitchen,bathroom,room,0.0,0.0,0.0,0.0,1.6116834878921509,0.017354862374986624
+vqa,none,vqa_373810001_71647003,0,other,What color is the bear on the right?,,pink,white,red,0.0,0.0,0.0,0.0,5.490596294403076,0.017354862374986624
+vqa,none,vqa_373810001_71647003,1,other,What color is the bear on the right?,,white,pink,red,0.0,0.0,0.0,0.0,2.099971294403076,0.017354862374986624
+vqa,none,vqa_149184000_222500006,0,other,What color is the oven on the left?,,white,silver,amber,0.0,0.0,0.0,0.0,2.5868844985961914,0.017354862374986624
+vqa,none,vqa_149184000_222500006,1,other,What color is the oven on the left?,,silver,white,amber,0.0,0.0,0.0,0.0,7.180634498596191,0.017354862374986624
+vqa,none,vqa_311497006_286089010,0,other,Which hand is the woman holding a tennis racket?,,right,left,right,1.0,1.0,0.0,0.0,0.16902026534080505,0.025190395875142713
+vqa,none,vqa_311497006_286089010,1,other,Which hand is the woman holding a tennis racket?,,left,right,right,0.0,0.0,1.0,0.0,1.9502702951431274,0.025190395875142713
+vqa,none,vqa_151299001_424551003,0,other,What is the guy doing?,,snowboarding,skiing,guy,0.0,0.0,0.0,0.0,5.957737922668457,0.025190395875142713
+vqa,none,vqa_151299001_424551003,1,other,What is the guy doing?,,skiing,snowboarding,guy,0.0,0.0,0.0,0.0,5.124514102935791,0.025190395875142713
+vqa,none,vqa_335814002_204525003,0,other,What is the man wearing on his face?,,sunglasses,glasses,face,0.0,0.0,0.0,0.0,2.4131693840026855,0.025190395875142713
+vqa,none,vqa_335814002_204525003,1,other,What is the man wearing on his face?,,glasses,sunglasses,face,0.0,0.0,0.0,0.0,2.8161232471466064,0.025190395875142713
+vqa,none,vqa_257219002_564489003,0,other,What color is the girls hair band?,,black,red,brown,0.0,0.0,0.0,0.0,1.7423820495605469,0.025190395875142713
+vqa,none,vqa_257219002_564489003,1,other,What color is the girls hair band?,,red,black,brown,0.0,0.0,0.0,0.0,2.070507049560547,0.025190395875142713
+vqa,none,vqa_421955001_209530012,0,other,What is on the trays on both sides of picture?,,cookies,pizza,1,0.0,0.0,0.0,0.0,10.345154762268066,0.02653126162499575
+vqa,none,vqa_421955001_209530012,1,other,What is on the trays on both sides of picture?,,pizza,cookies,1,0.0,0.0,0.0,0.0,7.392029762268066,0.02653126162499575
+vqa,none,vqa_25807000_184030004,0,other,Who is on a surfboard?,,man,woman,surfboard,0.0,0.0,0.0,0.0,7.494134902954102,0.02653126162499575
+vqa,none,vqa_25807000_184030004,1,other,Who is on a surfboard?,,woman,man,surfboard,0.0,0.0,0.0,0.0,9.103509902954102,0.02653126162499575
+vqa,none,vqa_148042002_345397006,0,other,What type of phone is this?,,nokia,iphone,iPhone,0.0,0.0,1.0,0.0,3.1138455867767334,0.02653126162499575
+vqa,none,vqa_148042002_345397006,1,other,What type of phone is this?,,iphone,nokia,iPhone,1.0,1.0,0.0,0.0,4.686844825744629,0.02653126162499575
+vqa,none,vqa_45962000_189078001,0,other,Are these bananas large or small?,,large,small,large,1.0,1.0,0.0,0.0,0.029882092028856277,0.02653126162499575
+vqa,none,vqa_45962000_189078001,1,other,Are these bananas large or small?,,small,large,large,0.3,0.0,1.0,0.0,3.7798821926116943,0.02653126162499575

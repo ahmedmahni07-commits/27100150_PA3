@@ -1,0 +1,33 @@
+{
+  "gsm8k": {
+    "primary": 0.6254738438210766,
+    "strict": 0.0,
+    "truncation_rate": 0.004548900682335102,
+    "unextractable_rate": 0.0,
+    "mean_gen_tokens": 138.131159969674,
+    "n": 1319,
+    "lm_eval_task": "gsm8k_cot"
+  },
+  "hellaswag": {
+    "primary": 0.4715196176060546,
+    "acc": 0.3772156940848437,
+    "acc_norm": 0.4715196176060546,
+    "n": 10042,
+    "lm_eval_task": "hellaswag"
+  },
+  "boolq": {
+    "primary": 0.7116207951070337,
+    "acc": 0.7116207951070337,
+    "acc_norm": null,
+    "n": 3270,
+    "lm_eval_task": "boolq"
+  },
+  "arc_easy": {
+    "primary": 0.6321548821548821,
+    "acc": 0.6553030303030303,
+    "acc_norm": 0.6321548821548821,
+    "n": 2376,
+    "lm_eval_task": "arc_easy"
+  },
+  "_lm_eval_version": "0.4.13"
+}

@@ -126,6 +126,12 @@ def generate(cfg):
         print(qi, row["qid"], "done", flush=True)
 
 
+def _ex(row) -> str | None:
+    """Extracted answer as str, or None when missing (newer pandas stores None as NaN)."""
+    v = row["extracted"]
+    return None if v is None or (isinstance(v, float) and v != v) else str(v)
+
+
 def summarize(cfg):
     out = Path(cfg["paths"]["results"]) / "live"
     calls = pd.DataFrame(read_jsonl(out / "calls.jsonl"))
@@ -136,13 +142,13 @@ def summarize(cfg):
         c = g.set_index("call")
         gold_q = str(gold[qid])
         par = [c.loc[f"par{j}"] for j in range(3)]
-        groups = group_answers([p["extracted"] for p in par], math_equiv)
+        groups = group_answers([_ex(p) for p in par], math_equiv)
         win, _ = vote_winner(np.array(groups), np.ones(3))
-        sc_ans = None if win == NO_ANSWER else par[groups.index(win)]["extracted"]
+        sc_ans = None if win == NO_ANSWER else _ex(par[groups.index(win)])
         strat = {
-            "single": ([c.loc["single"]], c.loc["single"]["extracted"]),
+            "single": ([c.loc["single"]], _ex(c.loc["single"])),
             "parallel": (par, sc_ans),
-            "sequential": ([par[0], c.loc["revise"]], c.loc["revise"]["extracted"]),
+            "sequential": ([par[0], c.loc["revise"]], _ex(c.loc["revise"])),
         }
         for s, (used, ans) in strat.items():
             rows.append({"qid": qid, "strategy": s, "correct": corr(ans), "answer": ans,
@@ -151,17 +157,25 @@ def summarize(cfg):
                          "seconds": sum(float(u["seconds"]) for u in used),
                          "any_truncated": any(bool(u["truncated"]) for u in used),
                          "final_truncated": bool(used[-1]["truncated"]),
-                         "extraction_fail": ans is None, "peak_mem_gb": max(float(u["peak_mem_gb"]) for u in used)})
-        ic, rc = corr(par[0]["extracted"]), corr(c.loc["revise"]["extracted"])
+                         "extraction_fail": ans is None, "peak_mem_gb": max(float(u["peak_mem_gb"]) for u in used),
+                         # per generated response (parallel: 3 responses; sequential: initial + revision)
+                         "response_trunc_rate": float(np.mean([bool(u["truncated"]) for u in used])),
+                         "response_noextract_rate": float(np.mean([_ex(u) is None for u in used])),
+                         "n_responses": len(used)})
+        ic, rc = corr(_ex(par[0])), corr(_ex(c.loc["revise"]))
         trans.append({"qid": qid, "initial_correct": ic, "revised_correct": rc,
-                      "answer_changed": par[0]["extracted"] != c.loc["revise"]["extracted"]})
+                      "answer_changed": _ex(par[0]) != _ex(c.loc["revise"])})
     df = pd.DataFrame(rows)
     df.to_csv(out / "per_question.csv", index=False)
     summ = df.groupby("strategy").agg(acc=("correct", "mean"), input_tokens=("input_tokens", "mean"),
                                       output_tokens=("output_tokens", "mean"), seconds=("seconds", "mean"),
                                       trunc_rate=("final_truncated", "mean"), any_trunc_rate=("any_truncated", "mean"),
-                                      extraction_fail=("extraction_fail", "mean"), peak_mem_gb=("peak_mem_gb", "max"))
-    for c in ["acc", "trunc_rate", "any_trunc_rate", "extraction_fail"]:
+                                      extraction_fail=("extraction_fail", "mean"), peak_mem_gb=("peak_mem_gb", "max"),
+                                      response_trunc_rate=("response_trunc_rate", "mean"),
+                                      response_noextract_rate=("response_noextract_rate", "mean"))
+    # trunc_rate = final returned response truncated (parallel: last of the three calls, so prefer
+    # response_trunc_rate / any_trunc_rate there); extraction_fail = final selected answer missing
+    for c in ["acc", "trunc_rate", "any_trunc_rate", "extraction_fail", "response_trunc_rate", "response_noextract_rate"]:
         summ[c] *= 100
     summ.to_csv(out / "summary.csv")
     t = pd.DataFrame(trans)
