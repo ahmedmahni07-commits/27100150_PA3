@@ -1,0 +1,15 @@
+{
+  "method": "l2sp",
+  "kind": "full",
+  "lr": 2e-05,
+  "lam": 0.001,
+  "ref_device": "cpu",
+  "ref_dtype": "bfloat16",
+  "trainable_params": 596049920,
+  "total_params": 596049920,
+  "l2sp_ref_storage_mb": 1136.875,
+  "l2sp_ref_setup_seconds": 3.383440133000022,
+  "l2sp_ref_params": 596049920,
+  "l2sp_ref_roundtrip_max_err": 0.0,
+  "l2sp_ref_device": "cpu"
+}

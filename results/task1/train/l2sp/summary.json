@@ -1,0 +1,19 @@
+{
+  "method": "l2sp",
+  "last_update": 1250,
+  "train_seconds": 8782.909807396001,
+  "peak_gpu_mem_gb": 11.686080932617188,
+  "checkpoint_sizes_mb": {
+    "625": {
+      "resume_state_mb": 6821.633841514587
+    },
+    "1250": {
+      "resume_state_mb": 6821.633842468262,
+      "weights_mb": 2273.8690366744995
+    }
+  },
+  "skipped_updates": 0,
+  "l2sp_penalty_seconds": 287.105821959983,
+  "displacement_625": 6.434700012207031,
+  "displacement_1250": 6.268590927124023
+}
